@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ingenierIA.pe | Lo que antes eran horas, ahora son minutos</title>
+  <meta name="description" content="Skills, cursos y asistencia técnica con Claude para residentes, supervisores y consultores de obras públicas en el Perú.">
+  <meta name="theme-color" content="#0D0D0D">
+  <meta name="color-scheme" content="dark light">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:title" content="ingenierIA.pe | Lo que antes eran horas, ahora son minutos">
+  <meta property="og:description" content="Skills, cursos y asistencia técnica con Claude para residentes, supervisores y proyectistas de obra pública.">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="icon" type="image/png" href="assets/img/simbolo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/web/druk-wide.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/web/lulo-clean.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<canvas id="orbita" aria-hidden="true"></canvas>
+
+<header class="nav" id="nav">
+  <canvas id="navgraph" aria-hidden="true"></canvas>
+  <div class="nav__in">
+    <a class="logo" translate="no" href="#inicio" aria-label="ingenierIA.pe, inicio"><img class="logo__d" src="assets/img/logo-oscuro.png" alt="ingenierIA.pe" width="143" height="38"><img class="logo__l" src="assets/img/logo-claro.png" alt="" width="143" height="38"></a>
+    <nav class="nav__links" id="menu" aria-label="Principal">
+      <a href="#capas">Etapas</a>
+      <a href="#software">Software</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#skills">Skills</a>
+      <a href="#servicios">Servicios</a>
+    </nav>
+    <a class="pill js-wa" href="https://wa.me/51957252957?text=Hola%2C%20vi%20tu%20p%C3%A1gina%20ingenierIA.pe%20y%20quiero%20hacerte%20una%20consulta." target="_blank" rel="noopener">Contacto</a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" id="navToggle">Menú</button>
+  </div>
+</header>
+
+<main id="contenido" tabindex="-1">
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero__in">
+      <h1 class="hero__h1"><span class="ln"><span>Lo que antes eran horas,</span></span><span class="ln"><span>ahora son <b class="hl">minutos.</b></span></span></h1>
+      <div class="ln ln--sub"><p class="hero__sub"><span>Uso de IA aplicada para residentes, supervisores y proyectistas de obra pública: expedientes, metrados y valorizaciones.</span></p></div>
+    </div>
+    <div class="faja" role="group" aria-label="Menos trabajo repetitivo, iteraciones más rápidas, menos errores, modelado rápido, cada cifra con su sustento, tú decides y la IA ejecuta">
+      <div class="faja__t"><div class="faja__g"><span class="faja__i">Menos trabajo repetitivo</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Iteraciones más rápidas</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Menos errores</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Modelado rápido</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Cada cifra con su sustento</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Tú decides, la IA ejecuta</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Menos trabajo repetitivo</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Iteraciones más rápidas</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Menos errores</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Modelado rápido</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Cada cifra con su sustento</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Tú decides, la IA ejecuta</span><i class="faja__s" aria-hidden="true"></i></div><div class="faja__g" aria-hidden="true"><span class="faja__i">Menos trabajo repetitivo</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Iteraciones más rápidas</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Menos errores</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Modelado rápido</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Cada cifra con su sustento</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Tú decides, la IA ejecuta</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Menos trabajo repetitivo</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Iteraciones más rápidas</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Menos errores</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Modelado rápido</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Cada cifra con su sustento</span><i class="faja__s" aria-hidden="true"></i><span class="faja__i">Tú decides, la IA ejecuta</span><i class="faja__s" aria-hidden="true"></i></div></div>
+      <button class="faja__p" type="button" id="pausaBtn" aria-pressed="false">Pausar animación</button>
+    </div>
+  </section>
+
+  <div class="panel">
+
+    <!-- Inteligencia en cada etapa: escena fija que cambia con el scroll -->
+    <section class="scrolly" id="capas" aria-label="Inteligencia en cada etapa de la obra">
+      <div class="scrolly__track" id="track">
+        <div class="scrolly__stick">
+          <svg id="escena" viewBox="130 70 760 600" role="img" aria-label="Una obra en vista isométrica con caseta, reservorio, puente, cobertura metálica y semáforo, y una pila de programas de ingeniería conectados a Claude"></svg>
+        </div>
+
+        <div class="scrolly__over">
+          <figure class="fig-m" data-fig="site" aria-hidden="true"></figure>
+
+          <article class="card card--layers">
+            <h2>Inteligencia en<br>cada etapa</h2>
+            <p class="lede">Cada etapa de la obra genera documentos, plazos y decisiones. Claude los ordena en un solo contexto y tú revisas y firmas.</p>
+            <ul class="bul">
+              <li><b>Antes de la obra</b><span>Expedientes técnicos, TDR, metrados, presupuesto, carátulas, bases y oferta técnica.</span></li>
+              <li><b>Durante la obra</b><span>Residencia, supervisión, valorizaciones, cronograma y seguimiento en MS Project, control de calidad y auditoría de documentos.</span></li>
+              <li><b>Después de la obra</b><span>Liquidación técnica y financiera, y cierre de proyecto.</span></li>
+            </ul>
+          </article>
+
+          <article class="card card--stat" id="statCard">
+            <h2><span id="statN">24</span> temas de obra</h2>
+            <div class="bars" id="stageBars"></div>
+            <p class="caps" id="statCap">De la formulación a la liquidación, con IA</p>
+          </article>
+
+          <figure class="fig-m" data-fig="stack" aria-hidden="true"></figure>
+
+          <div class="model">
+            <h3>Todo empieza en el modelo</h3>
+            <p>La inteligencia es tan buena como lo que Claude puede ver y tocar. Con conectores MCP trabaja dentro de SAP2000 y Civil 3D, no solo en el chat, y también en Revit, SketchUp y Microsoft Project para cronogramas y seguimiento de obra.</p>
+            <a class="btn" href="#software">Ver la demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Demo en pantalla dividida -->
+    <section class="sec" id="software">
+      <div class="gc gc--split">
+        <div class="split__txt">
+          <h2>Pensado para ingenieros. Listo para Claude.</h2>
+          <p>Tú pides y Claude trabaja dentro de tus programas, con tus plantillas y tu procedimiento. Todo resultado lo revisas y lo firmas tú.</p>
+          <a class="btn js-wa" href="https://wa.me/51957252957?text=Hola%2C%20vi%20tu%20p%C3%A1gina%20ingenierIA.pe%20y%20quiero%20hacerte%20una%20consulta." target="_blank" rel="noopener">Probar con mi caso</a>
+          <ul class="rows rows--sm" aria-label="Conectores">
+            <li><span>SAP2000</span><em>Conectado</em></li>
+            <li><span>Civil 3D</span><em>Conectado</em></li>
+            <li><span>Revit</span><em>Conectado</em></li>
+            <li><span>SketchUp</span><em>Conectado</em></li>
+            <li><span>MS Project</span><em>Conectado</em></li>
+          </ul>
+        </div>
+        <div class="demo">
+          <div class="screen" id="demoScreen" role="tabpanel">
+            <video id="demoVideo" muted loop playsinline preload="metadata" aria-label="Demostración en video"></video>
+            <div class="slot" id="demoSlot">
+              <div class="slot__split"><span>Claude</span><span id="slotApp">SAP2000</span></div>
+              <p>Demo en preparación. <code id="slotFile" hidden>assets/video/sap2000-cobertura.mp4</code></p>
+            </div>
+            <button class="pause" type="button" id="demoToggle" hidden>Pausar</button>
+          </div>
+          <div class="demo__bar">
+            <div class="tabs" role="tablist" aria-label="Elige una demostración" id="demoTabs">
+              <button class="tab" role="tab" aria-selected="true" aria-controls="demoScreen" data-demo="sap">Cobertura en SAP2000</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="demoScreen" data-demo="excel">Valorización en Excel</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="demoScreen" data-demo="word">Informe en Word</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="demoScreen" data-demo="civil">Planos en Civil 3D</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="demoScreen" data-demo="project">Cronograma en MS Project</button>
+            </div>
+            <p class="demo__cap"><b id="demoName">Cobertura metálica en SAP2000</b> <span id="demoCap">Claude define materiales, secciones y cargas en SAP2000, y corre el análisis.</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Qué se puede hacer -->
+    <section class="sec" id="catalogo">
+      <div class="gc">
+        <div class="cat__head">
+          <h2>Qué se puede hacer con IA en una obra</h2>
+          <p>Elige una etapa y un tema. Cada uno muestra cómo se trabaja, qué entregas, qué recibes y un ejemplo que puedes tocar.</p>
+        </div>
+        <div class="cat">
+          <div class="cat__stages" role="tablist" aria-label="Etapa de la obra" id="etapaTabs"></div>
+          <div class="cat__body">
+            <div class="cat__list" role="tablist" aria-orientation="vertical" aria-label="Tema" id="temaChips"></div>
+            <div class="cat__main" id="catMain">
+              <div class="tema" id="temaPanel" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cursos -->
+    <section class="sec" id="cursos">
+      <div class="gc gc--split gc--cursos">
+        <div class="split__txt">
+          <h2>Cursos</h2>
+          <p>Los dicto yo. Modalidad y fechas por confirmar: anótate en la lista y te aviso primero.</p>
+          <ul class="cstats" aria-label="Datos de los cursos"><li><b>5</b> cursos</li><li><b>1</b> instructor</li><li>Fechas por confirmar</li></ul>
+          <form class="box form" id="formCurso" novalidate>
+            <h3>Lista de espera</h3>
+            <p class="muted">Te escribo por WhatsApp cuando haya fechas.</p>
+            <div class="field">
+              <label for="cNombre">Tu nombre</label>
+              <input id="cNombre" name="nombre" type="text" autocomplete="name" placeholder="Ej. Carlos Ramírez…" required>
+              <span class="err" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="cCurso">Curso de interés</label>
+              <select id="cCurso" name="curso">
+                <option>IA para residente de obra</option>
+                <option>IA para supervisión de obra</option>
+                <option>IA para seguimiento y monitoreo de obra</option>
+                <option>IA para expedientes técnicos</option>
+                <option>IA para cálculo estructural</option>
+                <option>Cualquiera, avísame de todos</option>
+              </select>
+            </div>
+            <button class="btn" type="submit">Anotarme en la lista</button>
+          </form>
+        </div>
+        <div class="cwrap">
+          <div class="cfilter" role="group" aria-label="Filtrar cursos por rol">
+            <span class="lbl">Soy</span>
+            <button type="button" aria-pressed="true" data-rol="todos">Todos</button>
+            <button type="button" aria-pressed="false" data-rol="res">Residente</button>
+            <button type="button" aria-pressed="false" data-rol="sup">Supervisor</button>
+            <button type="button" aria-pressed="false" data-rol="proy">Proyectista</button>
+            <span class="cfilter__n" id="cCount" aria-live="polite">5 cursos</span>
+          </div>
+          <div class="cgrid" id="cursosList">
+          <article class="ccard" data-curso="IA para residente de obra" data-roles="res" style="--i:0">
+            <div class="ccard__cover"><span class="ccard__n">01</span><span class="ccard__tag">Residentes</span><svg viewBox="0 0 280 120" aria-hidden="true" class="ccard__art"><path class="m-draw" pathLength="1" style="--d:0" d="M90 14h100a6 6 0 0 1 6 6v82a6 6 0 0 1-6 6H90a6 6 0 0 1-6-6V20a6 6 0 0 1 6-6z"/><path class="m-draw" pathLength="1" style="--d:1" d="M100 38h80"/><path class="m-draw" pathLength="1" style="--d:2" d="M100 54h80"/><path class="m-draw" pathLength="1" style="--d:3" d="M100 70h52"/><path class="m-draw r" pathLength="1" style="--d:4" d="M104 90l8 8 16-18"/></svg></div>
+            <div class="ccard__body">
+              <h3>IA para residente de obra</h3>
+              <ul><li>Plazos, ampliaciones y adicionales</li><li>Cuaderno de obra y cartas dentro del plazo</li><li>Valorizaciones y control de saldos</li><li>Correspondencia con la entidad y la supervisión</li></ul>
+              <p class="ccard__note">Temario referencial, sujeto a ajustes.</p>
+              <button class="ccard__cta" type="button">Quiero este curso <span aria-hidden="true">&rarr;</span></button>
+            </div>
+          </article>
+          <article class="ccard" data-curso="IA para supervisión de obra" data-roles="sup" style="--i:1">
+            <div class="ccard__cover"><span class="ccard__n">02</span><span class="ccard__tag">Supervisores</span><svg viewBox="0 0 280 120" aria-hidden="true" class="ccard__art"><path class="m-draw" pathLength="1" style="--d:0" d="M70 32l7 7 13-14"/><path class="m-draw" pathLength="1" style="--d:1" d="M104 32h110"/><path class="m-draw" pathLength="1" style="--d:2" d="M70 62l7 7 13-14"/><path class="m-draw" pathLength="1" style="--d:3" d="M104 62h86"/><path class="m-draw r" pathLength="1" style="--d:4" d="M70 92l7 7 13-14"/><path class="m-draw r" pathLength="1" style="--d:5" d="M104 92h98"/></svg></div>
+            <div class="ccard__body">
+              <h3>IA para supervisión de obra</h3>
+              <ul><li>Revisión de la documentación del contratista</li><li>Informes mensuales de supervisión</li><li>Opinión sobre ampliaciones y adicionales</li><li>Control de calidad y observaciones</li></ul>
+              <p class="ccard__note">Temario referencial, sujeto a ajustes.</p>
+              <button class="ccard__cta" type="button">Quiero este curso <span aria-hidden="true">&rarr;</span></button>
+            </div>
+          </article>
+          <article class="ccard" data-curso="IA para seguimiento y monitoreo de obra" data-roles="res sup" style="--i:2">
+            <div class="ccard__cover"><span class="ccard__n">03</span><span class="ccard__tag">Residentes y supervisores</span><svg viewBox="0 0 280 120" aria-hidden="true" class="ccard__art"><path class="m-draw" pathLength="1" style="--d:0" d="M44 14v92"/><path class="m-draw" pathLength="1" style="--d:1" d="M58 30h70"/><path class="m-draw" pathLength="1" style="--d:2" d="M104 52h92"/><path class="m-draw r" pathLength="1" style="--d:3" d="M150 74h86"/><path class="m-draw r" pathLength="1" style="--d:4" d="M196 96h40"/></svg></div>
+            <div class="ccard__body">
+              <h3>IA para seguimiento y monitoreo de obra</h3>
+              <ul><li>Matriz de plazos y alertas de vencimiento</li><li>Avance físico y financiero</li><li>Informes de seguimiento para la entidad</li></ul>
+              <p class="ccard__note">Temario referencial, sujeto a ajustes.</p>
+              <button class="ccard__cta" type="button">Quiero este curso <span aria-hidden="true">&rarr;</span></button>
+            </div>
+          </article>
+          <article class="ccard" data-curso="IA para expedientes técnicos" data-roles="proy" style="--i:3">
+            <div class="ccard__cover"><span class="ccard__n">04</span><span class="ccard__tag">Proyectistas</span><svg viewBox="0 0 280 120" aria-hidden="true" class="ccard__art"><path class="m-draw" pathLength="1" style="--d:2" d="M112 26h84v76h-84z"/><path class="m-draw" pathLength="1" style="--d:1" d="M102 20h84v76h-84z"/><path class="m-draw" pathLength="1" style="--d:0" d="M92 14h84v76H92z"/><path class="m-draw" pathLength="1" style="--d:3" d="M106 38h54M106 54h54M106 70h34"/><path class="m-draw r" pathLength="1" style="--d:4" d="M92 14h34v12H92z"/></svg></div>
+            <div class="ccard__body">
+              <h3>IA para expedientes técnicos</h3>
+              <ul><li>Memoria descriptiva y especificaciones técnicas</li><li>Metrados y presupuesto</li><li>Estudios básicos y ensamblado del expediente</li><li>Plantillas Word y carátulas</li></ul>
+              <p class="ccard__note">Temario referencial, sujeto a ajustes.</p>
+              <button class="ccard__cta" type="button">Quiero este curso <span aria-hidden="true">&rarr;</span></button>
+            </div>
+          </article>
+          <article class="ccard" data-curso="IA para cálculo estructural" data-roles="proy" style="--i:4">
+            <div class="ccard__cover"><span class="ccard__n">05</span><span class="ccard__tag">Proyectistas</span><svg viewBox="0 0 280 120" aria-hidden="true" class="ccard__art"><path class="m-draw" pathLength="1" style="--d:0" d="M44 98h192"/><path class="m-draw" pathLength="1" style="--d:1" d="M44 98L140 42l96 56"/><path class="m-draw" pathLength="1" style="--d:2" d="M92 98V70M140 98V42M188 98V70"/><path class="m-draw" pathLength="1" style="--d:3" d="M92 70l48 28M188 70l-48 28"/><circle class="m-pop" cx="140" cy="42" r="5" fill="#E5513D"/><circle class="m-pop" cx="44" cy="98" r="5" fill="#E5513D"/><circle class="m-pop" cx="236" cy="98" r="5" fill="#E5513D"/></svg></div>
+            <div class="ccard__body">
+              <h3>IA para cálculo estructural</h3>
+              <ul><li>Modelado en SAP2000 con Claude</li><li>Cargas, combinaciones y verificación de resultados</li><li>Memoria de cálculo</li></ul>
+              <p class="ccard__note">Claude acelera el trabajo. El criterio y la firma siguen siendo del ingeniero.</p>
+              <button class="ccard__cta" type="button">Quiero este curso <span aria-hidden="true">&rarr;</span></button>
+            </div>
+          </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="sec" id="skills">
+      <div class="gc gc--split">
+        <div class="split__txt">
+          <h2>Skills listas para usar en Claude</h2>
+          <p>Una skill es un paquete de instrucciones que Claude aplica con tu procedimiento y tus formatos.</p>
+          <a class="btn js-wa" href="https://wa.me/51957252957?text=Hola%2C%20vi%20tu%20p%C3%A1gina%20ingenierIA.pe%20y%20quiero%20hacerte%20una%20consulta." target="_blank" rel="noopener">Escríbeme por WhatsApp</a>
+        </div>
+        <ul class="rows rows--skills" id="skillsList"></ul>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="sec" id="servicios">
+      <div class="gc gc--split">
+        <div class="split__txt">
+          <h2>Trabajemos juntos</h2>
+          <p>Asistencia técnica y consultas para quien necesita un documento específico bien hecho. Te cotizo según el alcance.</p>
+          <ul class="rows rows--def">
+            <li><b>Consulta puntual</b><span>Una duda técnica o de procedimiento, resuelta con base y plazo claro.</span></li>
+            <li><b>Elaboración por encargo</b><span>Estudio básico, cálculo estructural, valorización, informe mensual, TDR, metrados, presupuesto, oferta técnica, revisión de bases o auditoría de documentación.</span></li>
+            <li><b>Acompañamiento durante la obra</b><span>Apoyo continuo a un residente o supervisor con plazos, informes y documentos.</span></li>
+          </ul>
+        </div>
+        <form class="box form" id="formServ" novalidate>
+          <h3>Cuéntame qué necesitas</h3>
+          <p class="muted">Este formulario arma un mensaje listo para enviar por WhatsApp.</p>
+          <div class="field">
+            <label for="sContrato">Contrato u obra (opcional)</label>
+            <input id="sContrato" name="contrato" type="text" autocomplete="off" placeholder="Ej. Mejoramiento de camino vecinal…">
+            <small>Escribe solo una referencia general, sin datos reservados.</small>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="sRol">Mi rol</label>
+              <select id="sRol" name="rol" required>
+                <option value="">Elige uno</option>
+                <option>Residente</option><option>Supervisor</option><option>Consultor</option><option>Entidad</option><option>Otro</option>
+              </select>
+              <span class="err" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="sFase">Fase</label>
+              <select id="sFase" name="fase">
+                <option>Antes de la obra</option><option>Durante la obra</option><option>Después de la obra</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="sNecesito">Necesito</label>
+            <select id="sNecesito" name="necesito" required>
+              <option value="">Elige uno</option>
+              <option>Una consulta</option>
+              <option>Estudio básico</option>
+              <option>Cálculo estructural</option>
+              <option>Valorización</option>
+              <option>Informe mensual</option>
+              <option>TDR</option>
+              <option>Expediente técnico</option>
+              <option>Metrados y presupuesto</option>
+              <option>Cotizaciones</option>
+              <option>Oferta técnica</option>
+              <option>Revisión de bases</option>
+              <option>Auditoría de documentación</option>
+              <option>Otro</option>
+            </select>
+            <span class="err" aria-live="polite"></span>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="sPara">Para (entidad o destinatario)</label>
+              <input id="sPara" name="para" type="text" autocomplete="off" placeholder="Ej. Municipalidad Distrital…">
+            </div>
+            <div class="field">
+              <label for="sSalida">Salida</label>
+              <select id="sSalida" name="salida">
+                <option>Word</option><option>Excel</option><option>PDF</option><option>Otro</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="sRestr">Restricciones o plazo</label>
+            <input id="sRestr" name="restr" type="text" autocomplete="off" placeholder="Ej. Entrega en 5 días hábiles…">
+          </div>
+          <div class="field">
+            <label for="sNotas">Notas</label>
+            <textarea id="sNotas" name="notas" autocomplete="off" placeholder="Ej. Necesito revisar la valorización N.º 3…"></textarea>
+          </div>
+          <p class="warnbox">No envíes documentos por este formulario. Los adjuntos los compartes después, por el chat de WhatsApp.</p>
+          <button class="btn" type="submit">Pedir cotización</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Archivos de prueba -->
+    <section class="sec" id="recursos">
+      <div class="gc gc--split">
+        <div class="split__txt">
+          <h2>Archivos de prueba</h2>
+          <p>Descarga ejemplos con datos ficticios para ver cómo salen los documentos antes de decidir.</p>
+          <ul class="rows rows--sm">
+            <li><span>Plantilla Word maestra, en blanco</span></li>
+            <li><span>Planilla de metrados con fórmulas</span></li>
+            <li><span>Carátula de ejemplo en PDF</span></li>
+            <li><span>Matriz de plazos de obra en Excel</span></li>
+            <li><span>TDR modelo</span></li>
+          </ul>
+        </div>
+        <div class="black black--drive">
+          <p class="lbl lbl--w">Carpeta en Google Drive</p>
+          <div>
+            <p class="big big--sm">Acceso libre, sin registro.</p>
+            <a class="btn btn--w" id="driveBtn" href="#" target="_blank" rel="noopener">Abrir la carpeta</a>
+            <p class="fine fine--w" id="driveNote" hidden>Escríbeme por WhatsApp y te comparto la carpeta.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí y preguntas frecuentes -->
+    <section class="sec sec--last" id="sobre">
+      <div class="gc gc--split">
+        <div class="split__txt">
+          <h2>Fredy Quispe Gómez</h2>
+          <p>Ingeniero civil colegiado (CIP&nbsp;197841), en Huaura, Lima. Trabajo en expedientes técnicos, ejecución, supervisión, liquidación y procesos de contratación pública.</p>
+          <p>Las skills y los cursos salen de ese trabajo diario, con el procedimiento que se usa en obra.</p>
+        </div>
+        <div class="faq">
+          <p class="lbl">Preguntas frecuentes</p>
+          <details><summary>¿Necesito una cuenta de Claude?</summary><p>Sí. Las skills se usan dentro de Claude. Si tienes dudas sobre qué plan te conviene, escríbeme y lo vemos según tu uso.</p></details>
+          <details><summary>¿Reemplaza al ingeniero?</summary><p>No. Claude acelera el borrador y las verificaciones. El criterio técnico, la revisión y la firma son del ingeniero.</p></details>
+          <details><summary>¿Es seguro usarlo con documentos de mi entidad?</summary><p>Depende de la política de tu entidad. Recomiendo no subir datos personales ni información reservada, y revisar siempre el resultado.</p></details>
+          <details><summary>¿Sirve con la Ley&nbsp;32069?</summary><p>Las skills de contrataciones se basan en la Ley&nbsp;32069 y su reglamento (DS&nbsp;009-2025-EF). Verifica siempre contra la norma vigente.</p></details>
+          <details><summary>¿Cómo recibo una skill?</summary><p>Coordinamos la entrega y el pago por WhatsApp. Te explico cómo instalarla en tu cuenta.</p></details>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="contact" id="contacto">
+  <div class="gc contact__in">
+    <a class="contact__link js-wa" href="https://wa.me/51957252957?text=Hola%2C%20vi%20tu%20p%C3%A1gina%20ingenierIA.pe%20y%20quiero%20hacerte%20una%20consulta." target="_blank" rel="noopener">Cuéntame tu caso de obra <span aria-hidden="true">&rarr;</span></a>
+    <div class="contact__bar">
+      <div class="legal">
+        <p>© <span id="year">2026</span> <span translate="no">ingenierIA.pe</span>. Página independiente.</p>
+        <p>Claude es un producto de Anthropic.</p>
+      </div>
+      <nav id="redes" aria-label="Contacto y redes"></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="js/orbita.js"></script>
+<script src="js/cursor.js"></script>
+<script src="js/escena.js"></script>
+<script src="js/detalle.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
