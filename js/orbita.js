@@ -7,7 +7,7 @@
   var cv = document.getElementById("orbita");
   if (!cv || !cv.getContext) return;
   var ctx = cv.getContext("2d");
-  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var reduce = false; /* las animaciones se pausan con el botón "Pausar animación"; no se apagan por el ajuste del sistema */
   var TAU = Math.PI * 2, dpr = 1, W = 0, H = 0, S = 1, small = false;
   var RED = "229,81,61", WHITE = "255,255,255", TAUPE = "199,194,193";
 

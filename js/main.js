@@ -12,7 +12,7 @@
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
-  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var reduce = false; /* las animaciones se pausan con el botón "Pausar animación"; no se apagan por el ajuste del sistema */
 
   function wa(texto) {
     return "https://wa.me/" + CONFIG.whatsapp + "?text=" + encodeURIComponent(texto);

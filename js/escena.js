@@ -139,7 +139,7 @@
   var track = document.getElementById("track");
   if (!svg || !track) return;
   var mql = window.matchMedia("(max-width: 999px)");
-  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var reduce = false; /* las animaciones se pausan con el botón "Pausar animación"; no se apagan por el ajuste del sistema */
 
   // Versión móvil: dos figuras estáticas
   Array.prototype.forEach.call(document.querySelectorAll(".fig-m"), function (f) {
