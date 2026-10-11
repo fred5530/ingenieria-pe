@@ -598,3 +598,8 @@ h1, h2, h3, .hero__sub, .lede { text-wrap: balance; }
   .cfilter button { white-space: nowrap; }
 }
 
+
+/* Icono de TikTok en el encabezado */
+.nav__tt { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; color: inherit; border-radius: 50%; transition: opacity .2s; }
+.nav__tt:hover { opacity: .7; }
+.nav__tt:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }

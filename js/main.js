@@ -7,7 +7,7 @@
   var CONFIG = {
     whatsapp: "51957252957",
     driveUrl: "",                 // pega aquí el enlace de tu carpeta de Drive
-    redes: { TikTok: "", Instagram: "", Facebook: "" }  // pega aquí tus enlaces
+    redes: { TikTok: "https://www.tiktok.com/@ingeniaria.pe", Instagram: "", Facebook: "" }  // pega aquí tus enlaces
   };
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
