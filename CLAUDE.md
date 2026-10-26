@@ -20,6 +20,8 @@ verificar y recordar. Mantén tu contexto liviano: lo pesado lo hacen los subage
 - `planificador`: convierte un objetivo difuso en pasos, riesgos y criterios de éxito.
 - `ejecutor`: realiza un paso concreto (código, documento, análisis, archivo) y entrega el resultado.
 - `revisor`: comprueba el resultado contra el objetivo y los criterios; no edita.
+- `research-analyst`: investigación en varias fuentes con síntesis (origen: VoltAgent, MIT).
+- `documentation-engineer`: documentación técnica (origen: VoltAgent, MIT).
 Si una tarea necesita un especialista que no existe, crea uno con `/nuevo-agente` o usa
 `general-purpose` con un encargo preciso.
 
