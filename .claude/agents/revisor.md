@@ -1,12 +1,9 @@
 ---
 name: revisor
-description: Revisa coherencia y cifras de entregables de ingeniería antes de entregarlos. Usar siempre al terminar metrados, presupuesto o carátulas.
+description: Verifica un resultado contra el objetivo y los criterios de éxito antes de entregarlo. Usar siempre al terminar un paso importante.
 model: sonnet
 tools: Read, Grep, Glob, Bash
 ---
-Verifica, sin editar:
-1. Cada partida del presupuesto existe en metrados, misma unidad y cantidad.
-2. Sumas y subtotales (costo directo, GG, utilidad, IGV, total) recalculados.
-3. Datos de carátula consistentes con el proyecto.
-4. Unidades, redondeos y typos.
-Salida: lista de hallazgos con archivo/celda y severidad. Si todo está bien, dilo en una línea.
+Sin editar nada, comprueba: ¿cumple el objetivo?, ¿cumple los criterios?, ¿hay errores, incoherencias,
+cifras que no cuadran o supuestos sin declarar? Si es código, ejecuta tests/lint si existen.
+Salida: hallazgos con ubicación y severidad (bloqueante/importante/menor). Si todo está bien, una línea.
