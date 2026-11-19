@@ -1,0 +1,920 @@
+[
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_suelos",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_eg2013",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_em2016",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_mant",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_inv",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_dg2018",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_dcta",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_rngiv",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_rnv",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_jerarq",
+    "nota": ""
+  },
+  {
+    "origen": "e_mvcs",
+    "relacion": "publica_o_regula",
+    "destino": "pe_ce010",
+    "nota": ""
+  },
+  {
+    "origen": "e_mvcs",
+    "relacion": "publica_o_regula",
+    "destino": "pe_gh020",
+    "nota": ""
+  },
+  {
+    "origen": "e_mef",
+    "relacion": "publica_o_regula",
+    "destino": "pe_fte",
+    "nota": ""
+  },
+  {
+    "origen": "e_sutran",
+    "relacion": "publica_o_regula",
+    "destino": "pe_rnv",
+    "nota": ""
+  },
+  {
+    "origen": "e_aashto",
+    "relacion": "publica_o_regula",
+    "destino": "in_aashto93",
+    "nota": ""
+  },
+  {
+    "origen": "e_aashto",
+    "relacion": "publica_o_regula",
+    "destino": "in_mepdg",
+    "nota": ""
+  },
+  {
+    "origen": "e_aashto",
+    "relacion": "publica_o_regula",
+    "destino": "in_pme",
+    "nota": ""
+  },
+  {
+    "origen": "e_aashto",
+    "relacion": "publica_o_regula",
+    "destino": "in_calloc",
+    "nota": ""
+  },
+  {
+    "origen": "e_fhwa",
+    "relacion": "publica_o_regula",
+    "destino": "in_nchrp137a",
+    "nota": ""
+  },
+  {
+    "origen": "e_austroads",
+    "relacion": "publica_o_regula",
+    "destino": "in_austroads",
+    "nota": ""
+  },
+  {
+    "origen": "e_dnit",
+    "relacion": "publica_o_regula",
+    "destino": "in_medina",
+    "nota": ""
+  },
+  {
+    "origen": "e_mop",
+    "relacion": "publica_o_regula",
+    "destino": "in_chile",
+    "nota": ""
+  },
+  {
+    "origen": "e_invias",
+    "relacion": "publica_o_regula",
+    "destino": "in_invias",
+    "nota": ""
+  },
+  {
+    "origen": "e_nh",
+    "relacion": "publica_o_regula",
+    "destino": "in_cd226",
+    "nota": ""
+  },
+  {
+    "origen": "e_issa",
+    "relacion": "publica_o_regula",
+    "destino": "in_issa143",
+    "nota": ""
+  },
+  {
+    "origen": "e_issa",
+    "relacion": "publica_o_regula",
+    "destino": "in_issa105",
+    "nota": ""
+  },
+  {
+    "origen": "e_oece",
+    "relacion": "regula",
+    "destino": "pe_ley32069",
+    "nota": ""
+  },
+  {
+    "origen": "pe_ley32069",
+    "relacion": "contexto_de",
+    "destino": "x_seace",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "basado_en",
+    "destino": "in_aashto93",
+    "nota": "metodo empirico de 1993"
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "usa_ensayos",
+    "destino": "pe_em2016",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "usa_especificaciones",
+    "destino": "pe_eg2013",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "usa_trafico_de",
+    "destino": "pe_rnv",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "usa_clasificacion_de",
+    "destino": "pe_dg2018",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "usa_clasificacion_de",
+    "destino": "pe_jerarq",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "complementa",
+    "destino": "pe_mant",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "admite",
+    "destino": "v_otros",
+    "nota": "otros modelos con aceptacion previa"
+  },
+  {
+    "origen": "pe_ce010",
+    "relacion": "complementa",
+    "destino": "pe_gh020",
+    "nota": ""
+  },
+  {
+    "origen": "pe_fte",
+    "relacion": "cita",
+    "destino": "pe_ce010",
+    "nota": ""
+  },
+  {
+    "origen": "pe_bv2008",
+    "relacion": "referencia_para",
+    "destino": "pe_suelos",
+    "nota": "no es norma aprobada"
+  },
+  {
+    "origen": "pe_eg2013",
+    "relacion": "especifica",
+    "destino": "t_micro",
+    "nota": ""
+  },
+  {
+    "origen": "pe_eg2013",
+    "relacion": "especifica",
+    "destino": "t_tsb",
+    "nota": ""
+  },
+  {
+    "origen": "in_issa143",
+    "relacion": "es_base_de",
+    "destino": "t_micro",
+    "nota": ""
+  },
+  {
+    "origen": "in_issa105",
+    "relacion": "es_base_de",
+    "destino": "t_slurry",
+    "nota": ""
+  },
+  {
+    "origen": "pe_eg2013",
+    "relacion": "referencia",
+    "destino": "in_issa143",
+    "nota": "segun tesis"
+  },
+  {
+    "origen": "t_micro",
+    "relacion": "usa",
+    "destino": "tec_polimero",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_o_salida",
+    "destino": "p_ee",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_o_salida",
+    "destino": "p_cbr",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_o_salida",
+    "destino": "p_mr",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_o_salida",
+    "destino": "p_sn",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_o_salida",
+    "destino": "p_a",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_o_salida",
+    "destino": "p_m",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_o_salida",
+    "destino": "p_r",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_o_salida",
+    "destino": "p_psi",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_o_salida",
+    "destino": "p_periodo",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_rigido",
+    "destino": "p_mrconcreto",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_rigido",
+    "destino": "p_j",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_rigido",
+    "destino": "p_k",
+    "nota": ""
+  },
+  {
+    "origen": "in_aashto93",
+    "relacion": "entrada_rigido",
+    "destino": "p_dowels",
+    "nota": ""
+  },
+  {
+    "origen": "in_mepdg",
+    "relacion": "entrada_o_salida",
+    "destino": "p_estar",
+    "nota": ""
+  },
+  {
+    "origen": "in_mepdg",
+    "relacion": "entrada_o_salida",
+    "destino": "p_clima",
+    "nota": ""
+  },
+  {
+    "origen": "in_mepdg",
+    "relacion": "entrada_o_salida",
+    "destino": "p_dano",
+    "nota": ""
+  },
+  {
+    "origen": "in_mepdg",
+    "relacion": "entrada_o_salida",
+    "destino": "p_iri",
+    "nota": ""
+  },
+  {
+    "origen": "in_mepdg",
+    "relacion": "entrada_o_salida",
+    "destino": "p_fwd",
+    "nota": ""
+  },
+  {
+    "origen": "in_pme",
+    "relacion": "implementa",
+    "destino": "in_mepdg",
+    "nota": ""
+  },
+  {
+    "origen": "in_mepdg",
+    "relacion": "nace_de",
+    "destino": "in_nchrp137a",
+    "nota": ""
+  },
+  {
+    "origen": "in_calloc",
+    "relacion": "calibra",
+    "destino": "in_mepdg",
+    "nota": ""
+  },
+  {
+    "origen": "in_calloc",
+    "relacion": "se_apoya_en",
+    "destino": "tec_cal",
+    "nota": ""
+  },
+  {
+    "origen": "p_imda",
+    "relacion": "calcula",
+    "destino": "p_ee",
+    "nota": ""
+  },
+  {
+    "origen": "p_fc",
+    "relacion": "calcula",
+    "destino": "p_ee",
+    "nota": ""
+  },
+  {
+    "origen": "p_crec",
+    "relacion": "calcula",
+    "destino": "p_ee",
+    "nota": ""
+  },
+  {
+    "origen": "pe_rnv",
+    "relacion": "define",
+    "destino": "p_fc",
+    "nota": ""
+  },
+  {
+    "origen": "p_cbr",
+    "relacion": "determina",
+    "destino": "p_catsub",
+    "nota": ""
+  },
+  {
+    "origen": "p_cbr",
+    "relacion": "se_correlaciona_con",
+    "destino": "p_mr",
+    "nota": ""
+  },
+  {
+    "origen": "p_catsub",
+    "relacion": "entrada_de",
+    "destino": "pe_suelos",
+    "nota": ""
+  },
+  {
+    "origen": "c_subrasante",
+    "relacion": "caracterizada_por",
+    "destino": "p_cbr",
+    "nota": ""
+  },
+  {
+    "origen": "c_mejoramiento",
+    "relacion": "mejora",
+    "destino": "c_subrasante",
+    "nota": ""
+  },
+  {
+    "origen": "c_drenaje",
+    "relacion": "afecta",
+    "destino": "p_m",
+    "nota": ""
+  },
+  {
+    "origen": "in_aci330",
+    "relacion": "aporta_a",
+    "destino": "p_mrconcreto",
+    "nota": ""
+  },
+  {
+    "origen": "t_flexible",
+    "relacion": "contiene",
+    "destino": "c_carpeta",
+    "nota": ""
+  },
+  {
+    "origen": "t_flexible",
+    "relacion": "contiene",
+    "destino": "c_base",
+    "nota": ""
+  },
+  {
+    "origen": "t_flexible",
+    "relacion": "contiene",
+    "destino": "c_subbase",
+    "nota": ""
+  },
+  {
+    "origen": "t_flexible",
+    "relacion": "apoyado_en",
+    "destino": "c_subrasante",
+    "nota": ""
+  },
+  {
+    "origen": "t_rigido",
+    "relacion": "apoyado_en",
+    "destino": "c_subrasante",
+    "nota": ""
+  },
+  {
+    "origen": "t_rigido",
+    "relacion": "contiene",
+    "destino": "p_dowels",
+    "nota": ""
+  },
+  {
+    "origen": "m_estructural",
+    "relacion": "aplica_a",
+    "destino": "t_flexible",
+    "nota": ""
+  },
+  {
+    "origen": "m_estructural",
+    "relacion": "aplica_a",
+    "destino": "t_rigido",
+    "nota": ""
+  },
+  {
+    "origen": "m_estructural",
+    "relacion": "aplica_a",
+    "destino": "t_semirrigido",
+    "nota": ""
+  },
+  {
+    "origen": "m_estructural",
+    "relacion": "aplica_a",
+    "destino": "t_articulado",
+    "nota": ""
+  },
+  {
+    "origen": "pe_ce010",
+    "relacion": "aplica_a",
+    "destino": "t_articulado",
+    "nota": ""
+  },
+  {
+    "origen": "pe_ce010",
+    "relacion": "aplica_a",
+    "destino": "t_flexible",
+    "nota": ""
+  },
+  {
+    "origen": "pe_ce010",
+    "relacion": "aplica_a",
+    "destino": "t_rigido",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "aplica_a",
+    "destino": "t_flexible",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "aplica_a",
+    "destino": "t_rigido",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "aplica_a",
+    "destino": "t_micro",
+    "nota": ""
+  },
+  {
+    "origen": "pe_suelos",
+    "relacion": "aplica_a",
+    "destino": "t_tsb",
+    "nota": ""
+  },
+  {
+    "origen": "pe_bv2008",
+    "relacion": "aplica_a",
+    "destino": "t_noPav",
+    "nota": ""
+  },
+  {
+    "origen": "in_mepdg",
+    "relacion": "alternativa_a",
+    "destino": "in_aashto93",
+    "nota": ""
+  },
+  {
+    "origen": "in_austroads",
+    "relacion": "alternativa_a",
+    "destino": "in_aashto93",
+    "nota": "mecanicista"
+  },
+  {
+    "origen": "in_cd226",
+    "relacion": "alternativa_a",
+    "destino": "in_aashto93",
+    "nota": "mecanicista"
+  },
+  {
+    "origen": "in_nfp98",
+    "relacion": "alternativa_a",
+    "destino": "in_aashto93",
+    "nota": "mecanicista"
+  },
+  {
+    "origen": "in_medina",
+    "relacion": "alternativa_a",
+    "destino": "in_aashto93",
+    "nota": "mecanicista"
+  },
+  {
+    "origen": "in_nfp98",
+    "relacion": "contrasta_con",
+    "destino": "in_mepdg",
+    "nota": "deformacion admisible vs acumulacion de dano"
+  },
+  {
+    "origen": "in_chile",
+    "relacion": "basado_en",
+    "destino": "in_aashto93",
+    "nota": ""
+  },
+  {
+    "origen": "in_invias",
+    "relacion": "usa",
+    "destino": "in_aashto93",
+    "nota": "bajo transito"
+  },
+  {
+    "origen": "in_invias",
+    "relacion": "usa",
+    "destino": "in_nfp98",
+    "nota": "metodo racional (DEPAV)"
+  },
+  {
+    "origen": "in_medina",
+    "relacion": "usa",
+    "destino": "tec_cal",
+    "nota": "funcion de transferencia calibrada en campo"
+  },
+  {
+    "origen": "in_pme",
+    "relacion": "usa",
+    "destino": "tec_cal",
+    "nota": ""
+  },
+  {
+    "origen": "b_metodo",
+    "relacion": "compara",
+    "destino": "pe_suelos",
+    "nota": ""
+  },
+  {
+    "origen": "b_metodo",
+    "relacion": "compara",
+    "destino": "in_mepdg",
+    "nota": ""
+  },
+  {
+    "origen": "b_metodo",
+    "relacion": "compara",
+    "destino": "in_medina",
+    "nota": ""
+  },
+  {
+    "origen": "b_metodo",
+    "relacion": "compara",
+    "destino": "in_austroads",
+    "nota": ""
+  },
+  {
+    "origen": "b_metodo",
+    "relacion": "compara",
+    "destino": "in_cd226",
+    "nota": ""
+  },
+  {
+    "origen": "b_clima",
+    "relacion": "compara",
+    "destino": "in_aashto93",
+    "nota": ""
+  },
+  {
+    "origen": "b_clima",
+    "relacion": "compara",
+    "destino": "p_clima",
+    "nota": ""
+  },
+  {
+    "origen": "b_calib",
+    "relacion": "compara",
+    "destino": "tec_cal",
+    "nota": ""
+  },
+  {
+    "origen": "b_calib",
+    "relacion": "compara",
+    "destino": "in_calloc",
+    "nota": ""
+  },
+  {
+    "origen": "b_mat",
+    "relacion": "compara",
+    "destino": "tec_rap",
+    "nota": ""
+  },
+  {
+    "origen": "b_mat",
+    "relacion": "compara",
+    "destino": "tec_wma",
+    "nota": ""
+  },
+  {
+    "origen": "b_mat",
+    "relacion": "compara",
+    "destino": "tec_caucho",
+    "nota": ""
+  },
+  {
+    "origen": "b_mat",
+    "relacion": "compara",
+    "destino": "tec_scm",
+    "nota": ""
+  },
+  {
+    "origen": "b_mat",
+    "relacion": "compara",
+    "destino": "tec_rca",
+    "nota": ""
+  },
+  {
+    "origen": "b_acv",
+    "relacion": "compara",
+    "destino": "tec_acv",
+    "nota": ""
+  },
+  {
+    "origen": "b_acv",
+    "relacion": "compara",
+    "destino": "in_iso14040",
+    "nota": ""
+  },
+  {
+    "origen": "tec_rap",
+    "relacion": "evaluado_con",
+    "destino": "tec_acv",
+    "nota": ""
+  },
+  {
+    "origen": "tec_wma",
+    "relacion": "evaluado_con",
+    "destino": "tec_acv",
+    "nota": ""
+  },
+  {
+    "origen": "b_rehab",
+    "relacion": "compara",
+    "destino": "in_mepdg",
+    "nota": ""
+  },
+  {
+    "origen": "b_rehab",
+    "relacion": "compara",
+    "destino": "p_fwd",
+    "nota": ""
+  },
+  {
+    "origen": "b_metodo",
+    "relacion": "se_gestiona_por",
+    "destino": "v_otros",
+    "nota": ""
+  },
+  {
+    "origen": "b_metodo",
+    "relacion": "se_gestiona_por",
+    "destino": "v_contrata",
+    "nota": ""
+  },
+  {
+    "origen": "b_clima",
+    "relacion": "se_gestiona_por",
+    "destino": "v_otros",
+    "nota": ""
+  },
+  {
+    "origen": "b_clima",
+    "relacion": "se_gestiona_por",
+    "destino": "v_contrata",
+    "nota": ""
+  },
+  {
+    "origen": "b_calib",
+    "relacion": "se_gestiona_por",
+    "destino": "v_otros",
+    "nota": ""
+  },
+  {
+    "origen": "b_calib",
+    "relacion": "se_gestiona_por",
+    "destino": "v_contrata",
+    "nota": ""
+  },
+  {
+    "origen": "b_mat",
+    "relacion": "se_gestiona_por",
+    "destino": "v_otros",
+    "nota": ""
+  },
+  {
+    "origen": "b_mat",
+    "relacion": "se_gestiona_por",
+    "destino": "v_contrata",
+    "nota": ""
+  },
+  {
+    "origen": "b_acv",
+    "relacion": "se_gestiona_por",
+    "destino": "v_otros",
+    "nota": ""
+  },
+  {
+    "origen": "b_acv",
+    "relacion": "se_gestiona_por",
+    "destino": "v_contrata",
+    "nota": ""
+  },
+  {
+    "origen": "b_rehab",
+    "relacion": "se_gestiona_por",
+    "destino": "v_otros",
+    "nota": ""
+  },
+  {
+    "origen": "b_rehab",
+    "relacion": "se_gestiona_por",
+    "destino": "v_contrata",
+    "nota": ""
+  },
+  {
+    "origen": "b_metodo",
+    "relacion": "se_gestiona_por",
+    "destino": "v_urbano",
+    "nota": ""
+  },
+  {
+    "origen": "v_otros",
+    "relacion": "consulta_a",
+    "destino": "e_mtc",
+    "nota": ""
+  },
+  {
+    "origen": "v_urbano",
+    "relacion": "consulta_a",
+    "destino": "e_mvcs",
+    "nota": ""
+  },
+  {
+    "origen": "v_contrata",
+    "relacion": "consulta_a",
+    "destino": "e_oece",
+    "nota": ""
+  },
+  {
+    "origen": "x_clima",
+    "relacion": "condiciona",
+    "destino": "p_clima",
+    "nota": ""
+  },
+  {
+    "origen": "x_clima",
+    "relacion": "dato_de",
+    "destino": "e_senamhi",
+    "nota": ""
+  },
+  {
+    "origen": "x_suelos",
+    "relacion": "limita",
+    "destino": "in_aashto93",
+    "nota": ""
+  },
+  {
+    "origen": "x_suelos",
+    "relacion": "se_mitiga_con",
+    "destino": "c_mejoramiento",
+    "nota": ""
+  },
+  {
+    "origen": "x_nino",
+    "relacion": "condiciona",
+    "destino": "c_drenaje",
+    "nota": ""
+  },
+  {
+    "origen": "x_seace",
+    "relacion": "observa",
+    "destino": "p_r",
+    "nota": ""
+  },
+  {
+    "origen": "x_seace",
+    "relacion": "observa",
+    "destino": "p_ee",
+    "nota": ""
+  },
+  {
+    "origen": "x_seace",
+    "relacion": "observa",
+    "destino": "p_cbr",
+    "nota": ""
+  },
+  {
+    "origen": "x_firma",
+    "relacion": "condiciona",
+    "destino": "m_estructural",
+    "nota": ""
+  },
+  {
+    "origen": "e_ingemmet",
+    "relacion": "dato_de",
+    "destino": "x_suelos",
+    "nota": ""
+  }
+]

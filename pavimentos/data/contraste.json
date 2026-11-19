@@ -1,0 +1,143 @@
+[
+  {
+    "id": "k_metodo",
+    "dimension": "Metodo de diseno",
+    "peru": "AASHTO 93 empirico (Manual MTC 2014) y catalogos de estructuras; admite otros modelos con aceptacion previa del MTC.",
+    "internacional": "EE. UU.: MEPDG / Pavement ME (M-E, 3a ed. 2020; 4a ed. 2026 en catalogo TRID). Australia: Austroads AGPT02 ed. 5.2. UK: CD 226. Francia: NF P98-086. Brasil: MeDiNa (2025).",
+    "brecha": "Alta: el diseno peruano no calcula deformaciones ni dano acumulado.",
+    "aplicabilidad": "Condicionada: un M-E se puede proponer como 'otro modelo de reconocida procedencia' solo con aceptacion previa del MTC.",
+    "nodos": [
+      "pe_suelos",
+      "in_aashto93",
+      "in_mepdg",
+      "in_austroads",
+      "in_cd226",
+      "in_nfp98",
+      "in_medina",
+      "v_otros"
+    ],
+    "estado": "parcial"
+  },
+  {
+    "id": "k_trafico",
+    "dimension": "Trafico",
+    "peru": "EE (ejes equivalentes de 80 kN) a partir de IMDA, % pesados, factores camion del Anexo IV del RNV y crecimiento.",
+    "internacional": "Espectros de carga por eje (load spectra) en MEPDG y MeDiNa en lugar de un solo EE.",
+    "brecha": "Media: el EE agrupa y pierde informacion sobre el espectro real de cargas.",
+    "aplicabilidad": "El EE se mantiene como entrada del MTC; el espectro requiere datos de pesaje (SUTRAN) que hoy no son sistematicos (por verificar).",
+    "nodos": [
+      "p_ee",
+      "p_fc",
+      "pe_rnv",
+      "e_sutran"
+    ],
+    "estado": "parcial"
+  },
+  {
+    "id": "k_clima",
+    "dimension": "Clima",
+    "peru": "No se modela de forma directa; se ajusta por drenaje (m) y criterios regionales del manual.",
+    "internacional": "MEPDG simula temperatura y humedad por hora; Austroads usa temperatura media ponderada de servicio.",
+    "brecha": "Alta para costa norte (El Nino), sierra (heladas) y selva (humedad).",
+    "aplicabilidad": "Requiere base climatica por region (SENAMHI) para el visor.",
+    "nodos": [
+      "p_clima",
+      "x_clima",
+      "b_clima",
+      "e_senamhi"
+    ],
+    "estado": "parcial"
+  },
+  {
+    "id": "k_materiales",
+    "dimension": "Materiales",
+    "peru": "Caracterizacion por CBR, coeficientes a1-a3 y ensayos del EM-2016; asfaltos convencionales y modificados basicos.",
+    "internacional": "Modulo dinamico E*, modulos de capas ligadas y no ligadas, RAP alto, WMA, caucho, SCM y fibras.",
+    "brecha": "Alta en caracterizacion; moderada en disponibilidad de materiales.",
+    "aplicabilidad": "Se pueden presentar como especificacion especial con sustento.",
+    "nodos": [
+      "p_a",
+      "p_estar",
+      "tec_rap",
+      "tec_wma",
+      "tec_caucho",
+      "tec_scm",
+      "b_mat"
+    ],
+    "estado": "parcial"
+  },
+  {
+    "id": "k_calibracion",
+    "dimension": "Calibracion local",
+    "peru": "Los coeficientes de AASHTO 93 provienen de la AASHO Road Test (EE. UU.); no hay calibracion peruana de funciones de transferencia identificada.",
+    "internacional": "Pavement ME y MeDiNa se calibran con datos de desempeno locales; estudios en Kentucky, Oklahoma, NCAT y Quebec muestran sesgo si se usan los modelos globales.",
+    "brecha": "Muy alta: sin calibracion, un M-E aplicado en Peru da precision aparente.",
+    "aplicabilidad": "Requiere programa de seguimiento de tramos (por ejemplo PCI/IRI) de varios anos.",
+    "nodos": [
+      "tec_cal",
+      "in_calloc",
+      "b_calib"
+    ],
+    "estado": "confirmado"
+  },
+  {
+    "id": "k_rehab",
+    "dimension": "Rehabilitacion",
+    "peru": "Mantenimiento o Conservacion Vial (RD 05-2016-MTC/14) y refuerzos por deflexion.",
+    "internacional": "MEPDG 3a ed.: modelo de mecanica de fractura para agrietamiento reflejo; calibraciones especificas de rehabilitacion (Kentucky 2026).",
+    "brecha": "Media.",
+    "aplicabilidad": "Compatible con el flujo FWD/retrocalculo.",
+    "nodos": [
+      "pe_mant",
+      "b_rehab",
+      "p_fwd"
+    ],
+    "estado": "parcial"
+  },
+  {
+    "id": "k_micro",
+    "dimension": "Micropavimentos",
+    "peru": "EG-2013 y catalogo del manual MTC (espesor 2.5 cm sobre base granular segun el resumen del usuario, por verificar).",
+    "internacional": "ISSA A143 (rev. 2010) para micropavimento con polimero; ISSA A105 (rev. 2020) para slurry.",
+    "brecha": "Baja: Peru ya se apoya en ISSA A143.",
+    "aplicabilidad": "Directa.",
+    "nodos": [
+      "t_micro",
+      "pe_eg2013",
+      "in_issa143",
+      "in_issa105"
+    ],
+    "estado": "parcial"
+  },
+  {
+    "id": "k_urbano",
+    "dimension": "Pavimentos urbanos",
+    "peru": "CE.010 (RNE) bajo MVCS; edicion vigente por verificar.",
+    "internacional": "Brasil: ABNT PR 1011 (practica para pavimentos urbanos de concreto, consulta nacional 2021).",
+    "brecha": "No evaluada.",
+    "aplicabilidad": "Requiere leer el texto de CE.010.",
+    "nodos": [
+      "pe_ce010",
+      "pe_gh020",
+      "pe_fte",
+      "v_urbano"
+    ],
+    "estado": "por_verificar"
+  },
+  {
+    "id": "k_sostenible",
+    "dimension": "Sostenibilidad",
+    "peru": "No se hallo exigencia de ACV en el manual MTC.",
+    "internacional": "ACV segun ISO 14040/14044; reducciones potenciales: 8% (WMA+RAP+zeolita, Chile) y 55-64% por tonelada con alto RAP (modelo Wageningen).",
+    "brecha": "Alta en practica; sin obligacion normativa.",
+    "aplicabilidad": "Puede ofrecerse como modulo informativo.",
+    "nodos": [
+      "tec_acv",
+      "in_iso14040",
+      "tec_rap",
+      "tec_wma",
+      "b_acv"
+    ],
+    "estado": "parcial"
+  }
+]

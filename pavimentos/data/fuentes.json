@@ -1,0 +1,274 @@
+[
+  {
+    "id": "f_mtc_normas",
+    "titulo": "Normas de infraestructura vial y transporte terrestre (listado MTC en gob.pe)",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/5073951/4594406-normas-de-infraestructura-vial-y-transporte-terrestre-dpntra%282%29.pdf",
+    "tipo": "oficial",
+    "nota": "Listado citado por buscador; el PDF NO pudo abrirse desde la sesion (host no permitido). Numeros de RD tomados del resumen del buscador.",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_mtc_complem",
+    "titulo": "Normas complementarias para Infraestructura Vial (MTC, gob.pe)",
+    "url": "https://www.gob.pe/institucion/mtc/colecciones/23260-normas-complementarias-para-infraestructura-vial",
+    "tipo": "oficial",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_sni_dg2018",
+    "titulo": "Aprueban Manual de Carreteras - Diseno Geometrico DG 2018",
+    "url": "https://sni.org.pe/aprueban-manual-de-carreteras-diseno-geometrico-dg-2018/",
+    "tipo": "secundaria",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_sni_eg2013",
+    "titulo": "Aprueban actualizacion del Manual EG-2013",
+    "url": "https://sni.org.pe/?p=59409",
+    "tipo": "secundaria",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_usil_me",
+    "titulo": "Articulo peruano: critica al manual MTC basado en AASHTO 93 y propuesta de metodos de propiedades fundamentales",
+    "url": "https://revistas.usil.edu.pe/index.php/syh/article/view/28/183",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_udep_rigido",
+    "titulo": "Tesis UDEP: pavimento rigido en Piura con AASHTO 93 y Manual MTC",
+    "url": "https://pirhua.udep.edu.pe/backend/api/core/bitstreams/b07050c7-e28d-4590-bd5a-4134c9c6d63c/content",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_uni_fabian",
+    "titulo": "Tesis UNI (Fabian): diseno 10 y 25 anos con Manual MTC",
+    "url": "https://repositorio.uni.edu.pe/bitstream/20.500.14076/29352/1/fabian_ad.pdf",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_mvcs_vias",
+    "titulo": "Instructivo FTE Vias Locales (MEF) - cita CE.010, GH.020 y Reglamento de Gestion de Infraestructura Vial",
+    "url": "https://www.mef.gob.pe/contenidos/inv_publica/docs/ficha_tecnica/vivienda/Instructivo_FTE_Vias_Locales.pdf",
+    "tipo": "oficial",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_gobpe_urbanos",
+    "titulo": "Sistematizacion de informacion sobre diseno, gestion, construccion y reparacion de pavimentos urbanos (gob.pe)",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/4768980/Sistematizaci%C3%B3n%20de%20informaci%C3%B3n%20sobre%20dise%C3%B1o%2C%20gesti%C3%B3n%2C%20construcci%C3%B3n%20y%20reparaci%C3%B3n%20de%20pavimentos%20urbanos.pdf",
+    "tipo": "oficial",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_rm278",
+    "titulo": "Resolucion Ministerial 278-2026-VIVIENDA (modificaciones RNE G.010 y G.020)",
+    "url": "https://lpderecho.pe/nuevas-reglas-base-sector-construccion-modificaciones-reglamento-nacional-edificaciones-resolucion-ministerial-278-2026-vivienda/",
+    "tipo": "secundaria",
+    "nota": "No se hallo que modifique CE.010.",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_ds006_2014",
+    "titulo": "Exposicion de motivos DS 006-2014-MTC (Reglamento Nacional de Vehiculos, Anexo IV pesos)",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/5443604/343611-exposicion-de-motivos-del-decreto-supremo-n-006-2014-mtc.pdf",
+    "tipo": "oficial",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_vlex_rngiv",
+    "titulo": "DS 034-2008-MTC Reglamento Nacional de Gestion de Infraestructura Vial",
+    "url": "https://vlex.com.pe/vid/decreto-supremo-n-034-914013707",
+    "tipo": "secundaria",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_aashto_journal",
+    "titulo": "AASHTO Issues Revised Pavement Design Guide (3rd edition MEPDG)",
+    "url": "https://aashtojournal.transportation.org/aashto-issues-revised-pavement-design-guide",
+    "tipo": "oficial",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_trid_mepdg4",
+    "titulo": "MEPDG: A Manual of Practice, 4th Edition, 2026 (registro TRID)",
+    "url": "https://trid.trb.org/View/2752250",
+    "tipo": "catalogo",
+    "nota": "Un solo registro de catalogo; confirmar en AASHTO Store.",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_austroads_agpt02",
+    "titulo": "Austroads AGPT02 Guide to Pavement Technology Part 2 (pagina oficial)",
+    "url": "https://austroads.gov.au/publications/pavement/agpt02",
+    "tipo": "oficial",
+    "nota": "Pagina muestra edicion 5.2 (AGPT02-26, 14 jul 2026); el PDF 'agpt02-25' dice edicion 5.0.",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_austroads_tb",
+    "titulo": "Technical basis of Austroads Guide Part 2 (AP-T356-21)",
+    "url": "https://austroads.gov.au/publications/pavement/ap-t356-21",
+    "tipo": "oficial",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_dnit_medina",
+    "titulo": "DNIT - Roteiro de ensaios para obtencao dos parametros de entrada do MeDiNa",
+    "url": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/medina/roteiro-de-ensaios-para-obtencao-dos-parametros-de-entrada-do-medina.pdf",
+    "tipo": "oficial",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_dnit_comp",
+    "titulo": "DNIT IPR RP-011 Comparativo de metodologias",
+    "url": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/relatorios-de-pesquisa-1/ipr_rp_011_comparativo-de-metodologias-1.pdf",
+    "tipo": "oficial",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_ucsc_chile",
+    "titulo": "Tesis UCSC (2023): metodo oficial chileno AASHTO 93 vs empirico-mecanicista",
+    "url": "https://tesis.ucsc.cl/bitstreams/fc94a424-abbd-4482-89f8-bf3fcd15e0e5/download",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_chile_ime",
+    "titulo": "Articulo Infraestructura Vial: AASHTO 93, norma chilena (PAVIVIAL) y NCHRP 1-37A",
+    "url": "https://www.scielo.sa.cr/pdf/infraestructura/v24n43/2215-3705-infraestructura-24-43-94.pdf",
+    "tipo": "academica",
+    "nota": "Atribucion inferida del buscador; verificar.",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_col_racional",
+    "titulo": "Tesis Colombia: AASHTO, metodo racional y DEPAV; guia INVIAS rehabilitacion 2022",
+    "url": "https://repositorioslatinoamericanos.uchile.cl/handle/2250/8694076",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_uk_cd226",
+    "titulo": "National Highways CD 226 Design for new pavement construction (v0.2.0, sep 2025)",
+    "url": "https://cis.ihs.com//CIS/document/351375",
+    "tipo": "catalogo",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_alize",
+    "titulo": "Alize2 - software del metodo frances NF P98-086",
+    "url": "https://lames.univ-gustave-eiffel.fr/fileadmin/redaction/LAMES/Mat%C3%A9riels_et_logiciels/Doc-Alize2-v2.1-EN.pdf",
+    "tipo": "oficial",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_colas_comp",
+    "titulo": "Colas Canada: comparacion metodo frances vs MEPDG (simposio i3C)",
+    "url": "https://i3c.gci.ulaval.ca/fileadmin/i3c/documents/Symposium/19nov_9h50_SaeedBadeli-Colas.pdf",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_issa_a143",
+    "titulo": "ISSA A143 Recommended Performance Guideline for Micro Surfacing",
+    "url": "https://org-ppra-prod.s3.amazonaws.com/uploads/treatment_file/upload/96/A143.pdf",
+    "tipo": "norma",
+    "nota": "Copia de revision 2010; algunas agencias citan 2005.",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_issa_a105",
+    "titulo": "ISSA A105 Guideline for Emulsified Asphalt Slurry Seal (rev. mayo 2020)",
+    "url": "https://www.scribd.com/document/564657886/a105-slurry-seal",
+    "tipo": "norma",
+    "nota": "Copia en Scribd, verificar en slurry.org.",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_calib_ky",
+    "titulo": "Kentucky 2026: recalibracion Pavement ME para rehabilitacion",
+    "url": "https://uknowledge.uky.edu/ktc_researchreports/1840",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_calib_ok",
+    "titulo": "Oklahoma: calibracion local Pavement ME (IJPE)",
+    "url": "https://informahealthcare.com/doi/abs/10.1080/10298436.2021.1924375",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_calib_ncat",
+    "titulo": "NCAT Test Track: calibracion local (Auburn)",
+    "url": "https://etd.auburn.edu/handle/10415/5719?show=full",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_calib_qc",
+    "titulo": "Quebec: calibracion de Pavement ME (TAC)",
+    "url": "https://www.tac-atc.ca/en/knowledge-centre/technical-resources-search/conference-papers/calibration-of-aashtoware/",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_lca_rap",
+    "titulo": "Wageningen: mezclas con hasta 93% RAP, reduccion de huella 55-64%/t",
+    "url": "https://edepot.wur.nl/541395",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_lca_chile",
+    "titulo": "Martinez-Soto et al. 2023 (Sustainability): ACV mezcla tibia con RAP y zeolita, ISO 14040",
+    "url": "https://www.mdpi.com/2071-1050/15/2/1003",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_lca_santos",
+    "titulo": "Santos et al. 2018: mezclas de baja temperatura, ACV (Resources Conserv. Recycl.)",
+    "url": "https://nottingham-repository.worktribe.com/output/1304779",
+    "tipo": "academica",
+    "nota": "",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_manual_general",
+    "titulo": "Memoria de conocimiento general del ingeniero (no verificada en esta sesion)",
+    "url": "",
+    "tipo": "conocimiento",
+    "nota": "Usada solo para estructura conceptual; sin cifras normativas.",
+    "consultado": "2026-11-19"
+  }
+]

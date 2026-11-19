@@ -1,0 +1,1347 @@
+[
+  {
+    "id": "e_mtc",
+    "tipo": "entidad",
+    "nombre": "MTC - Ministerio de Transportes y Comunicaciones",
+    "descripcion": "Autoridad de la red vial nacional; aprueba los Manuales de Carreteras.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_mvcs",
+    "tipo": "entidad",
+    "nombre": "MVCS - Ministerio de Vivienda, Construccion y Saneamiento",
+    "descripcion": "Competente en pavimentos urbanos y el RNE (CE.010).",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_sutran",
+    "tipo": "entidad",
+    "nombre": "SUTRAN",
+    "descripcion": "Fiscaliza pesos y dimensiones vehiculares (exceso de peso por eje).",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_mef",
+    "tipo": "entidad",
+    "nombre": "MEF - Invierte.pe",
+    "descripcion": "Fichas tecnicas estandar para vias locales.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_oece",
+    "tipo": "entidad",
+    "nombre": "OECE / SEACE",
+    "descripcion": "Contrataciones publicas; opiniones y expedientes donde se observan los sustentos de diseno (por verificar rol exacto).",
+    "pais": "PE",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "e_aashto",
+    "tipo": "entidad",
+    "nombre": "AASHTO",
+    "descripcion": "Publica AASHTO 93 y la guia MEPDG.",
+    "pais": "US",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_fhwa",
+    "tipo": "entidad",
+    "nombre": "FHWA / NCHRP",
+    "descripcion": "Origen del proyecto NCHRP 1-37A que dio la MEPDG.",
+    "pais": "US",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_austroads",
+    "tipo": "entidad",
+    "nombre": "Austroads",
+    "descripcion": "Guia de tecnologia de pavimentos.",
+    "pais": "AU/NZ",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_dnit",
+    "tipo": "entidad",
+    "nombre": "DNIT",
+    "descripcion": "Metodo MeDiNa.",
+    "pais": "BR",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_mop",
+    "tipo": "entidad",
+    "nombre": "MOP Chile - Direccion de Vialidad",
+    "descripcion": "Manual de Carreteras Vol. 3.",
+    "pais": "CL",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_invias",
+    "tipo": "entidad",
+    "nombre": "INVIAS",
+    "descripcion": "Manuales de diseno de pavimentos.",
+    "pais": "CO",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_nh",
+    "tipo": "entidad",
+    "nombre": "National Highways",
+    "descripcion": "Standard CD 226.",
+    "pais": "UK",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_issa",
+    "tipo": "entidad",
+    "nombre": "ISSA",
+    "descripcion": "Guias A105 / A143 para slurry y micropavimento.",
+    "pais": "US",
+    "estado": "confirmado",
+    "fuentes": [],
+    "tags": []
+  },
+  {
+    "id": "e_senamhi",
+    "tipo": "entidad",
+    "nombre": "SENAMHI",
+    "descripcion": "Fuente de datos climaticos (uso previsto en el visor).",
+    "pais": "PE",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "e_ingemmet",
+    "tipo": "entidad",
+    "nombre": "INGEMMET",
+    "descripcion": "Fuente geologica prevista para el visor (uso previsto).",
+    "pais": "PE",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_suelos",
+    "tipo": "norma",
+    "nombre": "Manual de Carreteras: Suelos, Geologia, Geotecnia y Pavimentos (RD 10-2014-MTC/14)",
+    "descripcion": "Norma de diseno estructural de pavimentos de carreteras. Base AASHTO 93. Admite otros modelos de reconocida procedencia con aceptacion previa del MTC. Algunas tesis citan edicion 2013 (primera version).",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_mtc_normas",
+      "f_usil_me",
+      "f_uni_fabian"
+    ],
+    "tags": [
+      "vigente",
+      "aashto93"
+    ],
+    "datos": {
+      "vigencia_actualizacion": "No se hallo reemplazo oficial 2024-2026; verificar en gob.pe",
+      "tablas_por_extraer": [
+        "Confiabilidad R",
+        "Desviacion estandar So",
+        "Delta PSI",
+        "Categorias de subrasante",
+        "Rangos de EE",
+        "Catalogos de estructuras",
+        "Coeficientes estructurales",
+        "Coeficientes de drenaje"
+      ]
+    }
+  },
+  {
+    "id": "pe_eg2013",
+    "tipo": "norma",
+    "nombre": "Especificaciones Tecnicas Generales para Construccion EG-2013 (RD 22-2013-MTC/14)",
+    "descripcion": "Especificaciones de mezclas, bases, riegos y micropavimento.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_mtc_normas",
+      "f_sni_eg2013"
+    ],
+    "tags": [
+      "vigente"
+    ]
+  },
+  {
+    "id": "pe_em2016",
+    "tipo": "norma",
+    "nombre": "Manual de Ensayo de Materiales (RD 18-2016-MTC/14)",
+    "descripcion": "Ensayos de suelos, agregados, asfaltos y concreto.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": [
+      "vigente"
+    ]
+  },
+  {
+    "id": "pe_mant",
+    "tipo": "norma",
+    "nombre": "Manual de Mantenimiento o Conservacion Vial (RD 05-2016-MTC/14)",
+    "descripcion": "Conservacion rutinaria y periodica. Numero de RD segun guia MEF; hay referencias a versiones previas (RD 008-2014).",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": [
+      "vigente"
+    ]
+  },
+  {
+    "id": "pe_inv",
+    "tipo": "norma",
+    "nombre": "Manual de Inventarios Viales (RD 22-2015-MTC/14)",
+    "descripcion": "Inventario y estado de la red vial. El numero de RD aparece con discrepancias en las fuentes.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_dg2018",
+    "tipo": "norma",
+    "nombre": "Manual de Carreteras: Diseno Geometrico DG-2018 (RD 03-2018-MTC/14)",
+    "descripcion": "Geometria de la via; define clasificacion por demanda y orografia.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_sni_dg2018"
+    ],
+    "tags": [
+      "vigente"
+    ]
+  },
+  {
+    "id": "pe_dcta",
+    "tipo": "norma",
+    "nombre": "Manual de Dispositivos de Control del Transito Automotor (RD 26-2024-MTC/18)",
+    "descripcion": "Senalizacion; el numero proviene de un unico resumen.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_rngiv",
+    "tipo": "norma",
+    "nombre": "Reglamento Nacional de Gestion de Infraestructura Vial (DS 034-2008-MTC)",
+    "descripcion": "Gestion de redes nacional, departamental y vecinal.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_vlex_rngiv"
+    ],
+    "tags": [
+      "vigente"
+    ]
+  },
+  {
+    "id": "pe_rnv",
+    "tipo": "norma",
+    "nombre": "Reglamento Nacional de Vehiculos (DS 058-2003-MTC), Anexo IV pesos y dimensiones",
+    "descripcion": "Pesos maximos por eje y configuracion. Modificado por DS 006-2014-MTC; DS 025-2016-MTC inicia control progresivo de peso por eje.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_ds006_2014"
+    ],
+    "tags": [
+      "trafico"
+    ],
+    "datos": {
+      "valores_por_extraer": [
+        "Peso maximo por eje simple/tandem/tridem",
+        "Configuraciones vehiculares C2, C3, T2S1, etc."
+      ]
+    }
+  },
+  {
+    "id": "pe_jerarq",
+    "tipo": "norma",
+    "nombre": "Reglamento de Jerarquizacion Vial (DS 017-2007-MTC, modificado)",
+    "descripcion": "Clasifica las vias en nacional, departamental y vecinal. Dato de memoria; no verificado en esta sesion.",
+    "pais": "PE",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_ce010",
+    "tipo": "norma",
+    "nombre": "Norma CE.010 Pavimentos Urbanos (RNE)",
+    "descripcion": "Diseno de pavimentos urbanos. Marco: DS 011-2006-VIVIENDA. Fecha de la edicion vigente (algunas fuentes dicen 2010) por verificar; no se hallo modificacion posterior.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_mvcs_vias",
+      "f_rm278"
+    ],
+    "tags": [
+      "urbano"
+    ]
+  },
+  {
+    "id": "pe_gh020",
+    "tipo": "norma",
+    "nombre": "Norma GH.020 Componentes de Diseno Urbano (mod. DS 006-2011-VIVIENDA)",
+    "descripcion": "Secciones de via urbana.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_mvcs_vias"
+    ],
+    "tags": [
+      "urbano"
+    ]
+  },
+  {
+    "id": "pe_fte",
+    "tipo": "norma",
+    "nombre": "Instructivo FTE Vias Locales (MEF)",
+    "descripcion": "Ficha tecnica estandar de vias locales; cita CE.010, GH.020 y el Reglamento de Gestion de Infraestructura Vial.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_mvcs_vias"
+    ],
+    "tags": [
+      "urbano"
+    ]
+  },
+  {
+    "id": "pe_bv2008",
+    "tipo": "norma",
+    "nombre": "Manual para el Diseno de Carreteras Pavimentadas de Bajo Volumen de Transito (Plan Binacional Peru-Ecuador, 2008)",
+    "descripcion": "Documento de referencia; no se encontro evidencia de que sea norma aprobada por el MTC.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_ley32069",
+    "tipo": "norma",
+    "nombre": "Ley 32069 General de Contrataciones Publicas y su Reglamento (DS 009-2025-EF)",
+    "descripcion": "Marco de contratacion donde se presentan y observan expedientes tecnicos.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": [
+      "contratacion"
+    ]
+  },
+  {
+    "id": "in_aashto93",
+    "tipo": "metodo",
+    "nombre": "AASHTO 93 (Guide for Design of Pavement Structures)",
+    "descripcion": "Metodo empirico basado en la AASHO Road Test (decada de 1950-60). Entrada: ESAL, Mr, R, So, delta PSI; salida: SN o espesor de losa.",
+    "pais": "US",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_usil_me",
+      "f_udep_rigido"
+    ],
+    "tags": [
+      "empirico"
+    ]
+  },
+  {
+    "id": "in_mepdg",
+    "tipo": "metodo",
+    "nombre": "MEPDG / AASHTO Mechanistic-Empirical Pavement Design Guide: Manual of Practice",
+    "descripcion": "Metodo mecanicista-empirico. 3a ed. (2020): modelo de mecanica de fractura para agrietamiento reflejo y nuevos coeficientes globales. Registro TRID lista una 4a ed. (2026); la 3a ed. tiene errata de oct. 2023.",
+    "pais": "US",
+    "estado": "parcial",
+    "fuentes": [
+      "f_aashto_journal",
+      "f_trid_mepdg4"
+    ],
+    "tags": [
+      "mecanicista"
+    ]
+  },
+  {
+    "id": "in_pme",
+    "tipo": "metodo",
+    "nombre": "AASHTOWare Pavement ME Design (software)",
+    "descripcion": "Implementacion de la MEPDG; predice ahuellamiento, fisuracion e IRI con clima y modulo dinamico.",
+    "pais": "US",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_aashto_journal",
+      "f_trid_mepdg4"
+    ],
+    "tags": [
+      "software"
+    ]
+  },
+  {
+    "id": "in_calloc",
+    "tipo": "metodo",
+    "nombre": "Guia de calibracion local de Pavement ME",
+    "descripcion": "Procedimiento para ajustar funciones de transferencia a datos de comportamiento locales.",
+    "pais": "US",
+    "estado": "parcial",
+    "fuentes": [
+      "f_trid_mepdg4",
+      "f_calib_ky"
+    ],
+    "tags": [
+      "calibracion"
+    ]
+  },
+  {
+    "id": "in_nchrp137a",
+    "tipo": "metodo",
+    "nombre": "NCHRP 1-37A",
+    "descripcion": "Proyecto origen de la MEPDG; citado en comparaciones chilenas.",
+    "pais": "US",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_chile_ime"
+    ],
+    "tags": []
+  },
+  {
+    "id": "in_austroads",
+    "tipo": "metodo",
+    "nombre": "Austroads AGPT02 Guide to Pavement Technology Part 2 (Ed. 5.2, AGPT02-26)",
+    "descripcion": "Diseno estructural de pavimentos asfalticos nuevos en Australia y Nueva Zelanda. Pagina oficial lista edicion 5.2 (14 jul 2026); el PDF aparece como 5.0 (2025); la anterior fue 4.4 (abr 2024).",
+    "pais": "AU/NZ",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_austroads_agpt02",
+      "f_austroads_tb"
+    ],
+    "tags": [
+      "mecanicista"
+    ]
+  },
+  {
+    "id": "in_cd226",
+    "tipo": "metodo",
+    "nombre": "CD 226 Design for new pavement construction (UK, v0.2.0 sep 2025)",
+    "descripcion": "Antes HD 26/06. Aplica a autopistas y troncales; incluye disenos estandar y procedimientos alternativos.",
+    "pais": "UK",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_uk_cd226"
+    ],
+    "tags": [
+      "mecanicista"
+    ]
+  },
+  {
+    "id": "in_nfp98",
+    "tipo": "metodo",
+    "nombre": "NF P98-086 / Alize2 (Francia)",
+    "descripcion": "Metodo racional: la deformacion calculada debe ser menor que la admisible, a diferencia de la acumulacion de dano de la MEPDG.",
+    "pais": "FR",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_alize",
+      "f_colas_comp"
+    ],
+    "tags": [
+      "mecanicista"
+    ]
+  },
+  {
+    "id": "in_medina",
+    "tipo": "metodo",
+    "nombre": "MeDiNa (Brasil, DNIT, IS-247)",
+    "descripcion": "Metodo mecanicista-empirico nacional con analisis elastico multicapa (AEMC); implantado por el DNIT en 2025. Reemplaza al metodo de 1966/1981 basado en CBR. Un estudio en Governador Valadares halla ~50% mas espesor con el metodo anterior.",
+    "pais": "BR",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_dnit_medina",
+      "f_dnit_comp"
+    ],
+    "tags": [
+      "mecanicista",
+      "latam"
+    ]
+  },
+  {
+    "id": "in_chile",
+    "tipo": "metodo",
+    "nombre": "Chile - Manual de Carreteras Vol. 3 (MOP)",
+    "descripcion": "Diseno oficial con AASHTO 93 y programa PAVIVIAL; un articulo de 2007 anota que los modelos M-E no estaban calibrados para Chile. No se hallo evidencia de adopcion oficial M-E.",
+    "pais": "CL",
+    "estado": "parcial",
+    "fuentes": [
+      "f_ucsc_chile",
+      "f_chile_ime"
+    ],
+    "tags": [
+      "latam",
+      "aashto93"
+    ]
+  },
+  {
+    "id": "in_invias",
+    "tipo": "metodo",
+    "nombre": "Colombia - INVIAS: manuales y guias de pavimentos",
+    "descripcion": "Manual de bajo transito (2007), concreto (2008), adoquines (2015/2016), guia de rehabilitacion (2022) y metodo racional con DEPAV. No se confirmo una actualizacion 2023.",
+    "pais": "CO",
+    "estado": "parcial",
+    "fuentes": [
+      "f_col_racional"
+    ],
+    "tags": [
+      "latam"
+    ]
+  },
+  {
+    "id": "in_sapdm",
+    "tipo": "metodo",
+    "nombre": "South African Pavement Design Method (SAPDM)",
+    "descripcion": "No se obtuvo informacion en la busqueda.",
+    "pais": "ZA",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "in_issa143",
+    "tipo": "norma",
+    "nombre": "ISSA A143 Micropavimento con polimero",
+    "descripcion": "Guia de diseno, ensayo, control de calidad y pago. Revision 2010 (algunas agencias citan 2005). Peru la usa junto con EG-2013.",
+    "pais": "US",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_issa_a143"
+    ],
+    "tags": [
+      "micropavimento"
+    ]
+  },
+  {
+    "id": "in_issa105",
+    "tipo": "norma",
+    "nombre": "ISSA A105 Slurry seal emulsionado (rev. 2020)",
+    "descripcion": "Guia para sellos con lechada asfaltica; no es especificacion verbatim.",
+    "pais": "US",
+    "estado": "parcial",
+    "fuentes": [
+      "f_issa_a105"
+    ],
+    "tags": [
+      "micropavimento"
+    ]
+  },
+  {
+    "id": "in_aci330",
+    "tipo": "norma",
+    "nombre": "ACI 330 / ACI 363",
+    "descripcion": "ACI 363 se usa en la correlacion peruana Mr = a * raiz(f'c), a entre 1.99 y 3.18.",
+    "pais": "US",
+    "estado": "parcial",
+    "fuentes": [
+      "f_udep_rigido"
+    ],
+    "tags": [
+      "rigido"
+    ]
+  },
+  {
+    "id": "in_iso14040",
+    "tipo": "norma",
+    "nombre": "ISO 14040 / 14044 (Analisis de Ciclo de Vida)",
+    "descripcion": "Marco metodologico de ACV usado en estudios de mezclas con RAP y WMA.",
+    "pais": "INT",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_lca_chile"
+    ],
+    "tags": [
+      "sostenibilidad"
+    ]
+  },
+  {
+    "id": "m_estructural",
+    "tipo": "concepto",
+    "nombre": "Diseno estructural de pavimentos",
+    "descripcion": "Determinar espesores de capas para resistir trafico y clima durante el periodo de diseno.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "t_flexible",
+    "tipo": "tipo_pavimento",
+    "nombre": "Pavimento flexible (asfaltico)",
+    "descripcion": "Capas granulares y carpeta asfaltica; transmite cargas por distribucion.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "t_rigido",
+    "tipo": "tipo_pavimento",
+    "nombre": "Pavimento rigido (concreto)",
+    "descripcion": "Losa de concreto; transmite cargas por flexion de losa. Periodo minimo 20 anos segun el manual MTC (segun fuente secundaria).",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "t_semirrigido",
+    "tipo": "tipo_pavimento",
+    "nombre": "Pavimento semirrigido",
+    "descripcion": "Capas estabilizadas con cemento o cal bajo carpeta asfaltica.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "t_articulado",
+    "tipo": "tipo_pavimento",
+    "nombre": "Pavimento articulado (adoquines)",
+    "descripcion": "Piezas de concreto intertrabadas; comun en vias urbanas.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "t_tsb",
+    "tipo": "tipo_pavimento",
+    "nombre": "Tratamiento superficial bicapa",
+    "descripcion": "Capa delgada de riego y agregado en vias de bajo transito.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "t_micro",
+    "tipo": "tipo_pavimento",
+    "nombre": "Micropavimento",
+    "descripcion": "Mortero asfaltico delgado con emulsion modificada con polimero; el catalogo peruano trae 2.5 cm sobre base granular, tipo III (segun el resumen del usuario, por verificar).",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "t_slurry",
+    "tipo": "tipo_pavimento",
+    "nombre": "Slurry seal",
+    "descripcion": "Sello de lechada asfaltica para rejuvenecer y sellar.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "t_permeable",
+    "tipo": "tipo_pavimento",
+    "nombre": "Pavimento permeable",
+    "descripcion": "Gestiona aguas pluviales; el diseno combina criterio hidrologico y estructural. No regulado para alto transito en la norma peruana (segun el resumen del usuario, por verificar).",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "t_noPav",
+    "tipo": "tipo_pavimento",
+    "nombre": "Camino no pavimentado / afirmado",
+    "descripcion": "Soluciones basicas en carreteras no pavimentadas de bajo volumen.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "c_carpeta",
+    "tipo": "capa",
+    "nombre": "Carpeta asfaltica / losa",
+    "descripcion": "Capa superficial.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "c_base",
+    "tipo": "capa",
+    "nombre": "Base",
+    "descripcion": "Capa granular o estabilizada bajo la carpeta.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "c_subbase",
+    "tipo": "capa",
+    "nombre": "Subbase",
+    "descripcion": "Capa de transicion economica.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "c_subrasante",
+    "tipo": "capa",
+    "nombre": "Subrasante",
+    "descripcion": "Suelo de fundacion; se caracteriza por CBR y modulo resiliente.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "c_mejoramiento",
+    "tipo": "capa",
+    "nombre": "Mejoramiento / estabilizacion de subrasante",
+    "descripcion": "Cal, cemento, geosinteticos o reemplazo de suelo cuando la subrasante es pobre.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "c_drenaje",
+    "tipo": "capa",
+    "nombre": "Drenaje del pavimento",
+    "descripcion": "Coeficiente de drenaje m en AASHTO 93; agua es la primera causa de deterioro.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_ee",
+    "tipo": "parametro",
+    "nombre": "EE / ESAL - Ejes equivalentes",
+    "descripcion": "Trafico en ejes simples equivalentes de 80 kN (8.2 t, 18 kips) para el carril y periodo de diseno.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_udep_rigido"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_imda",
+    "tipo": "parametro",
+    "nombre": "IMDA - Indice medio diario anual",
+    "descripcion": "Volumen de trafico base; con % de pesados y factor de crecimiento.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_fc",
+    "tipo": "parametro",
+    "nombre": "Factor camion / factor de dano por eje",
+    "descripcion": "Convierte cada configuracion vehicular en EE. Depende del Anexo IV de pesos.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_ds006_2014"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_crec",
+    "tipo": "parametro",
+    "nombre": "Factor de crecimiento y de carril/direccion",
+    "descripcion": "Proyeccion de trafico en el periodo de diseno.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_cbr",
+    "tipo": "parametro",
+    "nombre": "CBR de subrasante",
+    "descripcion": "Indice de soporte; se mide segun el Manual de Ensayo de Materiales.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_catsub",
+    "tipo": "parametro",
+    "nombre": "Categorias de subrasante (S0 a S5)",
+    "descripcion": "Clasificacion de subrasante por CBR en el manual MTC. Rangos exactos por verificar.",
+    "pais": "",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_mr",
+    "tipo": "parametro",
+    "nombre": "Modulo resiliente Mr",
+    "descripcion": "Rigidez de la subrasante; en MTC se correlaciona con CBR.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_sn",
+    "tipo": "parametro",
+    "nombre": "SN - Numero estructural",
+    "descripcion": "Resultado de AASHTO 93 para flexibles.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_udep_rigido"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_a",
+    "tipo": "parametro",
+    "nombre": "Coeficientes estructurales a1, a2, a3",
+    "descripcion": "Aporte por pulgada de cada capa al SN.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_m",
+    "tipo": "parametro",
+    "nombre": "Coeficientes de drenaje m",
+    "descripcion": "Ajustan a2 y a3 segun calidad de drenaje y exposicion a humedad.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_r",
+    "tipo": "parametro",
+    "nombre": "Confiabilidad R y desviacion estandar So",
+    "descripcion": "El manual MTC presenta tablas para ambos. Valores por verificar. En licitaciones se observa el sustento de R.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_uni_fabian"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_psi",
+    "tipo": "parametro",
+    "nombre": "Serviciabilidad inicial/final y delta PSI",
+    "descripcion": "Perdida admisible de serviciabilidad.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_periodo",
+    "tipo": "parametro",
+    "nombre": "Periodo de diseno",
+    "descripcion": "Manual MTC: rigidos con minimo de 20 anos (fuente secundaria); tesis comparan 10 y 25 anos.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_udep_rigido",
+      "f_uni_fabian"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_mrconcreto",
+    "tipo": "parametro",
+    "nombre": "Modulo de rotura Mr del concreto",
+    "descripcion": "ASTM C78; correlacion Mr = a raiz(f'c) con a de 1.99 a 3.18 (ACI 363).",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_udep_rigido"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_j",
+    "tipo": "parametro",
+    "nombre": "Coeficiente de transferencia de carga J",
+    "descripcion": "Ejemplo J = 3.2 con hombros asfalticos y pasadores (tesis). Por verificar en el manual.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_udep_rigido"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_k",
+    "tipo": "parametro",
+    "nombre": "Modulo de reaccion k",
+    "descripcion": "Soporte de la losa por subrasante/subbase.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_dowels",
+    "tipo": "parametro",
+    "nombre": "Juntas, pasadores y barras de union",
+    "descripcion": "Control de agrietamiento y transferencia de carga en losas.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_udep_rigido"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_estar",
+    "tipo": "parametro",
+    "nombre": "Modulo dinamico E* de mezcla asfaltica",
+    "descripcion": "Entrada de la MEPDG; depende de temperatura y frecuencia.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_aashto_journal"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_clima",
+    "tipo": "parametro",
+    "nombre": "Clima (modelo climatico integrado)",
+    "descripcion": "Temperatura y humedad por hora; entrada de MEPDG; AASHTO 93 no lo trata de forma directa.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_fwd",
+    "tipo": "parametro",
+    "nombre": "Deflectometria FWD y retrocalculo",
+    "descripcion": "Evaluacion estructural y rehabilitacion.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_calib_ky"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_dano",
+    "tipo": "parametro",
+    "nombre": "Acumulacion de dano (Miner) y funciones de transferencia",
+    "descripcion": "Relacion entre esfuerzo/deformacion y distresos.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_colas_comp"
+    ],
+    "tags": []
+  },
+  {
+    "id": "p_iri",
+    "tipo": "parametro",
+    "nombre": "IRI, ahuellamiento, agrietamiento por fatiga y reflejo",
+    "descripcion": "Indicadores de desempeno predichos por M-E.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_calib_ok",
+      "f_calib_ncat"
+    ],
+    "tags": []
+  },
+  {
+    "id": "tec_rap",
+    "tipo": "tecnologia",
+    "nombre": "RAP - Asfalto reciclado",
+    "descripcion": "Mezclas con alto contenido de RAP; un modelo con hasta 93% RAP estima 55-64% menos huella por tonelada.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_lca_rap"
+    ],
+    "tags": []
+  },
+  {
+    "id": "tec_rca",
+    "tipo": "tecnologia",
+    "nombre": "RCA - Agregado de concreto reciclado",
+    "descripcion": "Reduce emisiones segun el resumen del usuario (65%); cifra por verificar con fuente.",
+    "pais": "",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "tec_wma",
+    "tipo": "tecnologia",
+    "nombre": "Mezclas tibias (WMA)",
+    "descripcion": "Menor temperatura de produccion; un estudio chileno con RAP y zeolita halla 8% menos calentamiento global frente a HMA con RAP.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_lca_chile",
+      "f_lca_santos"
+    ],
+    "tags": []
+  },
+  {
+    "id": "tec_caucho",
+    "tipo": "tecnologia",
+    "nombre": "Asfalto modificado con caucho",
+    "descripcion": "Incluido en Austroads segun el resumen del usuario; por verificar.",
+    "pais": "",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "tec_polimero",
+    "tipo": "tecnologia",
+    "nombre": "Emulsion modificada con polimero (CQS-1hp)",
+    "descripcion": "Ligante de micropavimento segun ISSA A143.",
+    "pais": "",
+    "estado": "parcial",
+    "fuentes": [
+      "f_issa_a143"
+    ],
+    "tags": []
+  },
+  {
+    "id": "tec_scm",
+    "tipo": "tecnologia",
+    "nombre": "Concreto con SCM (ceniza volante) y fibras",
+    "descripcion": "Pavimentos rigidos sostenibles.",
+    "pais": "",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "tec_acv",
+    "tipo": "tecnologia",
+    "nombre": "Analisis de Ciclo de Vida (ACV)",
+    "descripcion": "ISO 14040/14044; unidad funcional tipica: 1 t de mezcla o 1 km de via.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_lca_chile",
+      "f_lca_rap"
+    ],
+    "tags": []
+  },
+  {
+    "id": "tec_cal",
+    "tipo": "tecnologia",
+    "nombre": "Calibracion local de modelos de deterioro",
+    "descripcion": "Estudios en Kentucky, Oklahoma, NCAT y Quebec muestran que los modelos nacionales tienen sesgo y que la calibracion lo reduce; el IRI no siempre valida.",
+    "pais": "",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_calib_ky",
+      "f_calib_ok",
+      "f_calib_ncat",
+      "f_calib_qc"
+    ],
+    "tags": []
+  },
+  {
+    "id": "x_clima",
+    "tipo": "contexto",
+    "nombre": "Regiones climaticas peruanas: costa, sierra, selva",
+    "descripcion": "Heladas altoandinas, lluvias en selva, sales y arenas en costa; datos de SENAMHI (por verificar).",
+    "pais": "PE",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "x_nino",
+    "tipo": "contexto",
+    "nombre": "Fenomeno El Nino y drenaje",
+    "descripcion": "Riesgo de deterioro por agua en la costa norte.",
+    "pais": "PE",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "x_suelos",
+    "tipo": "contexto",
+    "nombre": "Suelos problematicos (expansivos, colapsables, salinos)",
+    "descripcion": "Casos en que AASHTO 93 se queda corto segun el resumen del usuario.",
+    "pais": "PE",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "x_seace",
+    "tipo": "contexto",
+    "nombre": "Expedientes en SEACE y observaciones de revisores",
+    "descripcion": "Observaciones frecuentes: sustento de R y So, EE, CBR representativo.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "x_firma",
+    "tipo": "contexto",
+    "nombre": "Memoria de predimensionamiento (requiere firma de ingeniero colegiado)",
+    "descripcion": "Condicion del producto web.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "b_metodo",
+    "tipo": "brecha",
+    "nombre": "Brecha: metodo empirico vs mecanicista",
+    "descripcion": "MTC usa AASHTO 93; EE. UU. (MEPDG), Australia, UK, Francia y Brasil (MeDiNa) usan analisis mecanicista.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_usil_me",
+      "f_aashto_journal"
+    ],
+    "tags": []
+  },
+  {
+    "id": "b_clima",
+    "tipo": "brecha",
+    "nombre": "Brecha: clima",
+    "descripcion": "AASHTO 93 no modela clima por hora ni propiedades dependientes de temperatura.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_usil_me",
+      "f_aashto_journal"
+    ],
+    "tags": []
+  },
+  {
+    "id": "b_calib",
+    "tipo": "brecha",
+    "nombre": "Brecha: calibracion local",
+    "descripcion": "Un metodo M-E exige calibrar funciones de transferencia con datos peruanos de desempeno.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_usil_me",
+      "f_aashto_journal"
+    ],
+    "tags": []
+  },
+  {
+    "id": "b_mat",
+    "tipo": "brecha",
+    "nombre": "Brecha: materiales modernos",
+    "descripcion": "RAP alto, WMA, caucho y SCM tratados de forma basica en la norma peruana (por verificar).",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_usil_me",
+      "f_aashto_journal"
+    ],
+    "tags": []
+  },
+  {
+    "id": "b_acv",
+    "tipo": "brecha",
+    "nombre": "Brecha: sostenibilidad y ACV",
+    "descripcion": "La norma peruana no exige ACV; practica internacional creciente.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_usil_me",
+      "f_aashto_journal"
+    ],
+    "tags": []
+  },
+  {
+    "id": "b_rehab",
+    "tipo": "brecha",
+    "nombre": "Brecha: rehabilitacion y reflejo de grietas",
+    "descripcion": "MEPDG 3a ed. agrega modelo de fractura para agrietamiento reflejo.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_usil_me",
+      "f_aashto_journal"
+    ],
+    "tags": []
+  },
+  {
+    "id": "v_otros",
+    "tipo": "via_consulta",
+    "nombre": "Via normativa: otros modelos con aceptacion previa del MTC",
+    "descripcion": "El manual MTC permite a los proyectistas usar otros modelos de reconocida procedencia tecnica institucional con aceptacion previa del MTC. Es la puerta para proponer M-E. Texto literal por verificar.",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_usil_me"
+    ],
+    "tags": []
+  },
+  {
+    "id": "v_urbano",
+    "tipo": "via_consulta",
+    "nombre": "Via urbana: consulta a MVCS / entidad contratante",
+    "descripcion": "Para vias urbanas el marco es CE.010 y la entidad municipal; la consulta formal debe hacerse a la entidad y/o MVCS. Por verificar el mecanismo.",
+    "pais": "PE",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "v_contrata",
+    "tipo": "via_consulta",
+    "nombre": "Via contratacion: absolucion de consultas y observaciones",
+    "descripcion": "En el procedimiento de seleccion se pueden consultar y observar bases y expediente; el proyectista debe sustentar desvios de la norma.",
+    "pais": "PE",
+    "estado": "por_verificar",
+    "fuentes": [
+      "f_manual_general"
+    ],
+    "tags": []
+  }
+]
