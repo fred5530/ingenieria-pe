@@ -4,7 +4,7 @@
     "titulo": "Normas de infraestructura vial y transporte terrestre (listado MTC en gob.pe)",
     "url": "https://cdn.www.gob.pe/uploads/document/file/5073951/4594406-normas-de-infraestructura-vial-y-transporte-terrestre-dpntra%282%29.pdf",
     "tipo": "oficial",
-    "nota": "Listado citado por buscador; el PDF NO pudo abrirse desde la sesion (host no permitido). Numeros de RD tomados del resumen del buscador.",
+    "nota": "PDF leido el 2026-11-20 (3 paginas, DPNTRA). Confirma numeros de RD de los manuales de carreteras.",
     "consultado": "2026-11-19"
   },
   {
@@ -269,6 +269,22 @@
     "url": "",
     "tipo": "conocimiento",
     "nota": "Usada solo para estructura conceptual; sin cifras normativas.",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_gobpe_rd10",
+    "titulo": "gob.pe - Resolucion Directoral N. 10-2014-MTC/14 (ficha oficial)",
+    "url": "https://www.gob.pe/institucion/mtc/normas-legales/4441297-10-2014-mtc-14",
+    "tipo": "oficial",
+    "nota": "Leida. El manual completo (Version libro, 301 pags) esta enlazado a Google Drive; NO pudo descargarse (bloqueado por permisos).",
+    "consultado": "2026-11-19"
+  },
+  {
+    "id": "f_gobpe_coleccion",
+    "titulo": "gob.pe - Normas complementarias para Infraestructura Vial (coleccion MTC)",
+    "url": "https://www.gob.pe/institucion/mtc/colecciones/23260-normas-complementarias-para-infraestructura-vial",
+    "tipo": "oficial",
+    "nota": "Leida.",
     "consultado": "2026-11-19"
   }
 ]

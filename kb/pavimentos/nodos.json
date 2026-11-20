@@ -159,10 +159,11 @@
     "id": "pe_suelos",
     "tipo": "norma",
     "nombre": "Manual de Carreteras: Suelos, Geologia, Geotecnia y Pavimentos (RD 10-2014-MTC/14)",
-    "descripcion": "Norma de diseno estructural de pavimentos de carreteras. Base AASHTO 93. Admite otros modelos de reconocida procedencia con aceptacion previa del MTC. Algunas tesis citan edicion 2013 (primera version).",
+    "descripcion": "Manual de Carreteras: Suelos, Geologia, Geotecnia y Pavimentos. RD 10-2014-MTC/14 (9-abr-2014) aprueba la version a abril 2014 de la Seccion Suelos y Pavimentos (anexo de 301 paginas). Por el art. 18 del Reglamento Nacional de Gestion de Infraestructura Vial es documento normativo y de cumplimiento obligatorio. Base AASHTO 93. Admite otros modelos de reconocida procedencia con aceptacion previa del MTC (segun fuentes secundarias; clausula literal sin leer).",
     "pais": "PE",
     "estado": "confirmado",
     "fuentes": [
+      "f_gobpe_rd10",
       "f_mtc_normas",
       "f_usil_me",
       "f_uni_fabian"
@@ -182,7 +183,10 @@
         "Catalogos de estructuras",
         "Coeficientes estructurales",
         "Coeficientes de drenaje"
-      ]
+      ],
+      "fecha_aprobacion": "2014-04-09",
+      "caracter": "normativo, cumplimiento obligatorio (art. 18 RNGIV)",
+      "texto_completo": "NO LEIDO: enlazado a Google Drive; descarga bloqueada"
     }
   },
   {
@@ -217,10 +221,10 @@
   {
     "id": "pe_mant",
     "tipo": "norma",
-    "nombre": "Manual de Mantenimiento o Conservacion Vial (RD 05-2016-MTC/14)",
-    "descripcion": "Conservacion rutinaria y periodica. Numero de RD segun guia MEF; hay referencias a versiones previas (RD 008-2014).",
+    "nombre": "Manual de Carreteras: Mantenimiento o Conservacion Vial y Parte IV (RD 05-2016-MTC/14)",
+    "descripcion": "Conservacion rutinaria y periodica. Titulo y numero segun listado oficial MTC.",
     "pais": "PE",
-    "estado": "parcial",
+    "estado": "confirmado",
     "fuentes": [
       "f_mtc_normas"
     ],
@@ -232,9 +236,9 @@
     "id": "pe_inv",
     "tipo": "norma",
     "nombre": "Manual de Inventarios Viales (RD 22-2015-MTC/14)",
-    "descripcion": "Inventario y estado de la red vial. El numero de RD aparece con discrepancias en las fuentes.",
+    "descripcion": "Manual de Inventarios Viales y Parte IV, RD 22-2015-MTC/14 segun listado oficial MTC.",
     "pais": "PE",
-    "estado": "parcial",
+    "estado": "confirmado",
     "fuentes": [
       "f_mtc_normas"
     ],
@@ -248,7 +252,8 @@
     "pais": "PE",
     "estado": "confirmado",
     "fuentes": [
-      "f_sni_dg2018"
+      "f_sni_dg2018",
+      "f_mtc_normas"
     ],
     "tags": [
       "vigente"
@@ -258,9 +263,9 @@
     "id": "pe_dcta",
     "tipo": "norma",
     "nombre": "Manual de Dispositivos de Control del Transito Automotor (RD 26-2024-MTC/18)",
-    "descripcion": "Senalizacion; el numero proviene de un unico resumen.",
+    "descripcion": "Manual de Dispositivos de Control de Transito Automotor, RD 26-2024-MTC/18 segun listado oficial MTC.",
     "pais": "PE",
-    "estado": "parcial",
+    "estado": "confirmado",
     "fuentes": [
       "f_mtc_normas"
     ],
@@ -304,10 +309,11 @@
     "id": "pe_jerarq",
     "tipo": "norma",
     "nombre": "Reglamento de Jerarquizacion Vial (DS 017-2007-MTC, modificado)",
-    "descripcion": "Clasifica las vias en nacional, departamental y vecinal. Dato de memoria; no verificado en esta sesion.",
+    "descripcion": "El listado oficial del MTC incluye el Reglamento de Jerarquizacion Vial (sin numero en el listado). El DS 017-2007-MTC es dato de memoria, no verificado.",
     "pais": "PE",
-    "estado": "por_verificar",
+    "estado": "parcial",
     "fuentes": [
+      "f_mtc_normas",
       "f_manual_general"
     ],
     "tags": []
@@ -1341,6 +1347,104 @@
     "estado": "por_verificar",
     "fuentes": [
       "f_manual_general"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_hidro",
+    "tipo": "norma",
+    "nombre": "Manual de Carreteras: Hidrologia, Hidraulica y Drenaje (RD 20-2011-MTC/14)",
+    "descripcion": "Drenaje superficial y subterraneo de la via; relacionado con el coeficiente de drenaje m.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": [
+      "vigente"
+    ]
+  },
+  {
+    "id": "pe_tuneles",
+    "tipo": "norma",
+    "nombre": "Manual de Carreteras: Tuneles, Muros y Obras Complementarias (RD 36-2016-MTC/14)",
+    "descripcion": "Obras complementarias.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_puentes",
+    "tipo": "norma",
+    "nombre": "Manual de Carreteras: Puentes (RD 19-2018-MTC/14)",
+    "descripcion": "Fuera del alcance de pavimentos; incluido por completitud.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_segvial",
+    "tipo": "norma",
+    "nombre": "Manual de Carreteras: Seguridad Vial (RD 05-2017-MTC/14)",
+    "descripcion": "Seguridad vial; relacion con friccion y textura de la superficie.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_its",
+    "tipo": "norma",
+    "nombre": "Manual de Sistemas Inteligentes de Transportes para la Infraestructura Vial (RD 017-2020-MTC/18 DGPRTM)",
+    "descripcion": "Incluye infraestructura de conteo y pesaje (relevancia para trafico: por verificar).",
+    "pais": "PE",
+    "estado": "parcial",
+    "fuentes": [
+      "f_mtc_normas"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_sb2015",
+    "tipo": "norma",
+    "nombre": "Soluciones Basicas en Carreteras No Pavimentadas (RD 003-2015-MTC/14)",
+    "descripcion": "Documento tecnico con caracter normativo para carreteras no pavimentadas.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_gobpe_coleccion"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_estab2005",
+    "tipo": "norma",
+    "nombre": "Directiva 007-2005-MTC/14 Evaluacion de la Aplicabilidad de Estabilizadores de Suelos (RD 073-2005-MTC/14)",
+    "descripcion": "Procedimiento para evaluar estabilizadores de suelos; relacionado con mejoramiento de subrasante.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_gobpe_coleccion"
+    ],
+    "tags": []
+  },
+  {
+    "id": "pe_glosario",
+    "tipo": "norma",
+    "nombre": "Glosario de Terminos de Uso Frecuente en Proyectos de Infraestructura Vial (RD 002-2018-MTC/14) y Glosario de Partidas (RD 017-2012-MTC/14)",
+    "descripcion": "Terminologia y partidas estandar para proyectos viales.",
+    "pais": "PE",
+    "estado": "confirmado",
+    "fuentes": [
+      "f_gobpe_coleccion"
     ],
     "tags": []
   }

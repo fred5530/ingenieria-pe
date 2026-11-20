@@ -916,5 +916,83 @@
     "relacion": "dato_de",
     "destino": "x_suelos",
     "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_hidro",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_tuneles",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_puentes",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_segvial",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_its",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_sb2015",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_estab2005",
+    "nota": ""
+  },
+  {
+    "origen": "e_mtc",
+    "relacion": "publica_o_regula",
+    "destino": "pe_glosario",
+    "nota": ""
+  },
+  {
+    "origen": "pe_hidro",
+    "relacion": "complementa",
+    "destino": "pe_suelos",
+    "nota": ""
+  },
+  {
+    "origen": "pe_hidro",
+    "relacion": "define",
+    "destino": "p_m",
+    "nota": "relacion por verificar"
+  },
+  {
+    "origen": "pe_sb2015",
+    "relacion": "aplica_a",
+    "destino": "t_noPav",
+    "nota": ""
+  },
+  {
+    "origen": "pe_estab2005",
+    "relacion": "aplica_a",
+    "destino": "c_mejoramiento",
+    "nota": ""
+  },
+  {
+    "origen": "pe_its",
+    "relacion": "complementa",
+    "destino": "p_imda",
+    "nota": "conteo y pesaje, por verificar"
   }
 ]
