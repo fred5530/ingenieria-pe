@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pavimentos | Base de conocimiento ingenierIA.pe</title>
+<meta name="description" content="Mapa conceptual de la normativa peruana de diseño de pavimentos y su contraste con normativa internacional.">
+<link rel="icon" type="image/png" href="../assets/img/simbolo.png">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0D0D0D;--panel:#161616;--line:#2c2c2c;--tx:#f2f2f2;--mut:#9a9a9a;--red:#E5513D;--ok:#6fcf97;--par:#f2c94c;--ver:#e5513d}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 15px/22px "DM Sans",system-ui,sans-serif}
+a{color:var(--red)}
+header{padding:16px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+header img{height:30px;width:auto}
+header h1{font-size:17px;margin:0;font-weight:700}
+header .back{margin-left:auto;font-size:14px}
+nav{display:flex;gap:6px;padding:10px 16px;border-bottom:1px solid var(--line);overflow-x:auto}
+nav button{background:none;border:1px solid var(--line);color:var(--mut);padding:7px 14px;border-radius:99px;cursor:pointer;font:inherit;white-space:nowrap}
+nav button[aria-selected=true]{background:var(--tx);color:#000;border-color:var(--tx)}
+.wrap{padding:16px;max-width:1400px;margin:0 auto}
+.aviso{background:#241a18;border:1px solid #4a2a24;border-radius:10px;padding:12px 14px;color:#f1c4bb;margin-bottom:14px;font-size:14px}
+.map{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:980px){.map{grid-template-columns:1fr 340px}}
+.tools{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;align-items:center}
+.tools input[type=search]{background:var(--panel);border:1px solid var(--line);color:var(--tx);padding:8px 12px;border-radius:8px;font:inherit;min-width:200px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);padding:4px 10px;border-radius:99px;font-size:13px;cursor:pointer;user-select:none}
+.chip i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.chip.off{opacity:.35}
+#svgbox{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;height:68vh;min-height:420px;touch-action:none}
+svg{width:100%;height:100%;display:block}
+.link{stroke:#444;stroke-opacity:.6}
+.link.hi{stroke:var(--red);stroke-opacity:1}
+.nd circle{stroke-width:2}
+.nd text{fill:#ddd;font-size:10px;pointer-events:none;paint-order:stroke;stroke:#161616;stroke-width:3px}
+.nd.dim{opacity:.12}
+.nd.minor text{display:none}
+.nd.minor.near text{display:block}
+.side{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;max-height:68vh;min-height:200px;overflow:auto}
+.side h2{font-size:16px;margin:0 0 4px}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid var(--line);color:var(--mut);margin-right:4px}
+.st-confirmado{color:var(--ok);border-color:var(--ok)}.st-parcial{color:var(--par);border-color:var(--par)}.st-por_verificar{color:var(--ver);border-color:var(--ver)}
+.side ul{padding-left:18px;margin:6px 0}
+.side li button{background:none;border:0;color:var(--red);cursor:pointer;font:inherit;padding:0;text-align:left}
+.leg{font-size:12px;color:var(--mut);margin-top:8px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border:1px solid var(--line);padding:10px;vertical-align:top;text-align:left}
+th{background:var(--panel);position:sticky;top:0}
+.tbl{overflow-x:auto}
+.tbl td:first-child{font-weight:700;min-width:130px}
+td.nod button{background:none;border:1px solid var(--line);color:var(--mut);border-radius:99px;font-size:12px;padding:1px 8px;margin:2px;cursor:pointer}
+ol li,.srcs li{margin:6px 0}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <img src="../assets/img/logo-oscuro.png" alt="ingenierIA.pe" width="120" height="32">
+  <h1>Pavimentos: normativa peruana vs internacional</h1>
+  <a class="back" href="./">Diseñar un pavimento</a>
+  <a href="../">Inicio</a>
+</header>
+<nav role="tablist" id="tabs">
+  <button role="tab" aria-selected="true" data-t="mapa">Mapa conceptual</button>
+  <button role="tab" aria-selected="false" data-t="contraste">Contraste Perú vs mundo</button>
+  <button role="tab" aria-selected="false" data-t="pend">Por verificar</button>
+  <button role="tab" aria-selected="false" data-t="fuentes">Fuentes</button>
+</nav>
+<div class="wrap">
+  <div class="aviso">Base en construcción. Cada ficha lleva su estado: <b>confirmado</b>, <b>parcial</b> o <b>por verificar</b>. No contiene cifras normativas que no se hayan leído del texto oficial. Es material de referencia, no un documento de diseño.</div>
+
+  <section id="t-mapa">
+    <div class="tools" id="filters"><input type="search" id="q" placeholder="Buscar nodo (ej. AASHTO, CBR, MeDiNa)" aria-label="Buscar nodo"></div>
+    <div class="map">
+      <div id="svgbox"><svg id="g" role="img" aria-label="Grafo de conocimiento de pavimentos"></svg></div>
+      <aside class="side" id="side"><p style="color:var(--mut)">Toca un nodo para ver su ficha, fuentes y conexiones. Arrastra para mover, rueda o pellizco para acercar.</p></aside>
+    </div>
+    <p class="leg">Borde continuo: confirmado · borde amarillo: parcial · borde rojo discontinuo: por verificar.</p>
+  </section>
+
+  <section id="t-contraste" hidden>
+    <div class="tbl"><table id="ctab"><thead><tr><th>Dimensión</th><th>Perú (MTC / RNE)</th><th>Internacional</th><th>Brecha</th><th>¿Se puede aplicar o consultar?</th><th>Nodos</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section id="t-pend" hidden><h2>Pendiente de verificar con el texto oficial</h2><ol id="plist"></ol></section>
+  <section id="t-fuentes" hidden><h2>Fuentes consultadas</h2><ul class="srcs" id="flist"></ul></section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+(function(){
+"use strict";
+var COL={norma:"#E5513D",metodo:"#4f9dff",entidad:"#b08cff",parametro:"#6fcf97",tipo_pavimento:"#f2994a",capa:"#c9a66b",tecnologia:"#2dd4bf",contexto:"#9aa5b1",brecha:"#ff6fae",via_consulta:"#ffd24a",concepto:"#ffffff"};
+var LBL={norma:"Norma",metodo:"Método",entidad:"Entidad",parametro:"Parámetro",tipo_pavimento:"Tipo de pavimento",capa:"Capa",tecnologia:"Tecnología",contexto:"Contexto PE",brecha:"Brecha",via_consulta:"Vía de consulta",concepto:"Concepto"};
+var STC={confirmado:"#6fcf97",parcial:"#f2c94c",por_verificar:"#e5513d"};
+var D="../kb/pavimentos/", data={}, off={}, sel=null;
+
+function J(f){return fetch(D+f).then(function(r){if(!r.ok)throw new Error(f);return r.json();});}
+Promise.all([J("nodos.json"),J("aristas.json"),J("contraste.json"),J("fuentes.json"),J("pendientes.json")]).then(function(a){
+  data={n:a[0],e:a[1],c:a[2],f:a[3],p:a[4]};
+  data.byId={};data.n.forEach(function(x){data.byId[x.id]=x;});
+  data.fById={};data.f.forEach(function(x){data.fById[x.id]=x;});
+  init();
+}).catch(function(err){
+  document.getElementById("side").textContent="No se pudieron cargar los datos ("+err.message+"). Abre la página desde un servidor (GitHub Pages) y no como archivo local.";
+});
+
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+
+function init(){
+  tabs();filters();graph();contraste();lists();
+}
+
+function tabs(){
+  var bs=document.querySelectorAll("#tabs button");
+  bs.forEach(function(b){b.addEventListener("click",function(){
+    bs.forEach(function(x){x.setAttribute("aria-selected",x===b);});
+    ["mapa","contraste","pend","fuentes"].forEach(function(t){document.getElementById("t-"+t).hidden=(t!==b.dataset.t);});
+  });});
+}
+
+function filters(){
+  var box=document.getElementById("filters");
+  Object.keys(LBL).forEach(function(t){
+    var c=document.createElement("span");c.className="chip";c.tabIndex=0;c.setAttribute("role","button");
+    c.innerHTML='<i style="background:'+COL[t]+'"></i>'+LBL[t];
+    function tg(){off[t]=!off[t];c.classList.toggle("off",off[t]);apply();}
+    c.addEventListener("click",tg);c.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();tg();}});
+    box.appendChild(c);
+  });
+  document.getElementById("q").addEventListener("input",apply);
+}
+
+var nodeSel,linkSel,sim;
+function graph(){
+  var svg=d3.select("#g"),box=document.getElementById("svgbox");
+  var W=box.clientWidth,H=box.clientHeight;
+  var gz=svg.append("g");
+  svg.call(d3.zoom().scaleExtent([.2,4]).on("zoom",function(ev){gz.attr("transform",ev.transform);}));
+  var nodes=data.n.map(function(x){return Object.assign({},x);});
+  var map={};nodes.forEach(function(x){map[x.id]=x;});
+  var links=data.e.map(function(x){return{source:x.origen,target:x.destino,rel:x.relacion};});
+  linkSel=gz.append("g").selectAll("line").data(links).join("line").attr("class","link");
+  nodeSel=gz.append("g").selectAll("g").data(nodes).join("g").attr("class",function(d){return["norma","metodo","brecha","via_consulta","concepto"].indexOf(d.tipo)>-1?"nd":"nd minor";}).style("cursor","pointer");
+  nodeSel.append("circle").attr("r",function(d){return d.tipo==="concepto"?13:(d.tipo==="norma"||d.tipo==="metodo"?9:7);})
+    .attr("fill",function(d){return COL[d.tipo];}).attr("stroke",function(d){return STC[d.estado];})
+    .attr("stroke-dasharray",function(d){return d.estado==="por_verificar"?"3 2":null;});
+  nodeSel.append("text").attr("dx",11).attr("dy",3).text(function(d){var t=d.nombre;return t.length>34?t.slice(0,32)+"…":t;});
+  nodeSel.on("click",function(ev,d){ev.stopPropagation();show(d.id);});
+  svg.on("click",function(){show(null);});
+  sim=d3.forceSimulation(nodes).force("link",d3.forceLink(links).id(function(d){return d.id;}).distance(75).strength(.45))
+    .force("charge",d3.forceManyBody().strength(-260)).force("center",d3.forceCenter(W/2,H/2)).force("collide",d3.forceCollide(16));
+  sim.on("tick",function(){
+    linkSel.attr("x1",function(d){return d.source.x;}).attr("y1",function(d){return d.source.y;}).attr("x2",function(d){return d.target.x;}).attr("y2",function(d){return d.target.y;});
+    nodeSel.attr("transform",function(d){return "translate("+d.x+","+d.y+")";});
+  });
+  nodeSel.call(d3.drag().on("start",function(ev,d){if(!ev.active)sim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y;})
+    .on("drag",function(ev,d){d.fx=ev.x;d.fy=ev.y;}).on("end",function(ev,d){if(!ev.active)sim.alphaTarget(0);d.fx=null;d.fy=null;}));
+}
+
+function visible(d){
+  if(off[d.tipo])return false;
+  var q=document.getElementById("q").value.trim().toLowerCase();
+  return !q||d.nombre.toLowerCase().indexOf(q)>-1||(d.descripcion||"").toLowerCase().indexOf(q)>-1;
+}
+function apply(){
+  var q=document.getElementById("q").value.trim();
+  nodeSel.classed("near",function(d){return !!sel&&near(sel,d.id);});
+  nodeSel.classed("dim",function(d){return !visible(d)||(sel&&!near(sel,d.id));});
+  linkSel.attr("display",function(l){return(off[l.source.tipo]||off[l.target.tipo])?"none":null;});
+  linkSel.classed("hi",function(l){return sel&&(l.source.id===sel||l.target.id===sel);});
+}
+function near(a,b){
+  if(a===b)return true;
+  return data.e.some(function(x){return(x.origen===a&&x.destino===b)||(x.origen===b&&x.destino===a);});
+}
+
+function show(id){
+  sel=id;apply();
+  var s=document.getElementById("side");
+  if(!id){s.innerHTML='<p style="color:var(--mut)">Toca un nodo para ver su ficha.</p>';return;}
+  var d=data.byId[id],h='<h2>'+esc(d.nombre)+'</h2>';
+  h+='<span class="tag">'+esc(LBL[d.tipo]||d.tipo)+'</span>'+(d.pais?'<span class="tag">'+esc(d.pais)+'</span>':'')+'<span class="tag st-'+d.estado+'">'+esc(d.estado.replace("_"," "))+'</span>';
+  h+='<p>'+esc(d.descripcion)+'</p>';
+  if(d.datos){
+    h+='<h3 style="font-size:13px;margin:10px 0 2px">Datos</h3><ul>';
+    Object.keys(d.datos).forEach(function(k){var v=d.datos[k];h+='<li><b>'+esc(k.replace(/_/g," "))+':</b> '+esc(Array.isArray(v)?v.join("; "):v)+'</li>';});
+    h+='</ul>';
+  }
+  var rel=[];
+  data.e.forEach(function(x){
+    if(x.origen===id)rel.push(['→',x.relacion,x.destino]);
+    else if(x.destino===id)rel.push(['←',x.relacion,x.origen]);
+  });
+  if(rel.length){
+    h+='<h3 style="font-size:13px;margin:10px 0 2px">Conexiones</h3><ul>';
+    rel.forEach(function(r){h+='<li>'+r[0]+' <small>'+esc(r[1].replace(/_/g," "))+'</small> <button data-id="'+esc(r[2])+'">'+esc(data.byId[r[2]].nombre)+'</button></li>';});
+    h+='</ul>';
+  }
+  h+='<h3 style="font-size:13px;margin:10px 0 2px">Fuentes</h3><ul>';
+  d.fuentes.forEach(function(f){var s2=data.fById[f];if(!s2)return;h+='<li>'+(s2.url?'<a href="'+esc(s2.url)+'" target="_blank" rel="noopener">'+esc(s2.titulo)+'</a>':esc(s2.titulo))+' <small>('+esc(s2.tipo)+')</small></li>';});
+  h+='</ul>';
+  s.innerHTML=h;
+  s.querySelectorAll("button[data-id]").forEach(function(b){b.addEventListener("click",function(){show(b.dataset.id);});});
+}
+
+function contraste(){
+  var tb=document.querySelector("#ctab tbody");
+  data.c.forEach(function(c){
+    var tr=document.createElement("tr");
+    tr.innerHTML='<td>'+esc(c.dimension)+' <br><span class="tag st-'+c.estado+'">'+esc(c.estado.replace("_"," "))+'</span></td><td>'+esc(c.peru)+'</td><td>'+esc(c.internacional)+'</td><td>'+esc(c.brecha)+'</td><td>'+esc(c.aplicabilidad)+'</td><td class="nod"></td>';
+    var cell=tr.querySelector(".nod");
+    c.nodos.forEach(function(id){var b=document.createElement("button");b.textContent=data.byId[id].nombre.split(" (")[0].slice(0,28);b.addEventListener("click",function(){
+      document.querySelector('#tabs [data-t="mapa"]').click();show(id);});cell.appendChild(b);});
+    tb.appendChild(tr);
+  });
+}
+
+function lists(){
+  document.getElementById("plist").innerHTML=data.p.map(function(x){return"<li>"+esc(x)+"</li>";}).join("");
+  document.getElementById("flist").innerHTML=data.f.map(function(f){
+    return"<li>"+(f.url?'<a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.titulo)+'</a>':esc(f.titulo))+' <small>('+esc(f.tipo)+')</small>'+(f.nota?'<br><small style="color:var(--mut)">'+esc(f.nota)+'</small>':'')+"</li>";}).join("");
+}
+})();
+</script>
+</body>
+</html>

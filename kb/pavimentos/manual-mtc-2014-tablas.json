@@ -1,0 +1,420 @@
+{
+  "_meta": {
+    "fuente": "Manual de Carreteras: Suelos, Geologia, Geotecnia y Pavimentos. RD 10-2014-MTC/14 (version abril 2014)",
+    "archivo": "kb/pavimentos/fuentes-pdf/MTC-Suelos-Geologia-Geotecnia-Pavimentos-2014.pdf",
+    "pagina_pdf_vs_impresa": "pagina del PDF = pagina impresa + 4",
+    "metodo": "Transcripcion manual desde imagenes escaneadas (el PDF no tiene capa de texto). Cada bloque cita cuadro y pagina impresa.",
+    "estado": "trafico y rigido transcritos; flexible en curso"
+  },
+
+  "trafico": {
+    "cuadro_6_1_factores_direccional_y_carril": {
+      "pagina": 64,
+      "filas": [
+        {"calzadas": 1, "sentidos": 1, "carriles_por_sentido": 1, "Fd": 1.00, "Fc": 1.00, "ponderado": 1.00},
+        {"calzadas": 1, "sentidos": 1, "carriles_por_sentido": 2, "Fd": 1.00, "Fc": 0.80, "ponderado": 0.80},
+        {"calzadas": 1, "sentidos": 1, "carriles_por_sentido": 3, "Fd": 1.00, "Fc": 0.60, "ponderado": 0.60},
+        {"calzadas": 1, "sentidos": 1, "carriles_por_sentido": 4, "Fd": 1.00, "Fc": 0.50, "ponderado": 0.50},
+        {"calzadas": 1, "sentidos": 2, "carriles_por_sentido": 1, "Fd": 0.50, "Fc": 1.00, "ponderado": 0.50},
+        {"calzadas": 1, "sentidos": 2, "carriles_por_sentido": 2, "Fd": 0.50, "Fc": 0.80, "ponderado": 0.40},
+        {"calzadas": 2, "sentidos": 2, "carriles_por_sentido": 1, "Fd": 0.50, "Fc": 1.00, "ponderado": 0.50},
+        {"calzadas": 2, "sentidos": 2, "carriles_por_sentido": 2, "Fd": 0.50, "Fc": 0.80, "ponderado": 0.40},
+        {"calzadas": 2, "sentidos": 2, "carriles_por_sentido": 3, "Fd": 0.50, "Fc": 0.60, "ponderado": 0.30},
+        {"calzadas": 2, "sentidos": 2, "carriles_por_sentido": 4, "Fd": 0.50, "Fc": 0.50, "ponderado": 0.25}
+      ]
+    },
+    "cuadro_6_2_factor_crecimiento": {
+      "pagina": 65,
+      "formula": "Fca = ((1+r)^n - 1) / r ; sin crecimiento Fca = n",
+      "nota": "La tabla impresa trae un valor erroneo (n=5, r=3% figura 3.19; la formula da 5.31). La calculadora usa la formula, no la tabla.",
+      "r_tipico": "2% a 6% (pag. 64)"
+    },
+    "cuadro_6_3_EE_flexible": {
+      "pagina": 67,
+      "formula_general": "EE = (P / Pref) ^ exp, P = peso real por eje en toneladas",
+      "ejes": {
+        "simple_rueda_simple": {"Pref": 6.6, "exp": 4.0},
+        "simple_rueda_doble": {"Pref": 8.2, "exp": 4.0},
+        "tandem_1RS_1RD": {"Pref": 14.8, "exp": 4.0},
+        "tandem_2RD": {"Pref": 15.1, "exp": 4.0},
+        "tridem_2RD_1RS": {"Pref": 20.7, "exp": 3.9},
+        "tridem_3RD": {"Pref": 21.8, "exp": 3.9}
+      }
+    },
+    "cuadro_6_4_EE_rigido": {
+      "pagina": 67,
+      "formula_general": "EE = (P / Pref) ^ exp, P = peso real por eje en toneladas",
+      "ejes": {
+        "simple_rueda_simple": {"Pref": 6.6, "exp": 4.1},
+        "simple_rueda_doble": {"Pref": 8.2, "exp": 4.1},
+        "tandem_1RS_1RD": {"Pref": 14.8, "exp": 4.1},
+        "tandem_2RD": {"Pref": 13.3, "exp": 4.1},
+        "tridem_2RD_1RS": {"Pref": 16.6, "exp": 4.0},
+        "tridem_3RD": {"Pref": 17.5, "exp": 4.0}
+      }
+    },
+    "formula_nrep": {
+      "pagina": 73,
+      "texto": "Nrep EE8.2t = SUMA[ EEdia-carril x Fca x 365 ]; EEdia-carril = IMDp x Fd x Fc x Fvp x Fp",
+      "Fvp": "numero promedio de EE por vehiculo pesado de cada tipo (SUMA EE / numero de vehiculos pesados pesados en balanza)",
+      "Fp": "factor de presion de neumaticos (Cuadro 6.13). Para pavimentos rigidos y afirmados Fp = 1.0"
+    },
+    "cuadro_6_13_Fp": {
+      "pagina": 73,
+      "PCN_psi": [80, 90, 100, 110, 120, 130, 140],
+      "PCN_formula": "PCN = 0.90 x presion de inflado (psi)",
+      "nota": "Espesores de rodadura menores a 50 mm usan la fila de 50 mm. Valores intermedios se interpolan.",
+      "filas_mm": {
+        "50":  [1.00, 1.30, 1.80, 2.13, 2.91, 3.59, 4.37],
+        "60":  [1.00, 1.33, 1.72, 2.18, 2.69, 3.27, 3.92],
+        "70":  [1.00, 1.30, 1.65, 2.05, 2.49, 2.99, 3.53],
+        "80":  [1.00, 1.28, 1.59, 1.94, 2.32, 2.74, 3.20],
+        "90":  [1.00, 1.25, 1.53, 1.84, 2.17, 2.52, 2.91],
+        "100": [1.00, 1.23, 1.48, 1.75, 2.04, 2.35, 2.68],
+        "110": [1.00, 1.21, 1.43, 1.66, 1.91, 2.17, 2.44],
+        "120": [1.00, 1.19, 1.38, 1.59, 1.80, 2.02, 2.25],
+        "130": [1.00, 1.17, 1.34, 1.52, 1.70, 1.89, 2.09],
+        "140": [1.00, 1.15, 1.30, 1.46, 1.62, 1.78, 1.94],
+        "150": [1.00, 1.13, 1.26, 1.39, 1.52, 1.66, 1.79],
+        "160": [1.00, 1.12, 1.24, 1.36, 1.47, 1.59, 1.71],
+        "170": [1.00, 1.11, 1.21, 1.31, 1.41, 1.51, 1.61],
+        "180": [1.00, 1.09, 1.18, 1.27, 1.36, 1.45, 1.53],
+        "190": [1.00, 1.08, 1.16, 1.24, 1.31, 1.39, 1.46],
+        "200": [1.00, 1.08, 1.15, 1.22, 1.28, 1.35, 1.41]
+      }
+    },
+    "cuadro_6_14_no_pavimentados": {
+      "pagina": 74,
+      "rangos_EE": [
+        {"id": "TNP1", "min": 0, "max": 25000},
+        {"id": "TNP2", "min": 25000, "max": 75000},
+        {"id": "TNP3", "min": 75000, "max": 150000},
+        {"id": "TNP4", "min": 150000, "max": 300000}
+      ]
+    },
+    "cuadro_6_15_pavimentados": {
+      "pagina": 75,
+      "nota": "Limite inferior excluido, superior incluido. Mas de 30'000,000 EE es Estudio Especifico. Caminos <= 1'000,000 EE son de bajo volumen (periodo de diseno recomendado 10 anos).",
+      "rangos_EE": [
+        {"id": "Tp0", "min": 75000, "max": 150000},
+        {"id": "Tp1", "min": 150000, "max": 300000},
+        {"id": "Tp2", "min": 300000, "max": 500000},
+        {"id": "Tp3", "min": 500000, "max": 750000},
+        {"id": "Tp4", "min": 750000, "max": 1000000},
+        {"id": "Tp5", "min": 1000000, "max": 1500000},
+        {"id": "Tp6", "min": 1500000, "max": 3000000},
+        {"id": "Tp7", "min": 3000000, "max": 5000000},
+        {"id": "Tp8", "min": 5000000, "max": 7500000},
+        {"id": "Tp9", "min": 7500000, "max": 10000000},
+        {"id": "Tp10", "min": 10000000, "max": 12500000},
+        {"id": "Tp11", "min": 12500000, "max": 15000000},
+        {"id": "Tp12", "min": 15000000, "max": 20000000},
+        {"id": "Tp13", "min": 20000000, "max": 25000000},
+        {"id": "Tp14", "min": 25000000, "max": 30000000},
+        {"id": "Tp15", "min": 30000000, "max": null}
+      ]
+    }
+  },
+
+  "rigido": {
+    "cuadro_14_4_serviciabilidad": {
+      "pagina": 227,
+      "nota": "El cuadro impreso empieza en Tp1. Para Tp0 el manual no da fila propia: se usa la de Tp1 y se avisa al usuario.",
+      "por_Tp": {
+        "Tp1": {"Pi": 4.10, "Pt": 2.00, "dPSI": 2.10},
+        "Tp2": {"Pi": 4.10, "Pt": 2.00, "dPSI": 2.10},
+        "Tp3": {"Pi": 4.10, "Pt": 2.00, "dPSI": 2.10},
+        "Tp4": {"Pi": 4.10, "Pt": 2.00, "dPSI": 2.10},
+        "Tp5": {"Pi": 4.30, "Pt": 2.50, "dPSI": 1.80},
+        "Tp6": {"Pi": 4.30, "Pt": 2.50, "dPSI": 1.80},
+        "Tp7": {"Pi": 4.30, "Pt": 2.50, "dPSI": 1.80},
+        "Tp8": {"Pi": 4.30, "Pt": 2.50, "dPSI": 1.80},
+        "Tp9": {"Pi": 4.30, "Pt": 2.50, "dPSI": 1.80},
+        "Tp10": {"Pi": 4.30, "Pt": 2.50, "dPSI": 1.80},
+        "Tp11": {"Pi": 4.30, "Pt": 2.50, "dPSI": 1.80},
+        "Tp12": {"Pi": 4.50, "Pt": 3.00, "dPSI": 1.50},
+        "Tp13": {"Pi": 4.50, "Pt": 3.00, "dPSI": 1.50},
+        "Tp14": {"Pi": 4.50, "Pt": 3.00, "dPSI": 1.50},
+        "Tp15": {"Pi": 4.50, "Pt": 3.00, "dPSI": 1.50}
+      }
+    },
+    "cuadro_14_5_confiabilidad": {
+      "pagina": 229,
+      "So": 0.35,
+      "por_Tp": {
+        "Tp0": {"R": 65, "Zr": -0.385},
+        "Tp1": {"R": 70, "Zr": -0.524},
+        "Tp2": {"R": 75, "Zr": -0.674},
+        "Tp3": {"R": 80, "Zr": -0.842},
+        "Tp4": {"R": 80, "Zr": -0.842},
+        "Tp5": {"R": 85, "Zr": -1.036},
+        "Tp6": {"R": 85, "Zr": -1.036},
+        "Tp7": {"R": 85, "Zr": -1.036},
+        "Tp8": {"R": 90, "Zr": -1.282},
+        "Tp9": {"R": 90, "Zr": -1.282},
+        "Tp10": {"R": 90, "Zr": -1.282},
+        "Tp11": {"R": 90, "Zr": -1.282},
+        "Tp12": {"R": 90, "Zr": -1.282},
+        "Tp13": {"R": 90, "Zr": -1.282},
+        "Tp14": {"R": 90, "Zr": -1.282},
+        "Tp15": {"R": 95, "Zr": -1.645}
+      }
+    },
+    "subrasante_modulo_k": {
+      "pagina": 230,
+      "texto": "Se consideran aptos para subrasante suelos con CBR >= 6%. Con CBR menor se estabiliza o reemplaza.",
+      "correlacion": "Figura 14.1 (grafica PCA 1971): CBR contra k; no hay formula en el manual.",
+      "kc_formula": "Kc = [1 + (h/38)^2 x (K1/K0)^(2/3)]^0.5 x K0   (K en kg/cm3, h = espesor de subbase granular en cm)",
+      "rangos_catalogo_MR": [
+        {"CBR": "<6", "k_MPa_m": "<=52", "k_pci": "<=185"},
+        {"CBR": ">=6 y <10", "k_MPa_m": "52-63", "k_pci": "185-223"},
+        {"CBR": ">=10 y <20", "k_MPa_m": "63-79", "k_pci": "223-279"},
+        {"CBR": ">=20 y <30", "k_MPa_m": "79-105", "k_pci": "279-373"},
+        {"CBR": ">=30", "k_MPa_m": ">105", "k_pci": ">373"}
+      ]
+    },
+    "cuadro_14_6_cbr_minimo_subbase": {
+      "pagina": 231,
+      "regla": [
+        {"trafico": "<= 15'000,000 EE", "CBR_min": 40},
+        {"trafico": "> 15'000,000 EE", "CBR_min": 60}
+      ]
+    },
+    "cuadro_14_7_resistencia_concreto": {
+      "pagina": 231,
+      "filas": [
+        {"EE_max": 5000000, "MR_kg_cm2": 40, "fc_kg_cm2": 280},
+        {"EE_min": 5000000, "EE_max": 15000000, "MR_kg_cm2": 42, "fc_kg_cm2": 300},
+        {"EE_min": 15000000, "MR_kg_cm2": 45, "fc_kg_cm2": 350}
+      ],
+      "Ec": "Ec = 57,000 x (f'c en psi)^0.5",
+      "MR_correlacion": "MR = a x raiz(f'c) en kg/cm2, a entre 1.99 y 3.18"
+    },
+    "cuadro_14_9_drenaje_Cd": {
+      "pagina": 233,
+      "nota": "El manual asume Cd = 1.00 en los catalogos. Cd varia entre 0.70 y 1.25.",
+      "columnas_pct_tiempo_saturacion": ["<1%", "1-5%", "5-25%", ">25%"],
+      "calidad": {
+        "Excelente": ["1.25-1.20", "1.20-1.15", "1.15-1.10", "1.10"],
+        "Bueno": ["1.20-1.15", "1.15-1.10", "1.10-1.00", "1.00"],
+        "Regular": ["1.15-1.10", "1.10-1.00", "1.00-0.90", "0.90"],
+        "Pobre": ["1.10-1.00", "1.00-0.90", "0.90-0.80", "0.80"],
+        "Muy pobre": ["1.00-0.90", "0.90-0.80", "0.80-0.70", "0.70"]
+      }
+    },
+    "cuadro_14_10_transferencia_J": {
+      "pagina": 233,
+      "valores": {
+        "berma_granular_o_asfaltica_con_pasadores": "3.2",
+        "berma_granular_o_asfaltica_sin_pasadores": "3.8-4.4",
+        "berma_concreto_hidraulico_con_pasadores": "2.8",
+        "berma_concreto_hidraulico_sin_pasadores": "3.8"
+      },
+      "catalogos": "El manual publica catalogos para J = 2.8, 3.2, 3.8 y 4.0 (este ultimo solo hasta 1'000,000 EE)."
+    },
+    "ecuacion_AASHTO93_rigido": {
+      "pagina": 234,
+      "texto": "Log W18 = Zr x So + 7.35 x Log(D+1) - 0.06 + Log(dPSI/(4.5-1.5)) / (1 + 1.624e7/(D+1)^8.46) + (4.22 - 0.32 Pt) x Log{ [Sc x Cd x (D^0.75 - 1.132)] / [215.63 x J x (D^0.75 - 18.42/(Ec/k)^0.25)] }",
+      "unidades": "D en pulgadas, Sc (=MR) y Ec en psi, k en psi/pulg (pci)"
+    },
+    "espesor_minimo": {"losa_cm": 15, "subbase_granular_cm": 15, "pagina": 233},
+    "catalogos_losa_cm": {
+      "nota": "Subbase granular siempre 15 cm. En CBR<6% el espesor de estabilizacion del suelo lo define un estudio especifico (*). Orden de columnas = Tp0, Tp1, ...",
+      "grupos_CBR": ["<6", "6-10", "10-20", "20-30", ">=30"],
+      "J_2.8": {
+        "figuras": "14.6 y 14.6a", "paginas": [238, 239], "con_pasadores": true, "berma": "concreto",
+        "Tp0_a_Tp14": {
+          "<6":    [15,15,15,15,15,17,20,22,23,24,26,27,27,29,30],
+          "6-10":  [15,15,15,15,15,17,20,22,23,24,26,27,27,29,30],
+          "10-20": [15,15,15,15,15,17,19,21,23,24,26,26,27,29,30],
+          "20-30": [15,15,15,15,15,16,19,21,23,24,25,26,26,29,29],
+          ">=30":  [15,15,15,15,15,16,18,20,22,23,25,25,26,28,29]
+        }
+      },
+      "J_3.2": {
+        "figuras": "14.7 y 14.7a", "paginas": [240, 241], "con_pasadores": true, "berma": "granular o asfaltica",
+        "Tp0_a_Tp14": {
+          "<6":    [15,15,15,16,17,19,21,23,25,26,28,29,29,31,32],
+          "6-10":  [15,15,15,16,17,19,21,23,25,26,28,29,29,31,32],
+          "10-20": [15,15,15,16,17,19,21,23,25,26,27,28,29,31,32],
+          "20-30": [15,15,15,15,16,18,21,23,24,26,27,28,28,31,32],
+          ">=30":  [15,15,15,15,15,18,20,22,24,25,27,27,28,30,31]
+        }
+      },
+      "J_3.8": {
+        "figuras": "14.8", "paginas": [242], "con_pasadores": false, "berma": "concreto",
+        "Tp0_a_Tp4": {
+          "<6":    [15,15,17,18,19],
+          "6-10":  [15,15,17,18,19],
+          "10-20": [15,15,17,18,19],
+          "20-30": [15,15,16,17,18],
+          ">=30":  [15,15,15,17,18]
+        }
+      },
+      "J_4.0": {
+        "figuras": "14.9", "paginas": [243], "con_pasadores": false, "berma": "granular o asfaltica",
+        "Tp0_a_Tp4": {
+          "<6":    [15,15,17,19,20],
+          "6-10":  [15,15,17,19,20],
+          "10-20": [15,15,17,19,20],
+          "20-30": [15,15,16,18,19],
+          ">=30":  [15,15,16,17,19]
+        }
+      }
+    }
+  },
+
+  "flexible": {
+    "periodo_diseno": {"pagina": 131, "texto": "Hasta 10 anos para caminos de bajo volumen; 2 etapas de 10 anos; o 1 etapa de 20 anos. El ingeniero puede ajustarlo segun el proyecto y la Entidad."},
+    "ecuacion_AASHTO93": {
+      "pagina": 131,
+      "texto": "log10(W18) = Zr x So + 9.36 x log10(SN+1) - 0.20 + log10(dPSI/(4.2-1.5)) / (0.40 + 1094/(SN+1)^5.19) + 2.32 x log10(MR) - 8.07",
+      "unidades": "SN en pulgadas, MR en psi"
+    },
+    "cuadro_12_4_categorias_subrasante": {
+      "pagina": 130,
+      "categorias": [
+        {"id": "S0", "nombre": "Subrasante inadecuada", "CBR": "<3"},
+        {"id": "S1", "nombre": "Subrasante insuficiente", "CBR": ">=3 y <6"},
+        {"id": "S2", "nombre": "Subrasante regular", "CBR": ">=6 y <10"},
+        {"id": "S3", "nombre": "Subrasante buena", "CBR": ">=10 y <20"},
+        {"id": "S4", "nombre": "Subrasante muy buena", "CBR": ">=20 y <30"},
+        {"id": "S5", "nombre": "Subrasante excelente", "CBR": ">=30"}
+      ],
+      "regla": "Son aptas para capas de subrasante los suelos con CBR >= 6%. Con CBR menor se estabiliza o reemplaza (pag. 130)."
+    },
+    "cuadro_12_5_MR_por_CBR": {
+      "pagina": 132,
+      "nota": "Solo fines ilustrativos segun el manual; el MR debe salir del ensayo de resiliencia AASHTO. Fuente: correlacion CBR-MR del TRRL.",
+      "CBR_a_MR_psi": {
+        "6": 8043, "7": 8877, "8": 9669, "9": 10426, "10": 11153, "11": 11854, "12": 12533, "13": 13192,
+        "14": 13833, "15": 14457, "16": 15067, "17": 15663, "18": 16247, "19": 16819, "20": 17380,
+        "21": 17931, "22": 18473, "23": 19006, "24": 19531, "25": 20048, "26": 20558, "27": 21060,
+        "28": 21556, "29": 22046, "30": 22529
+      }
+    },
+    "cuadro_12_6_confiabilidad_una_etapa": {
+      "pagina": 133,
+      "nota": "OJO: en flexible Tp12 a Tp15 usan R = 95 %. En rigido (Cuadro 14.5) Tp12 a Tp14 usan 90 %.",
+      "por_Tp": {
+        "Tp0": 65, "Tp1": 70, "Tp2": 75, "Tp3": 80, "Tp4": 80, "Tp5": 85, "Tp6": 85, "Tp7": 85,
+        "Tp8": 90, "Tp9": 90, "Tp10": 90, "Tp11": 90, "Tp12": 95, "Tp13": 95, "Tp14": 95, "Tp15": 95
+      },
+      "etapas": "R_total = R_etapa elevado a n (n = numero de etapas), es decir R_etapa = R_total^(1/n)"
+    },
+    "cuadro_12_7_confiabilidad_dos_etapas_de_10_anos": {
+      "pagina": 134,
+      "por_Tp": {
+        "Tp0": {"etapa": 81, "total": 65}, "Tp1": {"etapa": 84, "total": 70}, "Tp2": {"etapa": 87, "total": 75},
+        "Tp3": {"etapa": 89, "total": 80}, "Tp4": {"etapa": 89, "total": 80}, "Tp5": {"etapa": 92, "total": 85},
+        "Tp6": {"etapa": 92, "total": 85}, "Tp7": {"etapa": 92, "total": 85}, "Tp8": {"etapa": 95, "total": 90},
+        "Tp9": {"etapa": 95, "total": 90}, "Tp10": {"etapa": 95, "total": 90}, "Tp11": {"etapa": 95, "total": 90},
+        "Tp12": {"etapa": 97, "total": 95}, "Tp13": {"etapa": 97, "total": 95}, "Tp14": {"etapa": 97, "total": 95},
+        "Tp15": {"etapa": 97, "total": 95}
+      }
+    },
+    "cuadro_12_8_Zr_una_etapa": {
+      "pagina": 135,
+      "por_Tp": {
+        "Tp0": -0.385, "Tp1": -0.524, "Tp2": -0.674, "Tp3": -0.842, "Tp4": -0.842, "Tp5": -1.036, "Tp6": -1.036,
+        "Tp7": -1.036, "Tp8": -1.282, "Tp9": -1.282, "Tp10": -1.282, "Tp11": -1.282, "Tp12": -1.645,
+        "Tp13": -1.645, "Tp14": -1.645, "Tp15": -1.645
+      }
+    },
+    "cuadro_12_9_Zr_dos_etapas_de_10_anos": {
+      "pagina": 136,
+      "por_Tp": {
+        "Tp0": -0.878, "Tp1": -0.994, "Tp2": -1.126, "Tp3": -1.227, "Tp4": -1.227, "Tp5": -1.405, "Tp6": -1.405,
+        "Tp7": -1.405, "Tp8": -1.645, "Tp9": -1.645, "Tp10": -1.645, "Tp11": -1.645, "Tp12": -1.881,
+        "Tp13": -1.881, "Tp14": -1.881, "Tp15": -1.881
+      }
+    },
+    "desviacion_estandar_So": {"pagina": 136, "valor_manual": 0.45, "rango_AASHTO": "0.40 a 0.50"},
+    "cuadros_12_10_a_12_12_serviciabilidad": {
+      "paginas": [137, 138, 139],
+      "nota": "Tp0 no tiene fila en estos cuadros (empiezan en Tp1). La calculadora usa la de Tp1 para Tp0 y lo avisa.",
+      "por_Tp": {
+        "Tp1": {"Pi": 3.80, "Pt": 2.00, "dPSI": 1.80}, "Tp2": {"Pi": 3.80, "Pt": 2.00, "dPSI": 1.80},
+        "Tp3": {"Pi": 3.80, "Pt": 2.00, "dPSI": 1.80}, "Tp4": {"Pi": 3.80, "Pt": 2.00, "dPSI": 1.80},
+        "Tp5": {"Pi": 4.00, "Pt": 2.50, "dPSI": 1.50}, "Tp6": {"Pi": 4.00, "Pt": 2.50, "dPSI": 1.50},
+        "Tp7": {"Pi": 4.00, "Pt": 2.50, "dPSI": 1.50}, "Tp8": {"Pi": 4.00, "Pt": 2.50, "dPSI": 1.50},
+        "Tp9": {"Pi": 4.00, "Pt": 2.50, "dPSI": 1.50}, "Tp10": {"Pi": 4.00, "Pt": 2.50, "dPSI": 1.50},
+        "Tp11": {"Pi": 4.00, "Pt": 2.50, "dPSI": 1.50}, "Tp12": {"Pi": 4.20, "Pt": 3.00, "dPSI": 1.20},
+        "Tp13": {"Pi": 4.20, "Pt": 3.00, "dPSI": 1.20}, "Tp14": {"Pi": 4.20, "Pt": 3.00, "dPSI": 1.20},
+        "Tp15": {"Pi": 4.20, "Pt": 3.00, "dPSI": 1.20}
+      }
+    },
+    "SN_propuesto": {
+      "pagina": 140,
+      "formula": "SN = a1 x d1 + a2 x d2 x m2 + a3 x d3 x m3   (d en centimetros en este manual; a en 1/cm)",
+      "nota": "La ecuacion no tiene solucion unica: hay muchas combinaciones de espesores. El ingeniero analiza alternativas."
+    },
+    "cuadro_12_13_coeficientes_estructurales": {
+      "pagina": 141,
+      "capa_superficial": [
+        {"id": "carpeta_caliente", "nombre": "Carpeta asfaltica en caliente (modulo 2,965 MPa = 430,000 psi a 20 C)", "a": 0.170, "uso": "Todos los trafico"},
+        {"id": "carpeta_frio", "nombre": "Carpeta asfaltica en frio (mezcla con emulsion)", "a": 0.125, "uso": "Trafico <= 1'000,000 EE"},
+        {"id": "micropavimento", "nombre": "Micropavimento 25 mm", "a": 0.130, "uso": "Trafico <= 1'000,000 EE"},
+        {"id": "tsb", "nombre": "Tratamiento superficial bicapa", "a": null, "uso": "Trafico <= 500,000 EE. No aplica en pendiente > 8 %, curvas pronunciadas, de volteo, ni donde obligue a frenar. Sin aporte estructural."},
+        {"id": "slurry", "nombre": "Lechada asfaltica (slurry seal) 12 mm", "a": null, "uso": "Trafico <= 500,000 EE. Mismas restricciones. Sin aporte estructural."}
+      ],
+      "base": [
+        {"id": "base_cbr80", "nombre": "Base granular CBR 80 %, compactada al 100 % MDS", "a": 0.052, "uso": "Trafico <= 10'000,000 EE"},
+        {"id": "base_cbr100", "nombre": "Base granular CBR 100 %, compactada al 100 % MDS", "a": 0.054, "uso": "Trafico > 10'000,000 EE"},
+        {"id": "base_asfalto", "nombre": "Base granular tratada con asfalto (Marshall 1500 lb)", "a": 0.115, "uso": "Todos los trafico"},
+        {"id": "base_cemento", "nombre": "Base granular tratada con cemento (compresion 7 dias = 35 kg/cm2)", "a": 0.070, "uso": "Todos los trafico"},
+        {"id": "base_cal", "nombre": "Base granular tratada con cal (compresion 7 dias = 12 kg/cm2)", "a": 0.080, "uso": "Todos los trafico"}
+      ],
+      "subbase": [
+        {"id": "subbase_cbr40", "nombre": "Subbase granular CBR 40 %, compactada al 100 % MDS", "a": 0.047, "uso": "CBR minimo 40 %, todos los trafico"}
+      ]
+    },
+    "cuadros_12_14_y_12_15_drenaje_m": {
+      "paginas": [142],
+      "nota": "El manual asume m = 1.00 en base y subbase para sus secciones.",
+      "calidad_drenaje_tiempo_evacuacion": {"Excelente": "2 horas", "Bueno": "1 dia", "Regular": "1 semana", "Pobre": "1 mes", "Muy pobre": "el agua no evacua"},
+      "columnas_pct_tiempo_saturacion": ["<1%", "1-5%", "5-25%", ">25%"],
+      "m": {
+        "Excelente": ["1.40-1.35", "1.35-1.30", "1.30-1.20", "1.20"],
+        "Bueno": ["1.35-1.25", "1.25-1.15", "1.15-1.00", "1.00"],
+        "Regular": ["1.25-1.15", "1.15-1.05", "1.00-0.80", "0.80"],
+        "Pobre": ["1.15-1.05", "1.05-0.80", "0.80-0.60", "0.60"],
+        "Muy pobre": ["1.05-0.95", "0.95-0.75", "0.75-0.40", "0.40"]
+      }
+    },
+    "correlacion_CBR_MR": {
+      "formula": "MR (psi) = 2555 x CBR^0.64",
+      "origen": "No esta escrita en el manual. Se deduce de la tabla del Cuadro 12.5 (TRRL): reproduce 8,043 psi para CBR 6 y 22,529 psi para CBR 30. Valida solo en el rango 6 a 30 % de la tabla."
+    },
+    "cuadro_12_16_SN_requerido_20_anos": {
+      "pagina": 144,
+      "nota": "Carpeta asfaltica en caliente + base granular + subbase granular. Subrasante inadecuada (CBR<3) y pobre (3-6) requieren estabilizacion de suelos: Estudio Especial. En el catalogo se usa el MR del limite inferior de cada categoria (CBR 6, 10, 20, 30).",
+      "columnas": ["S2 regular 6<=CBR<10", "S3 buena 10<=CBR<20", "S4 muy buena 20<=CBR<30", "S5 excelente CBR>=30"],
+      "por_Tp": {
+        "Tp0": [2.136, 1.871, 1.557, 1.392], "Tp1": [2.470, 2.165, 1.809, 1.625],
+        "Tp2": [2.702, 2.367, 1.979, 1.780], "Tp3": [2.956, 2.593, 2.173, 1.959],
+        "Tp4": [3.107, 2.725, 2.283, 2.059], "Tp5": [3.434, 3.012, 2.521, 2.274],
+        "Tp6": [3.866, 3.395, 2.841, 2.561], "Tp7": [4.206, 3.707, 3.105, 2.797],
+        "Tp8": [4.630, 4.103, 3.449, 3.107], "Tp9": [4.837, 4.300, 3.624, 3.267],
+        "Tp10": [5.092, 4.552, 3.869, 3.501], "Tp11": [5.226, 4.679, 3.985, 3.609],
+        "Tp12": [5.341, 4.883, 4.173, 3.786], "Tp13": [5.907, 5.323, 4.580, 4.172],
+        "Tp14": [6.052, 5.460, 4.708, 4.293]
+      }
+    },
+    "cuadro_12_17_espesores_minimos_mm": {
+      "pagina": 145,
+      "nota": "Tp0 no figura en el cuadro. Opciones de capa superficial para Tp1 a Tp4: TSB, lechada asfaltica 12 mm, micropavimento 25 mm, carpeta en frio o carpeta en caliente.",
+      "por_Tp": {
+        "Tp1": {"caliente": 50, "frio": 50, "micropavimento": 25, "tsb_o_lechada": true, "base": 150},
+        "Tp2": {"caliente": 60, "frio": 60, "micropavimento": 25, "tsb_o_lechada": true, "base": 150},
+        "Tp3": {"caliente": 70, "frio": 60, "micropavimento": 25, "tsb_o_lechada": false, "base": 150},
+        "Tp4": {"caliente": 80, "frio": 70, "micropavimento": 25, "tsb_o_lechada": false, "base": 200},
+        "Tp5": {"caliente": 80, "base": 200}, "Tp6": {"caliente": 90, "base": 200}, "Tp7": {"caliente": 90, "base": 200},
+        "Tp8": {"caliente": 100, "base": 250}, "Tp9": {"caliente": 110, "base": 250},
+        "Tp10": {"caliente": 120, "base": 250}, "Tp11": {"caliente": 130, "base": 250},
+        "Tp12": {"caliente": 140, "base": 250}, "Tp13": {"caliente": 150, "base": 300},
+        "Tp14": {"caliente": 150, "base": 300}
+      }
+    }
+  }
+}

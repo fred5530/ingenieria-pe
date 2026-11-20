@@ -1,6 +1,8 @@
 [
-  "Leer el manual completo (301 pags, version libro): el MTC lo publica como enlaces de Google Drive desde su ficha en gob.pe; la descarga fue bloqueada por el clasificador de permisos de la sesion. Opciones: que el usuario lo suba al repo o autorice la descarga.",
-  "Extraer del manual: tablas de R y So, delta PSI, categorias de subrasante S0-S5 con rangos de CBR, rangos de EE, catalogos (flexible, rigido, bajo volumen, micropavimento), coeficientes a1-a3, m y J.",
+  "Manual MTC 2014 leido (PDF escaneado, sin capa de texto): tablas de trafico, flexible y rigido transcritas en manual-mtc-2014-tablas.json. Falta transcribir catalogos de bajo volumen, micropavimento y clausula de 'otros modelos'.",
+  "Cuadro 12.16 (catalogo flexible) no se reproduce con los parametros declarados en 12.6-12.12 para Tp5 en adelante (Tp12-Tp14: SN del manual 0.5 menor). Consultar con el MTC o usar el catalogo tal cual.",
+  "Cuadro 6.2: la tabla impresa trae 3.19 para n=5, r=3% (la formula da 5.31). La web usa la formula.",
+  "Calculadora: falta diseno flexible en dos etapas (parametros en el JSON), caminos de bajo volumen y no pavimentados, y vias urbanas CE.010.",
   "Confirmar texto literal de la clausula que permite 'otros modelos' con aceptacion previa del MTC y a que dependencia se dirige la solicitud.",
   "Confirmar edicion vigente de CE.010 y si existe modificacion posterior a 2010.",
   "Confirmar 4a edicion MEPDG 2026 en la tienda de AASHTO (solo hay un registro TRID) y version del software.",
