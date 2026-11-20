@@ -1,0 +1,3 @@
+Computer Modern Unicode (CMU Serif), version npm "computer-modern" 0.1.3.
+Fuente original: Computer Modern de Donald E. Knuth; conversion Unicode de Andrey V. Panov.
+Licencia: SIL Open Font License 1.1 (https://openfontlicense.org). Se usan solo para incrustar texto en la memoria de calculo en PDF.

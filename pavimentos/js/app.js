@@ -2,7 +2,46 @@
 (function () {
   "use strict";
   var C = window.PavCalc, D = null, app = document.getElementById("app");
-  var memo = { ee_flexible: null, ee_rigido: null }; // EE calculado en la plantilla de trafico, para reutilizar
+  var memo = { ee_flexible: null, ee_rigido: null, trafico_flexible: null, trafico_rigido: null }; // EE y detalle del trafico, para reutilizar
+  var ultimo = {}; // ultimo resultado de cada plantilla, para la memoria de calculo
+
+  /* ---------- memoria de calculo (PDF) ---------- */
+  var BTN = '<p style="margin-top:18px"><button type="button" class="act" id="btnMem">Descargar memoria de cálculo (PDF)</button> <span class="nota" id="memEst"></span></p>';
+  function leerProyecto() { try { return JSON.parse(localStorage.getItem("pav_proyecto") || "{}"); } catch (e) { return {}; } }
+  function guardarProyecto(o) { try { localStorage.setItem("pav_proyecto", JSON.stringify(o)); } catch (e) { /* sin almacenamiento */ } }
+  function dialogoProyecto() {
+    var dlg = document.getElementById("dlgProy");
+    if (dlg) return dlg;
+    dlg = document.createElement("dialog"); dlg.id = "dlgProy";
+    dlg.innerHTML = '<form method="dialog" id="frmProy"><h3>Datos del proyecto</h3><p class="nota">Aparecen en la portada y el encabezado de la memoria. Se guardan solo en este navegador.</p>' +
+      [["nombre", "Proyecto *", "text", true], ["ubicacion", "Ubicación", "text"], ["entidad", "Entidad / cliente", "text"], ["responsable", "Ingeniero responsable", "text"], ["cip", "CIP N.°", "text"], ["codigo", "Código / revisión", "text"], ["fecha", "Fecha", "date"]].map(function (c) {
+        return '<div class="f"><label for="py_' + c[0] + '">' + c[1] + '</label><input id="py_' + c[0] + '" name="' + c[0] + '" type="' + c[2] + '"' + (c[3] ? " required" : "") + "></div>";
+      }).join("") + '<div class="row" style="justify-content:flex-end;gap:8px"><button type="button" class="act sec" id="pyCancel">Cancelar</button><button class="act" id="pyOk" value="ok">Generar PDF</button></div></form>';
+    document.body.appendChild(dlg);
+    document.getElementById("pyCancel").onclick = function () { dlg.close("cancel"); };
+    return dlg;
+  }
+  function capasFlexibleActuales(s) {
+    var d = {}; document.querySelectorAll("input[data-capa]").forEach(function (i) { d[i.dataset.capa] = num(i.value) || 0; });
+    return [{ id: s.prop.sup.id, nombre: s.prop.sup.nombre, a: s.prop.sup.a || 0, m: 1, d: d.d1 }, { id: s.prop.bas.id, nombre: s.prop.bas.nombre, a: s.prop.bas.a, m: s.m2, d: d.d2 }, { id: s.prop.sub.id, nombre: s.prop.sub.nombre, a: s.prop.sub.a, m: s.m3, d: d.d3 }];
+  }
+  function enlazarMemoria(tipo) {
+    var b = document.getElementById("btnMem"); if (!b) return;
+    b.onclick = function () {
+      var dlg = dialogoProyecto(), p = leerProyecto();
+      ["nombre", "ubicacion", "entidad", "responsable", "cip", "codigo", "fecha"].forEach(function (k) { document.getElementById("py_" + k).value = p[k] || (k === "fecha" ? new Date().toISOString().slice(0, 10) : ""); });
+      dlg.onclose = function () {
+        if (dlg.returnValue !== "ok") return;
+        var proy = {}; ["nombre", "ubicacion", "entidad", "responsable", "cip", "codigo", "fecha"].forEach(function (k) { proy[k] = document.getElementById("py_" + k).value.trim(); });
+        guardarProyecto(proy);
+        var snap = Object.assign({}, ultimo[tipo]), est = document.getElementById("memEst");
+        if (tipo === "flexible") snap.capas = capasFlexibleActuales(snap);
+        est.textContent = "Generando PDF… (la primera vez descarga las fuentes y librerías)"; b.disabled = true;
+        window.Memoria.generar(tipo, snap, proy, { baseUrl: "" }).then(function (n) { est.textContent = "Descargado: " + n; }).catch(function (e) { est.textContent = "No se pudo generar el PDF: " + e.message; }).then(function () { b.disabled = false; });
+      };
+      dlg.showModal();
+    };
+  }
 
   var PLANTILLAS = [
     { id: "flexible", ico: "🛣️", t: "Pavimento flexible", d: "Carpeta asfáltica, base y subbase granular. Calcula el número estructural (SN) y propone espesores.", m: "AASHTO 93 · Cap. XII del manual" },
@@ -122,6 +161,8 @@
     var nota12_16 = null;
     if (dif != null && Math.abs(dif) > 0.15) nota12_16 = { t: "w", x: "El SN calculado difiere " + f(Math.abs(dif), 2) + " del Cuadro 12.16. Para tráficos altos el catálogo del manual no se reproduce con los parámetros que el propio manual declara (Cuadros 12.6 a 12.12). Esta calculadora usa los parámetros declarados." };
 
+    var td = memo.trafico_flexible;
+    ultimo.flexible = { D: D, ee: W18, per: +val("per"), cbr: cbr, cat: cat, tp: tp, p: p, MR: MR, mrManual: !!mrManual, SNr: SNr, m2: m2, m3: m3, prop: prop, cf: cf.SN, min: min, avisos: avisos.slice(), trafico: td && Math.abs(td.o.total - W18) < 2 ? td : null };
     res.innerHTML =
       '<div class="kpis"><div class="kpi"><small>Rango de tráfico</small><span class="big-n">' + tp.id + '</span></div>' +
       '<div class="kpi"><small>SN requerido</small><span class="big-n">' + f(SNr, 2) + '</span></div>' +
@@ -150,7 +191,8 @@
         ? tablaParametros([["SN del catálogo (Cuadro 12.16, 20 años)", f(cf.SN, 3), cf.categoria.id + " " + cf.categoria.nombre], ["SN calculado aquí", f(SNr, 3), "diferencia " + (dif >= 0 ? "+" : "") + f(dif, 3)]])
         : '<p class="nota">El catálogo no da SN para esta subrasante (' + cat.id + ").</p>") +
       notas([nota12_16, { x: "La ecuación AASHTO no tiene solución única: el manual pide que el Ingeniero Proyectista analice alternativas de estructura y su comportamiento." }]) +
-      '<p class="src">Fuentes: ecuación pág. 131; coeficientes Cuadro 12.13 (pág. 141); espesores mínimos Cuadro 12.17 (pág. 145).</p>';
+      '<p class="src">Fuentes: ecuación pág. 131; coeficientes Cuadro 12.13 (pág. 141); espesores mínimos Cuadro 12.17 (pág. 145).</p>' + BTN;
+    enlazarMemoria("flexible");
 
     var inputs = res.querySelectorAll("input[data-capa]");
     function recalSN() {
@@ -232,6 +274,8 @@
     var cbrCat = cbr || 10, cat = C.catalogoRigido(D, J, tp.id, cbrCat);
     var cbrSb = C.cbrMinSubbase(ee);
     if (kManual) avisos.push({ t: "w", x: "Con k ingresado el grupo del catálogo se toma con CBR " + cbrCat + " % (referencial)." });
+    var tdr = memo.trafico_rigido, selJ = document.getElementById("J");
+    ultimo.rigido = { D: D, ee: ee, tp: tp, p: p, J: J, JTxt: selJ.selectedOptions[0].textContent.split(" · ")[1] || "", Cd: Cd, MRc: MRc, fc: fc, propios: usoProp, cbr: cbr, k_MPam: k, kEf: kEf, kManual: !!kManual, kcTxt: kcTxt, calc: calc, adoptado: adoptado, catRig: cat, cbrSb: cbrSb, avisos: avisos.slice(), trafico: tdr && Math.abs(tdr.o.total - ee) < 2 ? tdr : null };
     res.innerHTML =
       '<div class="kpis"><div class="kpi"><small>Rango de tráfico</small><span class="big-n">' + tp.id + '</span></div>' +
       '<div class="kpi"><small>Losa calculada</small><span class="big-n">' + f(calc.D_cm, 1) + ' cm</span></div>' +
@@ -256,7 +300,8 @@
       (cat && !cat.fuera
         ? tablaParametros([["Losa del catálogo (Fig. " + cat.figuras + ")", cat.losa_cm + " cm", "grupo CBR " + cat.grupo + ", subbase 15 cm"], ["Losa calculada aquí", f(calc.D_cm, 1) + " cm", "diferencia " + f(calc.D_cm - cat.losa_cm, 1) + " cm"]]) + (cat.estabilizar ? '<p class="nota w">⚠ En CBR &lt; 6 % el espesor de estabilización lo define un estudio específico.</p>' : "")
         : '<p class="nota">El catálogo con J = ' + f(J, 1) + " no cubre este tráfico.</p>") +
-      '<p class="src">Fuentes: ecuación pág. 234; catálogos págs. 238 a 243.</p>';
+      '<p class="src">Fuentes: ecuación pág. 234; catálogos págs. 238 a 243.</p>' + BTN;
+    enlazarMemoria("rigido");
   }
 
   /* =====================================================================
@@ -339,7 +384,10 @@
     vehs.forEach(function (v) {
       var imd = num(v.imd);
       var fv = v.modo === "fvp" ? num(v.fvp) : (v.ejes.some(function (e) { return num(e.P) > 0; }) ? C.fvp(D, pav, v.ejes.filter(function (e) { return num(e.P) > 0; }).map(function (e) { return { tipo: e.tipo, P: num(e.P) }; })) : null);
-      if (imd > 0 && fv != null && fv > 0) lista.push({ nombre: v.nombre, imd: imd, fvp: fv });
+      if (imd > 0 && fv != null && fv > 0) {
+        var ejesOk = v.modo === "fvp" ? null : v.ejes.filter(function (e) { return num(e.P) > 0; }).map(function (e) { return { tipo: e.tipo, P: num(e.P), ee: C.eeEje(D, pav, e.tipo, num(e.P)) }; });
+        lista.push({ nombre: v.nombre, imd: imd, fvp: fv, ejes: ejesOk });
+      }
     });
     if (!lista.length) { res.innerHTML = '<p class="vac">Ingresa al menos un vehículo con IMD y cargas por eje.</p>'; return; }
     var o = C.nrepEE(lista, { Fd: fila.Fd, Fc: fila.Fc, r: r, n: n, Fp: Fp });
@@ -349,6 +397,8 @@
     if (n !== 10 && n !== 20) avisos.push({ x: "El manual trabaja con periodos de 10 y 20 años." });
     var destino = pav === "rigido" ? "rigido" : "flexible";
     memo["ee_" + destino] = Math.round(o.total);
+    ultimo.trafico = { D: D, pav: pav, fila: fila, filaTxt: fila.calzadas + " calzada(s), " + fila.sentidos + " sentido(s), " + fila.carriles_por_sentido + " carril(es) por sentido", n: n, r: r, fpInfo: fpInfo, lista: lista, o: o, tp: tp, avisos: avisos.slice() };
+    memo["trafico_" + destino] = ultimo.trafico;
     res.innerHTML =
       '<div class="kpis"><div class="kpi"><small>Nrep EE de 8.2 t</small><span class="big-n">' + ent(o.total) + '</span></div>' +
       '<div class="kpi"><small>Rango de tráfico</small><span class="big-n">' + (tp.id || "—") + '</span></div>' +
@@ -360,7 +410,8 @@
       '<p class="nota">Nrep = Σ [IMD × Fd × Fc × Fvp × Fp × Fca × 365] (pág. 73). Fca = ((1+r)ⁿ − 1) / r, calculado con la fórmula (la tabla impresa del Cuadro 6.2 trae un valor erróneo para n = 5, r = 3 %).</p>' +
       (fpInfo ? '<p class="nota">Presión de contacto PCN = 0.90 × inflado = ' + f(fpInfo.PCN, 1) + " psi; Fp = " + f(fpInfo.Fp, 2) + " (Cuadro 6.13, interpolado).</p>" : "") +
       '<p><a class="card" style="min-height:0;padding:12px 16px;display:inline-block" href="#/' + destino + '">Usar ' + ent(o.total) + " EE en la plantilla de pavimento " + destino + " →</a></p>" +
-      '<p class="src">Fuentes: Cuadros 6.1 a 6.4 y 6.13, págs. 64 a 73.</p>';
+      '<p class="src">Fuentes: Cuadros 6.1 a 6.4 y 6.13, págs. 64 a 73.</p>' + BTN;
+    enlazarMemoria("trafico");
   }
 
   /* =====================================================================
