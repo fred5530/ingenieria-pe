@@ -343,8 +343,8 @@
     d.fig(sec.svg, sec.w, "Sección típica de la estructura de pavimento flexible propuesta.");
     if (s.min) {
       var mm = s.min, dm = capas.map(function (c) { return c.d * 10; });
-      var okB = dm[1] >= mm.base - 1e-9, okS = (capas[0].id === "carpeta_caliente" ? dm[0] >= mm.caliente : capas[0].id === "carpeta_frio" ? dm[0] >= (mm.frio || 0) : true);
-      d.tabla("Espesores mínimos recomendados para " + tp.id, ["Capa", "Mínimo (mm)", "Adoptado (mm)", "Verificación"], [["Capa superficial", f(capas[0].id === "carpeta_frio" && mm.frio ? mm.frio : mm.caliente, 0), f(dm[0], 0), okS ? "cumple" : "no cumple"], ["Base granular", f(mm.base, 0), f(dm[1], 0), okB ? "cumple" : "no cumple"]], ["*", 90, 90, 90], ["left", "right", "right", "center"], "Fuente: Manual MTC [1], Cuadro 12.17, pág. 145.");
+      var okB = dm[1] >= mm.base - 1e-9, minSup = capas[0].id === "carpeta_caliente" ? mm.caliente : capas[0].id === "carpeta_frio" ? mm.frio : null, okS = minSup == null ? true : dm[0] >= minSup;
+      d.tabla("Espesores mínimos recomendados para " + tp.id, ["Capa", "Mínimo (mm)", "Adoptado (mm)", "Verificación"], [["Capa superficial", minSup == null ? "no indicado" : f(minSup, 0), f(dm[0], 0), minSup == null ? "—" : (okS ? "cumple" : "no cumple")], ["Base granular", f(mm.base, 0), f(dm[1], 0), okB ? "cumple" : "no cumple"]], ["*", 90, 90, 90], ["left", "right", "right", "center"], "Fuente: Manual MTC [1], Cuadro 12.17, pág. 145.");
     }
     d.h1("Comparación con el catálogo del Manual");
     if (s.cf != null) {

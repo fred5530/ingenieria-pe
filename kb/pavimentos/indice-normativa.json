@@ -1,0 +1,4181 @@
+{
+ "generado": "2026-11-20",
+ "origen": "CD NORMAS DE CARRETERAS (MTC), AutoPlay/Docs, 32 PDF",
+ "nota": "Los .txt y el CD no se versionan en git (kb/pavimentos/texto y fuentes-pdf estan excluidos). Para regenerar: extraer con pymupdf y correr este script.",
+ "escaneados_sin_texto": [
+  "01_DT_Soluciones_Bsicas",
+  "02_Aut_derecho_de_va",
+  "07_DS_derecho_de_va",
+  "08_Seguridad_e_Higiene_Industrial",
+  "12_Temas_de_Investigacin_DEE"
+ ],
+ "documentos": [
+  {
+   "archivo_txt": "kb/pavimentos/texto/01_DT_Soluciones_Bsicas.txt",
+   "titulo": "01 DT Soluciones Bsicas",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 13,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/02_Aut_derecho_de_va.txt",
+   "titulo": "02 Aut derecho de va",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 13,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/03_GT_Uso_Frecuente.txt",
+   "titulo": "03 GT Uso Frecuente",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 27,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/04_ET_Pinturas_para_Obras_Viales.txt",
+   "titulo": "04 ET Pinturas para Obras Viales",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 69,
+   "capitulos": [],
+   "cuadros_y_figuras": 24,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/05_Glosario_de_Partidas.txt",
+   "titulo": "05 Glosario de Partidas",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 35,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/06_Reductores_de_Velocidad.txt",
+   "titulo": "06 Reductores de Velocidad",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 27,
+   "capitulos": [],
+   "cuadros_y_figuras": 5,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/07_DS_derecho_de_va.txt",
+   "titulo": "07 DS derecho de va",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 31,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/08_Seguridad_e_Higiene_Industrial.txt",
+   "titulo": "08 Seguridad e Higiene Industrial",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 39,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/09_Mant_y_Operacin.txt",
+   "titulo": "09 Mant y Operacin",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 13,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/10_Mant_de_EM_Paralizado.txt",
+   "titulo": "10 Mant de EM Paralizado",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 8,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/11_Sist_de_Contencin_de_Vehculos.txt",
+   "titulo": "11 Sist de Contencin de Vehculos",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 23,
+   "capitulos": [],
+   "cuadros_y_figuras": 5,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/12_Temas_de_Investigacin_DEE.txt",
+   "titulo": "12 Temas de Investigacin DEE",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 16,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/13_Func_Superv_en_Obras.txt",
+   "titulo": "13 Func Superv en Obras",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 41,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/14_Gua_para_Inspec_PT.txt",
+   "titulo": "14 Gua para Inspec PT",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 85,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/15_Estabilizadores_de_Suelos.txt",
+   "titulo": "15 Estabilizadores de Suelos",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 10,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/16_Liquidacin_de_Obras_por_AD.txt",
+   "titulo": "16 Liquidacin de Obras por AD",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 66,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/17_Liquidacin_de_Contratos_de_Obra.txt",
+   "titulo": "17 Liquidacin de Contratos de Obra",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 40,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/18_Autorizacin_del_Inicio_de_Obras.txt",
+   "titulo": "18 Autorizacin del Inicio de Obras",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 12,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/19_Designacin_de_Ingenieros_Residentes.txt",
+   "titulo": "19 Designacin de Ingenieros Residentes",
+   "tipo": "documento tecnico",
+   "temas": [],
+   "paginas_pdf": 11,
+   "capitulos": [],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_10_EG_2013.txt",
+   "titulo": "Manual de Carreteras: Especificaciones Técnicas Generales para Construcción EG-2013",
+   "tipo": "manual",
+   "temas": [
+    "especificaciones",
+    "afirmado",
+    "mezclas asfalticas",
+    "concreto"
+   ],
+   "paginas_pdf": 605,
+   "capitulos": [
+    {
+     "pdf": 8,
+     "titulo": "Sección 01 GENERALIDADES .............................................................................................................. 13"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 02 CONDICIONES DE LICITACIÓN .................................................................................... 19"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 03 CONTROL DE MATERIALES ............................................................................................ 25"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 04 CONTROL DE CALIDAD.................................................................................................... 29"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 05 RELACIONES LEGALES Y RESPONSABILIDAD ANTE EL PÚBLICO ..................... 35"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 06 DESARROLLO Y PROGRESIÓN DE LA OBRA .............................................................. 41"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 07 MEDICIÓN Y PAGO ............................................................................................................ 45"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 08 SEGURIDAD LABORAL ..................................................................................................... 47"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 09 SALUBRIDAD ...................................................................................................................... 49"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Capitulo I TRABAJOS PRELIMINARES.......................................................... 53"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 101 MOVILIZACIÓN Y DESMOVILIZACIÓN DE EQUIPO ................................................ 53"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 102 TOPOGRAFÍA Y GEOREFERENCIACIÓN ...................................................................... 55"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 103 MANTENIMIENTO DE TRÁNSITO TEMPORAL Y SEGURIDAD VIAL ..................... 59"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 104 CAMPAMENTOS .................................................................................................................. 65"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 105 PROTECCIÓN DE RESTOS ARQUEOLÓGICOS .......................................................... 69"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Capitulo II MOVIMIENTO DE TIERRAS .......................................................... 71"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 201 DESBROCE Y LIMPIEZA DEL TERRENO ...................................................................... 71"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 202 EXCAVACIÓN PARA EXPLANACIONES ........................................................................ 75"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 203 REMOCIÓN DE DERRUMBES .......................................................................................... 85"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 204 EXCAVACIÓN GENERAL DE TÚNELES ......................................................................... 87"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 205 TERRAPLENES .................................................................................................................... 91"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 206 PEDRAPLENES .................................................................................................................... 97"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 207 MEJORAMIENTO DE SUELOS ....................................................................................... 103"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 208 OBRAS DE ENCAUZAMIENTO ...................................................................................... 107"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 209 CONFORMACIÓN Y ACOMODO DE DME ................................................................... 109"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Capitulo III AFIRMADOS ............................................................................. 113"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 301 AFIRMADOS ...................................................................................................................... 113"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Capitulo IV CAPAS ANTICONTAMINANTES SUBBASES Y BASES .................... 163"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 400 DISPOSICIONES GENERALES ..................................................................................... 163"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 401 CAPA ANTICONTAMINANTE ......................................................................................... 169"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 402 SUBBASES GRANULARES ............................................................................................. 171"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 403 BASES GRANULARES ..................................................................................................... 175"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 412 PLANTAS DE PRODUCCIÓN DE MATERIALES.......................................................... 213"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 413 CAPA DE AGREGADO – SUELO VEGETAL PARA RECUBRIMIENTO ................... 217"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 414 SEPARACIÓN DE SUELOS DE SUBRASANTE Y CAPAS GRANULARES CON"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 415 DISPOSICIONES GENERALES ...................................................................................... 221"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 416 IMPRIMACIÓN ASFÁLTICA ............................................................................................ 235"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 417 RIEGO DE LIGA ................................................................................................................. 241"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 418 TRATAMIENTOS SUPERFICIALES ............................................................................... 243"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 419 SELLO ASFÁLTICO ........................................................................................................... 251"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 420 MORTERO ASFÁLTICO .................................................................................................... 253"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 421 SELLO DE FISURAS ......................................................................................................... 259"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 422 SELLO DE GRIETAS ......................................................................................................... 261"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 423 PAVIMENTO DE CONCRETO ASFÁLTICO EN CALIENTE ....................................... 265"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 424 PAVIMENTO DE CONCRETO ASFÁLTICO EN FRIO ................................................. 293"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 425 MICROPAVIMENTO .......................................................................................................... 315"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 426 CEMENTO  ASFÁLTICO ................................................................................................... 323"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 427 EMULSIÓN ASFÁLTICA ................................................................................................... 325"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 428 ASFALTOS LÍQUIDOS ..................................................................................................... 327"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 429 FILLER ................................................................................................................................. 329"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 430 MEJORADORES DE ADHERENCIA ............................................................................... 331"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 431 CEMENTO ASFÁLTICO MODIFICADO CON POLÍMEROS....................................... 333"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 432 EMULSIÓN ASFÁLTICA MODIFICADA CON POLÍMEROS ...................................... 337"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 433 PAVIMENTO DE CONCRETO ASFÁLTICO CON MEZCLAS POROSAS ................. 341"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 434 PAVIMENTO DE CONCRETO ASFÁLTICO CON MEZCLA STONE MASTIC"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 435 FRESADO DE PAVIMENTO ASFÁLTICO...................................................................... 359"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 436 PAVIMENTO CON MEZCLA ASFÁLTICA RECICLADA EN CALIENTE ................... 363"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 437 PAVIMENTO CON MEZCLA ASFÁLTICA RECICLADA EN FRÍO ............................. 371"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 438 PAVIMENTO DE CONCRETO HIDRÁULICO ............................................................... 385"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 439 SUMINISTRO DE CONCRETO PORTLAND ................................................................. 415"
+    }
+   ],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_11_HHD_2011.txt",
+   "titulo": "Manual de Hidrología, Hidráulica y Drenaje 2011",
+   "tipo": "manual",
+   "temas": [
+    "drenaje",
+    "hidrologia"
+   ],
+   "paginas_pdf": 222,
+   "capitulos": [
+    {
+     "pdf": 2,
+     "titulo": "Capitulo I I.     INTRODUCCIÓN………………………………………………………………         12"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capitulo II II.     OBJETIVOS…………………………………………………………………            16"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capitulo III III.    HIDROLOGÍA………………………………………………………………             19"
+    },
+    {
+     "pdf": 3,
+     "titulo": "Capitulo IV IV."
+    },
+    {
+     "pdf": 6,
+     "titulo": "Capitulo V V. ANEXOS   ……………………………………………………………………            203"
+    },
+    {
+     "pdf": 11,
+     "titulo": "Capítulo I INTRODUCCIÓN"
+    },
+    {
+     "pdf": 15,
+     "titulo": "Capítulo II OBJETIVOS"
+    },
+    {
+     "pdf": 18,
+     "titulo": "Capítulo III HIDROLOGÍA"
+    },
+    {
+     "pdf": 67,
+     "titulo": "Capítulo IV HIDRÁULICA Y DRENAJE"
+    },
+    {
+     "pdf": 92,
+     "titulo": "Capítulo III del Manual"
+    },
+    {
+     "pdf": 101,
+     "titulo": "Sección 2 En la solución numérica iterativa de la ecuación, la incógnita es el"
+    },
+    {
+     "pdf": 204,
+     "titulo": "Capítulo V ANEXOS"
+    }
+   ],
+   "cuadros_y_figuras": 1,
+   "cuadros": [
+    {
+     "pdf": 173,
+     "id": "Tabla 304.12",
+     "titulo": "INCLINACIONES MÁXIMAS DEL TALUD (V:H)"
+    }
+   ]
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_1_DG_2018.txt",
+   "titulo": "Manual de Carreteras: Diseño Geométrico DG-2018",
+   "tipo": "manual",
+   "temas": [
+    "geometria",
+    "pendientes",
+    "bombeo",
+    "secciones"
+   ],
+   "paginas_pdf": 340,
+   "capitulos": [
+    {
+     "pdf": 8,
+     "titulo": "Capítulo I CLASIFICACIÓN DE LAS CARRETERAS ......................... 21"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 101 CLASIFICACIÓN POR DEMANDA ....................................................... 21"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 102 CLASIFICACIÓN POR OROGRAFÍA .................................................... 23"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Capítulo II CRITERIOS Y CONTROLES BÁSICOS PARA EL"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 201 ESTUDIOS  PRELIMINARES  PARA  EFECTUAR  EL  DISEÑO"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Sección 202 VEHÍCULOS DE DISEÑO ................................................................... 35"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 203 CARACTERÍSTICAS DEL TRÁNSITO ................................................ 103"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 204 VELOCIDAD DE DISEÑO................................................................. 109"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 205 DISTANCIA DE VISIBILIDAD ......................................................... 117"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 206 CONTROL DE ACCESOS ................................................................. 131"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 207 INSTALACIONES AL LADO DE LA CARRETERA ................................ 133"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Sección 208 INSTALACIONES FUERA DEL DERECHO DE VÍA ............................ 135"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Sección 209 FACILIDADES PARA PEATONES ...................................................... 137"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Seccion 210 VALORES ESTÉTICOS Y ECOLÓGICOS ............................................ 139"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Sección 211 CAPACIDAD Y NIVELES DE SERVICIO ........................................... 141"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Capitulo III DISEÑO GEOMÉTRICO EN PLANTA, PERFIL Y"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Sección 301 GENERALIDADES ............................................................................ 145"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Sección 302 DISEÑO GEOMÉTRICO EN PLANTA ................................................. 147"
+    },
+    {
+     "pdf": 11,
+     "titulo": "Sección 303 DISEÑO GEOMÉTRICO EN PERFIL .................................................. 197"
+    },
+    {
+     "pdf": 11,
+     "titulo": "Seccion 304 DISEÑO GEOMÉTRICO DE LA SECCIÓN TRANSVERSAL .................. 213"
+    },
+    {
+     "pdf": 12,
+     "titulo": "Capitulo IV DISEÑO GEOMÉTRICO DE CASOS ESPECIALES .... 245"
+    },
+    {
+     "pdf": 12,
+     "titulo": "Sección 401 DISEÑO GEOMÉTRICO DE PUENTES ............................................... 245"
+    },
+    {
+     "pdf": 12,
+     "titulo": "Sección 402 DISEÑO GEOMÉTRICO DE TÚNELES ............................................... 247"
+    },
+    {
+     "pdf": 12,
+     "titulo": "Seccion 403 PASOS A DESNIVEL PARA PEATONES ............................................. 249"
+    },
+    {
+     "pdf": 12,
+     "titulo": "Capitulo V DISEÑO GEOMÉTRICO DE INTERSECCIONES .......... 251"
+    },
+    {
+     "pdf": 12,
+     "titulo": "Sección 501 GENERALIDADES ............................................................................ 251"
+    },
+    {
+     "pdf": 12,
+     "titulo": "Sección 502 INTERSECCIONES A NIVEL ............................................................. 253"
+    },
+    {
+     "pdf": 13,
+     "titulo": "Sección 503 INTERSECCIONES A DESNIVEL ...................................................... 291"
+    },
+    {
+     "pdf": 13,
+     "titulo": "Sección 504 DISEÑO GEOMÉTRICO DE ATRAVESAMIENTO DE ZONAS URBANAS"
+    },
+    {
+     "pdf": 13,
+     "titulo": "Capítulo VI COORDINACIÓN DEL TRAZO EN PLANTA Y PERFIL,"
+    },
+    {
+     "pdf": 13,
+     "titulo": "Sección 601 COORDINACIÓN DEL TRAZO EN PLANTA Y PERFIL ......................... 313"
+    },
+    {
+     "pdf": 13,
+     "titulo": "Sección 602 CONSISTENCIA DEL DISEÑO GEOMÉTRICO ................................... 323"
+    },
+    {
+     "pdf": 22,
+     "titulo": "Capítulo I CLASIFICACIÓN DE LAS CARRETERAS"
+    },
+    {
+     "pdf": 22,
+     "titulo": "Sección 101 CLASIFICACIÓN POR DEMANDA"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Sección 102 CLASIFICACIÓN POR OROGRAFÍA"
+    },
+    {
+     "pdf": 26,
+     "titulo": "Capítulo II CRITERIOS Y CONTROLES BÁSICOS PARA EL DISEÑO"
+    },
+    {
+     "pdf": 26,
+     "titulo": "Sección 201 ESTUDIOS PRELIMINARES PARA EFECTUAR EL DISEÑO GEOMÉTRICO"
+    },
+    {
+     "pdf": 36,
+     "titulo": "Sección 202 VEHÍCULOS DE DISEÑO"
+    },
+    {
+     "pdf": 104,
+     "titulo": "Sección 203 CARACTERÍSTICAS DEL TRÁNSITO"
+    },
+    {
+     "pdf": 110,
+     "titulo": "Sección 204 VELOCIDAD DE DISEÑO"
+    },
+    {
+     "pdf": 118,
+     "titulo": "Sección 205 DISTANCIA DE VISIBILIDAD"
+    },
+    {
+     "pdf": 132,
+     "titulo": "Sección 206 CONTROL DE ACCESOS"
+    },
+    {
+     "pdf": 134,
+     "titulo": "Sección 207 INSTALACIONES AL LADO DE LA CARRETERA"
+    },
+    {
+     "pdf": 136,
+     "titulo": "Sección 208 INSTALACIONES FUERA DEL DERECHO DE VÍA"
+    },
+    {
+     "pdf": 138,
+     "titulo": "Sección 209 FACILIDADES PARA PEATONES"
+    },
+    {
+     "pdf": 140,
+     "titulo": "Seccion 210 VALORES ESTÉTICOS Y ECOLÓGICOS"
+    },
+    {
+     "pdf": 142,
+     "titulo": "Sección 211 CAPACIDAD Y NIVELES DE SERVICIO"
+    },
+    {
+     "pdf": 146,
+     "titulo": "Capitulo III DISEÑO GEOMÉTRICO EN PLANTA, PERFIL Y SECCIÓN"
+    },
+    {
+     "pdf": 146,
+     "titulo": "Sección 301 GENERALIDADES"
+    },
+    {
+     "pdf": 148,
+     "titulo": "Sección 302 DISEÑO GEOMÉTRICO EN PLANTA"
+    },
+    {
+     "pdf": 198,
+     "titulo": "Sección 303 DISEÑO GEOMÉTRICO EN PERFIL"
+    },
+    {
+     "pdf": 214,
+     "titulo": "Seccion 304 DISEÑO GEOMÉTRICO DE LA SECCIÓN TRANSVERSAL"
+    },
+    {
+     "pdf": 246,
+     "titulo": "Capitulo IV DISEÑO GEOMÉTRICO DE CASOS ESPECIALES"
+    },
+    {
+     "pdf": 246,
+     "titulo": "Sección 401 DISEÑO GEOMÉTRICO DE PUENTES"
+    },
+    {
+     "pdf": 248,
+     "titulo": "Sección 402 DISEÑO GEOMÉTRICO DE TÚNELES"
+    },
+    {
+     "pdf": 250,
+     "titulo": "Seccion 403 PASOS A DESNIVEL PARA PEATONES"
+    },
+    {
+     "pdf": 252,
+     "titulo": "Capitulo V DISEÑO GEOMÉTRICO DE INTERSECCIONES"
+    },
+    {
+     "pdf": 252,
+     "titulo": "Sección 501 GENERALIDADES"
+    },
+    {
+     "pdf": 254,
+     "titulo": "Sección 502 INTERSECCIONES A NIVEL"
+    },
+    {
+     "pdf": 287,
+     "titulo": "Sección C C'"
+    }
+   ],
+   "cuadros_y_figuras": 253,
+   "cuadros": [
+    {
+     "pdf": 39,
+     "id": "Tabla 202.01",
+     "titulo": "Datos básicos de los vehículos de tipo M utilizados para el dimensionamiento de carreteras"
+    },
+    {
+     "pdf": 40,
+     "id": "Tabla 202.02",
+     "titulo": "Vehículo ligero (VL) Radios máximos/mínimos y ángulos"
+    },
+    {
+     "pdf": 41,
+     "id": "Figura 202.01",
+     "titulo": "Giro mínimo para vehículos ligeros (VL) Trayectoria 30º"
+    },
+    {
+     "pdf": 42,
+     "id": "Figura 202.02",
+     "titulo": "Giro mínimo para vehículos ligeros (VL) Trayectoria 60º"
+    },
+    {
+     "pdf": 43,
+     "id": "Figura 202.03",
+     "titulo": "Giro mínimo para vehículos ligeros (VL) Trayectoria 90º"
+    },
+    {
+     "pdf": 44,
+     "id": "Figura 202.04",
+     "titulo": "Giro mínimo para vehículos ligeros (VL) Trayectoria 120º"
+    },
+    {
+     "pdf": 45,
+     "id": "Figura 202.05",
+     "titulo": "Giro mínimo para vehículos ligeros (VL) Trayectoria 150º"
+    },
+    {
+     "pdf": 46,
+     "id": "Figura 202.06",
+     "titulo": "Giro mínimo para vehículos ligeros (VL) Trayectoria 180º"
+    },
+    {
+     "pdf": 47,
+     "id": "Tabla 202.03",
+     "titulo": "Ómnibus de dos ejes (B2)"
+    },
+    {
+     "pdf": 48,
+     "id": "Figura 202.07",
+     "titulo": "Giro mínimo para ómnibus de dos ejes (B2) Trayectoria 30º"
+    },
+    {
+     "pdf": 49,
+     "id": "Figura 202.08",
+     "titulo": "Giro mínimo para ómnibus de dos ejes (B2) Trayectoria 60º"
+    },
+    {
+     "pdf": 50,
+     "id": "Figura 202.09",
+     "titulo": "Giro mínimo para ómnibus de dos ejes (B2) Trayectoria 90º"
+    },
+    {
+     "pdf": 51,
+     "id": "Figura 202.10",
+     "titulo": "Giro mínimo para ómnibus de dos ejes (B2) Trayectoria 120º"
+    },
+    {
+     "pdf": 52,
+     "id": "Figura 202.11",
+     "titulo": "Giro mínimo para ómnibus de dos ejes (B2) Trayectoria 150º"
+    },
+    {
+     "pdf": 53,
+     "id": "Figura 202.12",
+     "titulo": "Giro mínimo para ómnibus de dos ejes (B2) Trayectoria 180º"
+    },
+    {
+     "pdf": 54,
+     "id": "Tabla 202.04",
+     "titulo": "Ómnibus de tres ejes (B3-1)"
+    },
+    {
+     "pdf": 55,
+     "id": "Figura 202.13",
+     "titulo": "Giro mínimo para ómnibus de tres ejes (B3-1) Trayectoria 30º"
+    },
+    {
+     "pdf": 56,
+     "id": "Figura 202.14",
+     "titulo": "Giro mínimo para ómnibus de tres ejes (B3-1) Trayectoria 60º"
+    },
+    {
+     "pdf": 57,
+     "id": "Figura 202.15",
+     "titulo": "Giro mínimo para ómnibus de tres ejes (B3-1) Trayectoria 90º"
+    },
+    {
+     "pdf": 58,
+     "id": "Figura 202.16",
+     "titulo": "Giro mínimo para ómnibus de tres ejes (B3-1) Trayectoria 120º"
+    },
+    {
+     "pdf": 59,
+     "id": "Figura 202.17",
+     "titulo": "Giro mínimo para ómnibus de tres ejes (B3-1) Trayectoria 150º"
+    },
+    {
+     "pdf": 60,
+     "id": "Figura 202.18",
+     "titulo": "Giro mínimo para ómnibus de tres ejes (B3-1) Trayectoria 180º"
+    },
+    {
+     "pdf": 61,
+     "id": "Tabla 202.05",
+     "titulo": "Ómnibus de cuatro ejes (B4-1)"
+    },
+    {
+     "pdf": 62,
+     "id": "Figura 202.19",
+     "titulo": "Giro mínimo para ómnibus de cuatro ejes (B4-1) Trayectoria 30º"
+    },
+    {
+     "pdf": 63,
+     "id": "Figura 202.20",
+     "titulo": "Giro mínimo para ómnibus de cuatro ejes (B4-1) Trayectoria 60º"
+    },
+    {
+     "pdf": 64,
+     "id": "Figura 202.21",
+     "titulo": "Giro mínimo para ómnibus de cuatro ejes (B4-1) Trayectoria 90º"
+    },
+    {
+     "pdf": 65,
+     "id": "Figura 202.22",
+     "titulo": "Giro mínimo para ómnibus de cuatro ejes (B4-1) Trayectoria 120º"
+    },
+    {
+     "pdf": 66,
+     "id": "Figura 202.23",
+     "titulo": "Giro mínimo para ómnibus de cuatro ejes (B4-1) Trayectoria 150º"
+    },
+    {
+     "pdf": 67,
+     "id": "Figura 202.24",
+     "titulo": "Giro mínimo para ómnibus de cuatro ejes (B4-1) Trayectoria 180º"
+    },
+    {
+     "pdf": 68,
+     "id": "Tabla 202.06",
+     "titulo": "Ómnibus articulado (BA-1)"
+    },
+    {
+     "pdf": 69,
+     "id": "Figura 202.25",
+     "titulo": "Giro mínimo para ómnibus articulados (BA-1) Trayectoria 30º"
+    },
+    {
+     "pdf": 70,
+     "id": "Figura 202.26",
+     "titulo": "Giro mínimo para ómnibus articulados (BA-1) Trayectoria 60º"
+    },
+    {
+     "pdf": 71,
+     "id": "Figura 202.27",
+     "titulo": "Giro mínimo para ómnibus articulados (BA-1) Trayectoria 90º"
+    },
+    {
+     "pdf": 72,
+     "id": "Figura 202.28",
+     "titulo": "Giro mínimo para ómnibus articulados (BA-1) Trayectoria 120º"
+    },
+    {
+     "pdf": 73,
+     "id": "Figura 202.29",
+     "titulo": "Giro mínimo para ómnibus articulados (BA-1) Trayectoria 150º"
+    },
+    {
+     "pdf": 74,
+     "id": "Figura 202.30",
+     "titulo": "Giro mínimo para ómnibus articulados (BA-1) Trayectoria 180º"
+    },
+    {
+     "pdf": 75,
+     "id": "Tabla 202.07",
+     "titulo": "Semirremolque simple (T2S1)"
+    },
+    {
+     "pdf": 76,
+     "id": "Figura 202.31",
+     "titulo": "Giro mínimo para semirremolques simples (T2S1) Trayectoria 30º"
+    },
+    {
+     "pdf": 77,
+     "id": "Figura 202.32",
+     "titulo": "Giro mínimo para semirremolques simples (T2S1) Trayectoria 60º"
+    },
+    {
+     "pdf": 78,
+     "id": "Figura 202.33",
+     "titulo": "Giro mínimo para semirremolques simples (T2S1) Trayectoria 90º"
+    },
+    {
+     "pdf": 79,
+     "id": "Figura 202.34",
+     "titulo": "Giro mínimo para semirremolques simples (T2S1) Trayectoria 120º"
+    },
+    {
+     "pdf": 80,
+     "id": "Figura 202.35",
+     "titulo": "Giro mínimo para semirremolques simples (T2S1) Trayectoria 150º"
+    },
+    {
+     "pdf": 81,
+     "id": "Figura 202.36",
+     "titulo": "Giro mínimo para semirremolques simples (T2S1) Trayectoria 180º"
+    },
+    {
+     "pdf": 82,
+     "id": "Tabla 202.08",
+     "titulo": "Remolque simple (C2R1)"
+    },
+    {
+     "pdf": 83,
+     "id": "Figura 202.37",
+     "titulo": "Giro mínimo para remolques simples (C2R1) Trayectoria 30º"
+    },
+    {
+     "pdf": 84,
+     "id": "Figura 202.38",
+     "titulo": "Giro mínimo para remolques simples (C2R1) Trayectoria 60º"
+    },
+    {
+     "pdf": 85,
+     "id": "Figura 202.39",
+     "titulo": "Giro mínimo para remolques simples (C2R1) Trayectoria 90º"
+    },
+    {
+     "pdf": 86,
+     "id": "Figura 202.40",
+     "titulo": "Giro mínimo para remolques simples (C2R1) Trayectoria 120º"
+    },
+    {
+     "pdf": 87,
+     "id": "Figura 202.41",
+     "titulo": "Giro mínimo para remolques simples (C2R1) Trayectoria 150º"
+    },
+    {
+     "pdf": 88,
+     "id": "Figura 202.42",
+     "titulo": "Giro mínimo para remolques simples (C2R1) Trayectoria 180º"
+    },
+    {
+     "pdf": 89,
+     "id": "Tabla 202.09",
+     "titulo": "Semirremolque doble (T3S2S2)"
+    },
+    {
+     "pdf": 90,
+     "id": "Figura 202.43",
+     "titulo": "Giro mínimo para semirremolques dobles (T3S2S2) Trayectoria 30º"
+    },
+    {
+     "pdf": 91,
+     "id": "Figura 202.44",
+     "titulo": "Giro mínimo para semirremolques dobles (T3S2S2) Trayectoria 60º"
+    },
+    {
+     "pdf": 92,
+     "id": "Figura 202.45",
+     "titulo": "Giro mínimo para semirremolques dobles (T3S2S2) Trayectoria 90º"
+    },
+    {
+     "pdf": 93,
+     "id": "Figura 202.46",
+     "titulo": "Giro mínimo para semirremolques dobles (T3S2S2) Trayectoria 120º"
+    },
+    {
+     "pdf": 94,
+     "id": "Figura 202.47",
+     "titulo": "Giro mínimo para semirremolques dobles (T3S2S2) Trayectoria 150º"
+    },
+    {
+     "pdf": 95,
+     "id": "Figura 202.48",
+     "titulo": "Giro mínimo para semirremolques dobles (T3S2S2) Trayectoria 180º"
+    },
+    {
+     "pdf": 96,
+     "id": "Tabla 202.10",
+     "titulo": "Semirremolque-Remolque (T3S2S2)"
+    },
+    {
+     "pdf": 97,
+     "id": "Figura 202.49",
+     "titulo": "Giro mínimo para semirremolques remolques (T3S2S2)"
+    },
+    {
+     "pdf": 98,
+     "id": "Figura 202.50",
+     "titulo": "Giro mínimo para semirremolques remolques (T3S2S2)"
+    },
+    {
+     "pdf": 99,
+     "id": "Figura 202.51",
+     "titulo": "Giro mínimo para semirremolques remolques (T3S2S2)"
+    },
+    {
+     "pdf": 100,
+     "id": "Figura 202.52",
+     "titulo": "Giro mínimo para semirremolques remolques (T3S2S2)"
+    },
+    {
+     "pdf": 101,
+     "id": "Figura 202.53",
+     "titulo": "Giro mínimo para semirremolques remolques (T3S2S2)"
+    },
+    {
+     "pdf": 102,
+     "id": "Figura 202.54",
+     "titulo": "Giro mínimo para semirremolques remolques (T3S2S2)"
+    },
+    {
+     "pdf": 103,
+     "id": "Tabla 202.11",
+     "titulo": "Semirremolque simple (T3S3)"
+    },
+    {
+     "pdf": 111,
+     "id": "Tabla 204.01",
+     "titulo": "Rangos de la Velocidad de Diseño en función a la clasificación de la"
+    },
+    {
+     "pdf": 114,
+     "id": "Tabla 204.02",
+     "titulo": "Velocidades de marcha teóricas en función de la velocidad de diseño (km)"
+    },
+    {
+     "pdf": 115,
+     "id": "Tabla 204.03",
+     "titulo": "Ecuaciones de Fitzpatrick para la estimación de velocidades de operación"
+    },
+    {
+     "pdf": 116,
+     "id": "Tabla 204.04",
+     "titulo": "Valores de velocidades máximas de operación"
+    },
+    {
+     "pdf": 119,
+     "id": "Tabla 205.01",
+     "titulo": "Distancia de visibilidad de parada (metros), en pendiente 0%"
+    },
+    {
+     "pdf": 121,
+     "id": "Figura 205.01",
+     "titulo": "Distancia de visibilidad de parada"
+    },
+    {
+     "pdf": 122,
+     "id": "Figura 205.02",
+     "titulo": "Distancia de visibilidad de adelantamiento"
+    },
+    {
+     "pdf": 124,
+     "id": "Tabla 205.02",
+     "titulo": "Elementos que conforman la distancia de adelantamiento y ejemplos de"
+    },
+    {
+     "pdf": 125,
+     "id": "Tabla 205.03",
+     "titulo": "Mínima distancia de visibilidad de adelantamiento para carreteras de dos"
+    },
+    {
+     "pdf": 126,
+     "id": "Tabla 205.04",
+     "titulo": "Máximas longitudes sin visibilidad de paso o adelantamiento en sectores"
+    },
+    {
+     "pdf": 126,
+     "id": "Tabla 205.05",
+     "titulo": "Porcentaje de la carretera con visibilidad adecuada para adelantar"
+    },
+    {
+     "pdf": 127,
+     "id": "Figura 205.03",
+     "titulo": "Distancia de visibilidad de paso (Da)"
+    },
+    {
+     "pdf": 129,
+     "id": "Figura 205.04",
+     "titulo": "Distancia de visibilidad en intersecciones. Triángulo mínimo de visibilidad"
+    },
+    {
+     "pdf": 130,
+     "id": "Tabla 205.06",
+     "titulo": "Distancias mínimas de visibilidad requeridas a lo largo de una vía con"
+    },
+    {
+     "pdf": 143,
+     "id": "Tabla 211.01",
+     "titulo": "Capacidad en condiciones ideales"
+    },
+    {
+     "pdf": 144,
+     "id": "Tabla 211.02",
+     "titulo": "Capacidad de carreteras de dos carriles"
+    },
+    {
+     "pdf": 150,
+     "id": "Tabla 302.01",
+     "titulo": "Longitudes de tramos en tangente"
+    },
+    {
+     "pdf": 151,
+     "id": "Figura 302.01",
+     "titulo": "Simbología de la curva circular"
+    },
+    {
+     "pdf": 152,
+     "id": "Tabla 302.02",
+     "titulo": "Radios mínimos y peraltes máximos para diseño de carreteras"
+    },
+    {
+     "pdf": 154,
+     "id": "Figura 302.02",
+     "titulo": "Peralte en cruce de áreas urbanas"
+    },
+    {
+     "pdf": 154,
+     "id": "Figura 302.03",
+     "titulo": "Peralte en zona rural (Tipo 1, 2 ó 3)"
+    },
+    {
+     "pdf": 155,
+     "id": "Figura 302.04",
+     "titulo": "Peralte en zona rural (Tipo 3 ó 4)"
+    },
+    {
+     "pdf": 155,
+     "id": "Figura 302.05",
+     "titulo": "Peralte en zonas con peligro de hielo"
+    },
+    {
+     "pdf": 156,
+     "id": "Tabla 302.03",
+     "titulo": "Fricción transversal máxima en curvas"
+    },
+    {
+     "pdf": 156,
+     "id": "Tabla 302.04",
+     "titulo": "Valores del radio mínimo para velocidades específicas de diseño, peraltes"
+    },
+    {
+     "pdf": 157,
+     "id": "Tabla 302.05",
+     "titulo": "Radio límites en contraperalte vías pavimentadas"
+    },
+    {
+     "pdf": 157,
+     "id": "Tabla 302.06",
+     "titulo": "Vs"
+    },
+    {
+     "pdf": 158,
+     "id": "Figura 302.06",
+     "titulo": "Relación de radios - Grupo 1"
+    },
+    {
+     "pdf": 159,
+     "id": "Figura 302.07",
+     "titulo": "Relación de radios - Grupo 2"
+    },
+    {
+     "pdf": 159,
+     "id": "Tabla 302.07",
+     "titulo": "Relación entre radios consecutivos – grupo 1"
+    },
+    {
+     "pdf": 160,
+     "id": "Tabla 302.07",
+     "titulo": "Relación entre radios consecutivos – grupo 1"
+    },
+    {
+     "pdf": 161,
+     "id": "Tabla 302.08",
+     "titulo": "Relación entre radios consecutivos – grupo 2"
+    },
+    {
+     "pdf": 163,
+     "id": "Tabla 302.09",
+     "titulo": "Variación de la aceleración transversal por unidad de tiempo"
+    },
+    {
+     "pdf": 164,
+     "id": "Tabla 302.10",
+     "titulo": "Longitud mínima de curva de transición"
+    },
+    {
+     "pdf": 166,
+     "id": "Figura 302.08",
+     "titulo": "Elementos de la curva de transición-curva circular"
+    },
+    {
+     "pdf": 167,
+     "id": "Figura 302.09",
+     "titulo": "Características generales de la clotoide"
+    },
+    {
+     "pdf": 172,
+     "id": "Figura 302.10",
+     "titulo": "Configuraciones recomendables"
+    },
+    {
+     "pdf": 174,
+     "id": "Figura 302.11",
+     "titulo": "Configuraciones límite"
+    },
+    {
+     "pdf": 175,
+     "id": "Figura 302.12",
+     "titulo": "Configuraciones no recomendables"
+    },
+    {
+     "pdf": 176,
+     "id": "Figura 302.13",
+     "titulo": "La Tabla 302.12, contiene los valores posibles para “Ri” y “Re” según las maniobras"
+    },
+    {
+     "pdf": 177,
+     "id": "Tabla 302.12",
+     "titulo": "Radio exterior mínimo correspondiente a un radio interior adoptado"
+    },
+    {
+     "pdf": 178,
+     "id": "Tabla 302.13",
+     "titulo": "Velocidad"
+    },
+    {
+     "pdf": 179,
+     "id": "Tabla 302.14",
+     "titulo": "Longitud de transición del peralte según velocidad y posición del eje del"
+    },
+    {
+     "pdf": 179,
+     "id": "Tabla 302.15",
+     "titulo": "Longitud de transición del peralte según velocidad y posición del eje del"
+    },
+    {
+     "pdf": 180,
+     "id": "Tabla 302.16",
+     "titulo": "Longitud de transición del peralte según velocidad y posición del eje del"
+    },
+    {
+     "pdf": 180,
+     "id": "Tabla 302.17",
+     "titulo": "Longitud de transición del peralte según velocidad y posición del eje del"
+    },
+    {
+     "pdf": 181,
+     "id": "Tabla 302.18",
+     "titulo": "Longitud de transición del peralte según velocidad y posición del eje del"
+    },
+    {
+     "pdf": 182,
+     "id": "Figura 302.14",
+     "titulo": "Desvanecimiento del bombeo y transición del peralte con curva de"
+    },
+    {
+     "pdf": 183,
+     "id": "Figura 302.15",
+     "titulo": "Desvanecimiento del bombeo y transición del peralte sin curva de"
+    },
+    {
+     "pdf": 184,
+     "id": "Figura 302.16",
+     "titulo": "Figura 302.17"
+    },
+    {
+     "pdf": 184,
+     "id": "Figura 302.17",
+     "titulo": "Longitud de Cambio b"
+    },
+    {
+     "pdf": 186,
+     "id": "Tabla 302.19",
+     "titulo": "Holguras teóricas para vehículos comerciales de 2.60 m de ancho"
+    },
+    {
+     "pdf": 189,
+     "id": "Tabla 302.20",
+     "titulo": "Factores de reducción del sobreancho para anchos de calzada en tangente"
+    },
+    {
+     "pdf": 190,
+     "id": "Figura 302.19",
+     "titulo": "Distribución del sobreancho en los sectores de transición y circular"
+    },
+    {
+     "pdf": 191,
+     "id": "Figura 302.20",
+     "titulo": "Determinación gráfica de distancias de visibilidad en curvas en planta"
+    },
+    {
+     "pdf": 193,
+     "id": "Figura 302.21",
+     "titulo": "Verificación gráfica distancias de visibilidad en perfil en curvas convexas"
+    },
+    {
+     "pdf": 194,
+     "id": "Figura 302.22",
+     "titulo": "Si la verificación indica que no se tiene la visibilidad requerida y no es posible o"
+    },
+    {
+     "pdf": 194,
+     "id": "Figura 302.23",
+     "titulo": "Visibilidad en Curva"
+    },
+    {
+     "pdf": 195,
+     "id": "Tabla 302.21",
+     "titulo": "Distancias mínimas a obstáculos fijos"
+    },
+    {
+     "pdf": 196,
+     "id": "Tabla 302.22",
+     "titulo": "Porcentaje del tramo con visibilidad adecuada para adelantar"
+    },
+    {
+     "pdf": 200,
+     "id": "Tabla 303.01",
+     "titulo": "Pendientes máximas (%)"
+    },
+    {
+     "pdf": 202,
+     "id": "Figura 303.01",
+     "titulo": "Disminución de velocidad (a) y magnitud crítica (b), en pendientes"
+    },
+    {
+     "pdf": 204,
+     "id": "Figura 303.02",
+     "titulo": "Tipos de curvas verticales convexas y cóncavas"
+    },
+    {
+     "pdf": 205,
+     "id": "Figura 303.03",
+     "titulo": "Tipos de curvas verticales simétricas y asimétricas"
+    },
+    {
+     "pdf": 205,
+     "id": "Figura 303.04",
+     "titulo": "Elementos de la curva vertical simétrica"
+    },
+    {
+     "pdf": 206,
+     "id": "Figura 303.05",
+     "titulo": "Elementos de la curva vertical asimétrica"
+    },
+    {
+     "pdf": 209,
+     "id": "Figura 303.06",
+     "titulo": "Longitud mínima de curva vertical convexa con distancias de visibilidad de"
+    },
+    {
+     "pdf": 210,
+     "id": "Figura 303.07",
+     "titulo": "Longitud mínima de curvas verticales convexas con distancias de"
+    },
+    {
+     "pdf": 211,
+     "id": "Tabla 303.02",
+     "titulo": "Valores del índice K para el cálculo de la longitud de curva vertical convexa"
+    },
+    {
+     "pdf": 212,
+     "id": "Figura 303.08",
+     "titulo": "Longitudes mínimas de curvas verticales cóncavas"
+    },
+    {
+     "pdf": 213,
+     "id": "Tabla 303.03",
+     "titulo": "Valores del índice K para el cálculo de la longitud de curva vertical cóncava"
+    },
+    {
+     "pdf": 216,
+     "id": "Figura 304.01",
+     "titulo": "Sección transversal tipo a media ladera para una autopista en tangente"
+    },
+    {
+     "pdf": 217,
+     "id": "Figura 304.02",
+     "titulo": "Sección transversal típica a media ladera vía de dos carriles en curva"
+    },
+    {
+     "pdf": 223,
+     "id": "Tabla 304.01",
+     "titulo": "Anchos mínimos de calzada en tangente"
+    },
+    {
+     "pdf": 225,
+     "id": "Tabla 304.02",
+     "titulo": "Ancho de bermas"
+    },
+    {
+     "pdf": 227,
+     "id": "Figura 304.03",
+     "titulo": "Pendiente transversal de bermas"
+    },
+    {
+     "pdf": 228,
+     "id": "Tabla 304.03",
+     "titulo": "Valores del bombeo de la calzada"
+    },
+    {
+     "pdf": 229,
+     "id": "Figura 304.04",
+     "titulo": "Casos de bombeo"
+    },
+    {
+     "pdf": 229,
+     "id": "Tabla 304.04",
+     "titulo": "Valores de radio a partir de los cuales no es necesario peralte"
+    },
+    {
+     "pdf": 229,
+     "id": "Tabla 304.05",
+     "titulo": "Valores de peralte máximo"
+    },
+    {
+     "pdf": 230,
+     "id": "Tabla 304.06",
+     "titulo": "Peralte mínimo"
+    },
+    {
+     "pdf": 230,
+     "id": "Tabla 304.07",
+     "titulo": "Proporción del peralte (p) a desarrollar en tangente *"
+    },
+    {
+     "pdf": 231,
+     "id": "Tabla 304.08",
+     "titulo": "Tramos mínimos en tangente entre curvas del mismo sentido"
+    },
+    {
+     "pdf": 232,
+     "id": "Tabla 304.09",
+     "titulo": "Anchos mínimos de Derecho de Vía"
+    },
+    {
+     "pdf": 234,
+     "id": "Figura 304.05",
+     "titulo": "Sección típica de túnel"
+    },
+    {
+     "pdf": 235,
+     "id": "Figura 304.06",
+     "titulo": "Casos de Gálibos (LL.V.) y Luces libres laterales (LL)"
+    },
+    {
+     "pdf": 237,
+     "id": "Figura 304.07",
+     "titulo": "Sección transversal típica en tangente"
+    },
+    {
+     "pdf": 238,
+     "id": "Tabla 304.10",
+     "titulo": "Valores referenciales para taludes en corte"
+    },
+    {
+     "pdf": 239,
+     "id": "Figura 304.08",
+     "titulo": "Tratamiento de taludes tipo"
+    },
+    {
+     "pdf": 240,
+     "id": "Figura 304.09",
+     "titulo": "Alabeo de taludes en transiciones de corte y relleno"
+    },
+    {
+     "pdf": 241,
+     "id": "Figura 304.10",
+     "titulo": "Tratamiento de boca acampanada y relleno abocinado en la entrada al corte"
+    },
+    {
+     "pdf": 242,
+     "id": "Tabla 304.11",
+     "titulo": "Taludes referenciales en zonas de relleno (terraplenes)"
+    },
+    {
+     "pdf": 243,
+     "id": "Tabla 304.12",
+     "titulo": "Dimensiones mínimas y separación máximas de ensanches de plataforma"
+    },
+    {
+     "pdf": 245,
+     "id": "Figura 304.11",
+     "titulo": "Confluencias y bifurcaciones"
+    },
+    {
+     "pdf": 250,
+     "id": "Tabla 403.01",
+     "titulo": "Criterios generales para el diseño geométrico de pasos a desnivel para"
+    },
+    {
+     "pdf": 250,
+     "id": "Tabla 403.02",
+     "titulo": "Características generales de los accesos a pasos peatonales a desnivel"
+    },
+    {
+     "pdf": 251,
+     "id": "Figura 403.01",
+     "titulo": "Acceso a pasos a desnivel peatonal"
+    },
+    {
+     "pdf": 254,
+     "id": "Tabla 502.01",
+     "titulo": "Tipos de intersección a nivel"
+    },
+    {
+     "pdf": 255,
+     "id": "Figura 502.01",
+     "titulo": "Variedad de tipos de intersección a nivel"
+    },
+    {
+     "pdf": 258,
+     "id": "Figura 502.02",
+     "titulo": "Triángulos de visibilidad"
+    },
+    {
+     "pdf": 260,
+     "id": "Tabla 502.02",
+     "titulo": "Radios mínimos en intersecciones sin canalizar"
+    },
+    {
+     "pdf": 261,
+     "id": "Figura 502.03",
+     "titulo": "Curva compuesta de tres centros"
+    },
+    {
+     "pdf": 262,
+     "id": "Figura 502.04",
+     "titulo": "Intersecciones sin canalizar simples"
+    },
+    {
+     "pdf": 262,
+     "id": "Figura 502.05",
+     "titulo": "Criterios para obtener cruces perpendiculares"
+    },
+    {
+     "pdf": 263,
+     "id": "Figura 502.06",
+     "titulo": "Ejemplos se ensanches de la sección de los accesos al cruce"
+    },
+    {
+     "pdf": 265,
+     "id": "Tabla 502.03",
+     "titulo": "Valores en giros mínimos en intersecciones canalizadas"
+    },
+    {
+     "pdf": 265,
+     "id": "Tabla 502.04",
+     "titulo": "Radios mínimos en intersecciones canalizadas según peraltes mínimos y"
+    },
+    {
+     "pdf": 266,
+     "id": "Figura 502.07",
+     "titulo": "Valores de radios y peraltes en intersecciones canalizadas cuando no"
+    },
+    {
+     "pdf": 267,
+     "id": "Figura 502.08",
+     "titulo": "Casos de canalización con islas divisorias y carril de giro"
+    },
+    {
+     "pdf": 267,
+     "id": "Figura 502.09",
+     "titulo": "Intersecciones canalizadas en ángulos agudos formando una \"Y\""
+    },
+    {
+     "pdf": 268,
+     "id": "Figura 502.10",
+     "titulo": "Intersecciones canalizadas para tránsito en todos los sentidos"
+    },
+    {
+     "pdf": 268,
+     "id": "Figura 502.11",
+     "titulo": "Otros casos de intersecciones canalizadas"
+    },
+    {
+     "pdf": 269,
+     "id": "Figura 502.12",
+     "titulo": "Intersecciones con importantes giros a la izquierda en un cuadrante"
+    },
+    {
+     "pdf": 269,
+     "id": "Figura 502.13",
+     "titulo": "Intersección canalizada en cruz"
+    },
+    {
+     "pdf": 270,
+     "id": "Figura 502.14",
+     "titulo": "Intersecciones canalizadas en estrella"
+    },
+    {
+     "pdf": 270,
+     "id": "Tabla 502.05",
+     "titulo": "Valores mínimos del parámetro A de la clotoide"
+    },
+    {
+     "pdf": 271,
+     "id": "Tabla 502.06",
+     "titulo": "Desarrollos aceptables de la curva de enlace"
+    },
+    {
+     "pdf": 272,
+     "id": "Tabla 502.07",
+     "titulo": "Anchos de calzada en ramales de giro"
+    },
+    {
+     "pdf": 273,
+     "id": "Tabla 502.08",
+     "titulo": "Modificación de anchos de calzada por efecto de bermas y sardinel"
+    },
+    {
+     "pdf": 274,
+     "id": "Figura 502.15",
+     "titulo": "Carriles de cambio de velocidad"
+    },
+    {
+     "pdf": 274,
+     "id": "Figura 502.16",
+     "titulo": "Terminales de salida"
+    },
+    {
+     "pdf": 275,
+     "id": "Tabla 502.09",
+     "titulo": "Longitudes totales de carriles de aceleración (LT)"
+    },
+    {
+     "pdf": 275,
+     "id": "Tabla 502.10",
+     "titulo": "Factores de corrección que relaciona la longitud en pendiente con la"
+    },
+    {
+     "pdf": 276,
+     "id": "Figura 502.17",
+     "titulo": "Puntos singulares de carril de aceleración"
+    },
+    {
+     "pdf": 277,
+     "id": "Figura 502.18",
+     "titulo": "Carril de deceleración Caso I"
+    },
+    {
+     "pdf": 277,
+     "id": "Tabla 502.11",
+     "titulo": "Ángulo de incidencia (Ø) de carril de deceleración"
+    },
+    {
+     "pdf": 278,
+     "id": "Figura 502.19",
+     "titulo": "Longitudes de carriles de deceleración (LD=f(i)) Cuadros resúmenes para LT= LC+LD cuando i=0 y"
+    },
+    {
+     "pdf": 279,
+     "id": "Figura 502.20",
+     "titulo": "Longitudes de carriles de deceleración (LD=f(i)) Cuadros resúmenes para LT=LC+LD cuando i=0"
+    },
+    {
+     "pdf": 280,
+     "id": "Figura 502.21",
+     "titulo": "Carril de deceleración Caso II"
+    },
+    {
+     "pdf": 281,
+     "id": "Figura 502.22",
+     "titulo": "Carril central de deceleración"
+    },
+    {
+     "pdf": 281,
+     "id": "Tabla 502.12",
+     "titulo": "Valores de longitud de espera de vehículos"
+    },
+    {
+     "pdf": 282,
+     "id": "Figura 502.23",
+     "titulo": "Intersecciones a nivel en “T” y en “+“, para giros a la izquierda y de cruce"
+    },
+    {
+     "pdf": 283,
+     "id": "Figura 502.24",
+     "titulo": "Aberturas de separador con remate en punta de proyectil"
+    },
+    {
+     "pdf": 283,
+     "id": "Figura 502.25",
+     "titulo": "Abertura de separador para radio de giro mínimo con o sin esviaje"
+    },
+    {
+     "pdf": 284,
+     "id": "Tabla 502.13",
+     "titulo": "Dimensiones de aberturas de separadores centrales para giros a la"
+    },
+    {
+     "pdf": 285,
+     "id": "Figura 502.26",
+     "titulo": "Isla divisoria o separadora con sardinel"
+    },
+    {
+     "pdf": 286,
+     "id": "Figura 502.27",
+     "titulo": "Islas de canalización, encauzamiento o direccional"
+    },
+    {
+     "pdf": 287,
+     "id": "Figura 502.28",
+     "titulo": "Perfil longitudinal de una intersección en “T”"
+    },
+    {
+     "pdf": 288,
+     "id": "Figura 502.29",
+     "titulo": "Esquema básico de una intersección tipo rotonda o glorieta"
+    },
+    {
+     "pdf": 289,
+     "id": "Figura 502.30",
+     "titulo": "Elementos contenidos en la fórmula de Wardrop"
+    },
+    {
+     "pdf": 290,
+     "id": "Tabla 502.14",
+     "titulo": "Criterios de diseño geométrico de rotondas"
+    },
+    {
+     "pdf": 293,
+     "id": "Figura 503.01",
+     "titulo": "Tipos de intersecciones a desnivel"
+    },
+    {
+     "pdf": 293,
+     "id": "Figura 503.02",
+     "titulo": "Intercambio de tres ramas"
+    },
+    {
+     "pdf": 294,
+     "id": "Figura 503.03",
+     "titulo": "Tipos característicos de intercambios de cuatro ramas (diamante y trébol)"
+    },
+    {
+     "pdf": 294,
+     "id": "Figura 503.04",
+     "titulo": "Intercambio de cuatro ramas tipo diamante clásico"
+    },
+    {
+     "pdf": 295,
+     "id": "Figura 503.05",
+     "titulo": "Modificaciones de intercambio de cuatro ramas tipo diamante"
+    },
+    {
+     "pdf": 295,
+     "id": "Figura 503.06",
+     "titulo": "Intercambios tipo trébol parcial"
+    },
+    {
+     "pdf": 296,
+     "id": "Figura 503.07",
+     "titulo": "Intercambios tipo trébol simétricos de libre circulación"
+    },
+    {
+     "pdf": 296,
+     "id": "Figura 503.08",
+     "titulo": "Intercambios tipo trébol no simétricos de libre circulación"
+    },
+    {
+     "pdf": 297,
+     "id": "Figura 503.09",
+     "titulo": "Intercambios de más de cuatro ramas con giros a la izquierda mayores a la"
+    },
+    {
+     "pdf": 297,
+     "id": "Figura 503.10",
+     "titulo": "Intercambios de más de cuatro ramas con todos los giros a la izquierda"
+    },
+    {
+     "pdf": 298,
+     "id": "Figura 503.11",
+     "titulo": "Secciones transversales tipo de ramales"
+    },
+    {
+     "pdf": 299,
+     "id": "Figura 503.12",
+     "titulo": "Ramales de enlace"
+    },
+    {
+     "pdf": 299,
+     "id": "Figura 503.13",
+     "titulo": "Ramales de enlace"
+    },
+    {
+     "pdf": 300,
+     "id": "Figura 503.14",
+     "titulo": "Otros tipos de ramales de enlace"
+    },
+    {
+     "pdf": 301,
+     "id": "Tabla 503.01",
+     "titulo": "Capacidad de las vías en intersecciones a desnivel"
+    },
+    {
+     "pdf": 302,
+     "id": "Tabla 503.02",
+     "titulo": "Volúmenes vehiculares de servicio según calidad de flujo"
+    },
+    {
+     "pdf": 303,
+     "id": "Tabla 503.03",
+     "titulo": "Relación entre el nivel de servicio y la calidad de flujo en tramos de"
+    },
+    {
+     "pdf": 303,
+     "id": "Tabla 503.04",
+     "titulo": "Longitudes mínimas de entrecruzamiento"
+    },
+    {
+     "pdf": 304,
+     "id": "Figura 503.15",
+     "titulo": "Longitudes mayores de entrecruzamiento"
+    },
+    {
+     "pdf": 305,
+     "id": "Tabla 503.05",
+     "titulo": "Velocidad de diseño, ancho de calzada y pendiente en vías de enlace"
+    },
+    {
+     "pdf": 306,
+     "id": "Tabla 503.06",
+     "titulo": "Valores mínimos de velocidades de diseño en ramales de enlace"
+    },
+    {
+     "pdf": 307,
+     "id": "Tabla 503.07",
+     "titulo": "Radios mínimos con peraltes máximos en ramales de enlace"
+    },
+    {
+     "pdf": 307,
+     "id": "Tabla 503.08",
+     "titulo": "Parámetros mínimos de clotoides"
+    },
+    {
+     "pdf": 308,
+     "id": "Figura 503.16",
+     "titulo": "Planta y perfil de un ramal"
+    },
+    {
+     "pdf": 310,
+     "id": "Tabla 503.09",
+     "titulo": "Parámetros mínimos para el perfil longitudinal de ramales"
+    },
+    {
+     "pdf": 311,
+     "id": "Tabla 503.10",
+     "titulo": "Máxima diferencia algebraica entre inclinación transversal del carril de la"
+    },
+    {
+     "pdf": 312,
+     "id": "Tabla 504.01",
+     "titulo": "Valores de diseño geométrico para cruce de carreteras por zonas urbanas"
+    },
+    {
+     "pdf": 314,
+     "id": "Figura 601.01",
+     "titulo": "Combinaciones en planta y perfil, y su perspectiva"
+    },
+    {
+     "pdf": 316,
+     "id": "Figura 601.02",
+     "titulo": "Casos de imágenes en perspectiva y guía óptica"
+    },
+    {
+     "pdf": 317,
+     "id": "Figura 601.03",
+     "titulo": "Elementos del trazado en planta y su perspectiva"
+    },
+    {
+     "pdf": 318,
+     "id": "Figura 601.04",
+     "titulo": "Elementos del trazado en perfil y su perspectiva"
+    },
+    {
+     "pdf": 319,
+     "id": "Figura 601.05",
+     "titulo": "Relación entre los elementos de diseño y puntos de inflexión en planta y"
+    },
+    {
+     "pdf": 320,
+     "id": "Figura 601.06",
+     "titulo": "Situaciones de pérdida de trazado"
+    },
+    {
+     "pdf": 320,
+     "id": "Tabla 601.01",
+     "titulo": "Longitudes que evitan el efecto de pérdida de trazado"
+    },
+    {
+     "pdf": 322,
+     "id": "Figura 601.07",
+     "titulo": "Casos de coordinación del trazo en planta y perfil en intersecciones"
+    },
+    {
+     "pdf": 322,
+     "id": "Figura 601.08",
+     "titulo": "Coordinación del trazo en planta y perfil en estructuras"
+    },
+    {
+     "pdf": 323,
+     "id": "Figura 601.09",
+     "titulo": "Coordinación del trazo en planta y perfil con el entorno de la carretera:"
+    },
+    {
+     "pdf": 325,
+     "id": "Figura 602.01",
+     "titulo": "Transición de geometría en zonas adyacentes a curvas horizontales"
+    },
+    {
+     "pdf": 326,
+     "id": "Figura 602.02",
+     "titulo": "Uso recomendable de curvas verticales cóncavas"
+    },
+    {
+     "pdf": 326,
+     "id": "Figura 602.03",
+     "titulo": "Curva vertical convexa de mayor longitud que las cóncavas"
+    },
+    {
+     "pdf": 326,
+     "id": "Figura 602.04",
+     "titulo": "Curvas verticales cóncavas de mayor longitud que la convexa"
+    },
+    {
+     "pdf": 327,
+     "id": "Figura 602.05",
+     "titulo": "Ubicación recomendada de intersección"
+    },
+    {
+     "pdf": 327,
+     "id": "Figura 602.06",
+     "titulo": "Condiciones producidas por una bifurcación"
+    },
+    {
+     "pdf": 328,
+     "id": "Figura 602.07",
+     "titulo": "Condiciones forzadas de ubicación de puentes"
+    },
+    {
+     "pdf": 328,
+     "id": "Figura 602.08",
+     "titulo": "Efectos ópticos por la aparente reducción del ancho de calzada"
+    },
+    {
+     "pdf": 330,
+     "id": "Figura 602.09",
+     "titulo": "Curvas verticales sucesivas"
+    },
+    {
+     "pdf": 330,
+     "id": "Tabla 602.01",
+     "titulo": "Longitudes de visibilidad continua"
+    }
+   ]
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_2_SV_2017.txt",
+   "titulo": "Manual de Seguridad Vial 2017",
+   "tipo": "manual",
+   "temas": [
+    "seguridad vial"
+   ],
+   "paginas_pdf": 449,
+   "capitulos": [
+    {
+     "pdf": 8,
+     "titulo": "Capítulo I GENERALIDADES ............................................................................. 18"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Capítulo II PRINCIPIOS Y FUNDAMENTOS DE LA SEGURIDAD VIAL .................. 51"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Capítulo III INTERACCION  ENTRE  LA  INFRAESTRUCTURA  Y  LA SEGURIDAD"
+    },
+    {
+     "pdf": 11,
+     "titulo": "Capítulo IV HERRAMIENTAS DE SEGURIDAD VIAL ........................................... 144"
+    },
+    {
+     "pdf": 13,
+     "titulo": "Capítulo V ADMINISTRACIÓN DE LA SEGURIDAD VIAL ................................... 244"
+    },
+    {
+     "pdf": 18,
+     "titulo": "Capítulo I GENERALIDADES"
+    },
+    {
+     "pdf": 19,
+     "titulo": "Capítulo 1 GENERALIDADES"
+    },
+    {
+     "pdf": 19,
+     "titulo": "Capítulo 2 ASPECTOS CONCEPTUALES"
+    },
+    {
+     "pdf": 19,
+     "titulo": "Capítulo 3 INTERACCIÓN ENTRE LA INFRAESTRUCTURA Y LA SEGURIDAD VIAL"
+    },
+    {
+     "pdf": 19,
+     "titulo": "Capítulo 4 HERRAMIENTAS DE LA SEGURIDAD VIAL"
+    },
+    {
+     "pdf": 19,
+     "titulo": "Capítulo 5 ADMINISTRACIÓN DE LA SEGURIDAD VIAL"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capitulo II PRINCIPIOS Y FUNDAMENTOS DE LA SEGURIDAD VIAL"
+    },
+    {
+     "pdf": 50,
+     "titulo": "Capítulo II PRINCIPIOS Y FUNDAMENTOS DE LA"
+    },
+    {
+     "pdf": 94,
+     "titulo": "Capítulo III INTERACCION ENTRE LA"
+    },
+    {
+     "pdf": 144,
+     "titulo": "Capítulo IV HERRAMIENTAS DE SEGURIDAD VIAL"
+    },
+    {
+     "pdf": 205,
+     "titulo": "Capítulo I del informe, se describirán los antecedentes, la información recopilada"
+    },
+    {
+     "pdf": 205,
+     "titulo": "Capítulo II será una síntesis de las deficiencias o carencias identificadas durante la"
+    },
+    {
+     "pdf": 205,
+     "titulo": "Capítulo III reunirá las propuestas y medidas a corto y largo plazo para solucionar"
+    },
+    {
+     "pdf": 205,
+     "titulo": "Capítulo I Datos del proyecto:"
+    },
+    {
+     "pdf": 205,
+     "titulo": "Capítulo II Informe de inspección con las carencias identificadas:"
+    },
+    {
+     "pdf": 205,
+     "titulo": "Capítulo III Propuestas y medidas correctoras a corto plazo (p.e. refuerzo de la señalización),"
+    },
+    {
+     "pdf": 244,
+     "titulo": "Capítulo V ADMINISTRACIÓN DE LA"
+    },
+    {
+     "pdf": 283,
+     "titulo": "Capítulo 10 del AASHTO Highway Safety Manual, 2010"
+    }
+   ],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_3_PT_2016.txt",
+   "titulo": "Manual de Puentes y Túneles 2016",
+   "tipo": "manual",
+   "temas": [
+    "puentes",
+    "tuneles"
+   ],
+   "paginas_pdf": 673,
+   "capitulos": [
+    {
+     "pdf": 88,
+     "titulo": "Seccion 6 Estructuras de acero y Seccion 8: Estructuras de madera), a no ser que sean"
+    },
+    {
+     "pdf": 95,
+     "titulo": "Sección I del Título Preliminar"
+    },
+    {
+     "pdf": 227,
+     "titulo": "Sección 2 4 (Sección 3 del AASHTO)"
+    },
+    {
+     "pdf": 548,
+     "titulo": "Sección 3 10.3 de la Norma AASHTO del 2014"
+    },
+    {
+     "pdf": 586,
+     "titulo": "Sección 11 con respecto al diseño de muros y estribos independientes (autoestables) para"
+    }
+   ],
+   "cuadros_y_figuras": 1,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_4_TMyOC_2016.txt",
+   "titulo": "Manual de Carreteras: Túneles, Muros y Obras Complementarias 2016",
+   "tipo": "manual",
+   "temas": [
+    "muros",
+    "tuneles",
+    "obras complementarias"
+   ],
+   "paginas_pdf": 443,
+   "capitulos": [
+    {
+     "pdf": 9,
+     "titulo": "Capítulo III ESTUDIOS GEOLÓGICOS – GEOTÉCNICOS ................................... 49"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Capítulo IV CLASIFICACIÓN GEOMECÁNICA Y DISEÑO EMPÍRICO ............ 93"
+    },
+    {
+     "pdf": 14,
+     "titulo": "Capítulo IX IMPERMEABILIZACIÓN, REVESTIMIENTO Y ACABADOS EN"
+    },
+    {
+     "pdf": 14,
+     "titulo": "Capítulo XI SEGUIMIENTO Y CONTROL DE OBRA EN LOS TÚNELES ........... 205"
+    },
+    {
+     "pdf": 18,
+     "titulo": "Capítulo XV INSTALACIONES DE EXPLOTACIÓN Y SEGURIDAD EN"
+    },
+    {
+     "pdf": 18,
+     "titulo": "Capítulo XVI MANTENIMIENTO Y REPARACIONES EN TÚNELES ................. 319"
+    },
+    {
+     "pdf": 19,
+     "titulo": "Capítulo XVII MANTENIMIENTO DE INSTALACIONES DE EXPLOTACIÓN Y"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo XIX ESTADOS LÍMITES Y FACTORES DE RESISTENCIA. ............... 357"
+    },
+    {
+     "pdf": 22,
+     "titulo": "Capítulo XXI MURO DE SUELO ESTABILIZADO MECÁNICAMENTE ............. 395"
+    },
+    {
+     "pdf": 23,
+     "titulo": "Capítulo XXIII MUROS MODULARES PREFABRICADOS .................................. 435"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo I GENERALIDADES"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo I :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo II :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo III :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo IV :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo V :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo VI :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo VII :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo VIII :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo IX :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo X :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo XI :"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo XII :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XIII :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XIV :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XV :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XVI :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XVII :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XVIII :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XIX :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XX :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XXI :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XXII :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XXIII :"
+    },
+    {
+     "pdf": 29,
+     "titulo": "Capítulo XXIV :"
+    },
+    {
+     "pdf": 34,
+     "titulo": "Capítulo II DISEÑO GEOMÉTRICO"
+    },
+    {
+     "pdf": 38,
+     "titulo": "Sección 303 03.02 del Manual de Carreteras: Diseño Geométrico vigente, no"
+    },
+    {
+     "pdf": 42,
+     "titulo": "Capítulo 14 )"
+    },
+    {
+     "pdf": 50,
+     "titulo": "Capítulo III ESTUDIOS GEOLÓGICOS – GEOTÉCNICOS"
+    },
+    {
+     "pdf": 94,
+     "titulo": "Capítulo IV CLASIFICACIÓN GEOMECÁNICA Y DISEÑO"
+    },
+    {
+     "pdf": 112,
+     "titulo": "Capítulo V CÁLCULOS DE TÚNELES"
+    },
+    {
+     "pdf": 126,
+     "titulo": "Capítulo VI EXCAVACIÓN EN TÚNELES"
+    },
+    {
+     "pdf": 144,
+     "titulo": "Capítulo VII SOSTENIMIENTO EN TÚNELES"
+    },
+    {
+     "pdf": 168,
+     "titulo": "Capítulo VIII AUSCULTACIÓN EN TÚNELES"
+    },
+    {
+     "pdf": 182,
+     "titulo": "Capítulo IX IMPERMEABILIZACIÓN, REVESTIMIENTO Y"
+    },
+    {
+     "pdf": 190,
+     "titulo": "Capítulo X PORTAL EN TÚNELES"
+    },
+    {
+     "pdf": 206,
+     "titulo": "Capítulo XI SEGUIMIENTO Y CONTROL DE OBRA EN LOS"
+    },
+    {
+     "pdf": 226,
+     "titulo": "Capítulo XII SEGURIDAD E HIGIENE EN OBRA"
+    },
+    {
+     "pdf": 254,
+     "titulo": "Capítulo XIII ILUMINACIÓN EN TÚNELES"
+    },
+    {
+     "pdf": 268,
+     "titulo": "Capítulo XIV VENTILACIÓN EN TÚNELES"
+    },
+    {
+     "pdf": 308,
+     "titulo": "Capítulo XV INSTALACIONES DE EXPLOTACIÓN Y SEGURIDAD"
+    },
+    {
+     "pdf": 320,
+     "titulo": "Capítulo XVI MANTENIMIENTO Y REPARACIONES EN TÚNELES"
+    },
+    {
+     "pdf": 326,
+     "titulo": "Capítulo XVII MANTENIMIENTO DE INSTALACIONES DE"
+    },
+    {
+     "pdf": 340,
+     "titulo": "Capítulo XVIII GENERALIDADES"
+    },
+    {
+     "pdf": 358,
+     "titulo": "Capítulo XIX ESTADOS LÍMITES Y FACTORES DE RESISTENCIA"
+    },
+    {
+     "pdf": 368,
+     "titulo": "Capítulo XX CARGAS Y FACTORES DE CARGAS"
+    },
+    {
+     "pdf": 396,
+     "titulo": "Capítulo XXI MURO DE SUELO ESTABILIZADO MECÁNICAMENTE"
+    },
+    {
+     "pdf": 434,
+     "titulo": "Capítulo XXII MURO DE TIPO PANTALLA"
+    },
+    {
+     "pdf": 436,
+     "titulo": "Capítulo XXIII MUROS MODULARES PREFABRICADOS"
+    },
+    {
+     "pdf": 440,
+     "titulo": "Capítulo XXIV MUROS ANCLADOS"
+    }
+   ],
+   "cuadros_y_figuras": 6,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_5_EM_2016.txt",
+   "titulo": "Manual de Ensayo de Materiales 2016 (EM-2016)",
+   "tipo": "manual",
+   "temas": [
+    "ensayos",
+    "CBR",
+    "Proctor",
+    "calidad"
+   ],
+   "paginas_pdf": 1090,
+   "capitulos": [
+    {
+     "pdf": 818,
+     "titulo": "Sección 16 4.0"
+    },
+    {
+     "pdf": 910,
+     "titulo": "Sección 5 1, y estar rotulados y etiquetados de acuerdo a lo indicado en la sección 7.2"
+    }
+   ],
+   "cuadros_y_figuras": 80,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_6_DCT_2016.txt",
+   "titulo": "Manual de Dispositivos de Control del Tránsito Automotor 2016",
+   "tipo": "manual",
+   "temas": [
+    "señalizacion",
+    "dispositivos"
+   ],
+   "paginas_pdf": 532,
+   "capitulos": [
+    {
+     "pdf": 11,
+     "titulo": "Capítulo 4 DISPOSITIVOS DE CONTROL DEL TRÁNSITO DE CASOS ESPECIALES .......... 467"
+    },
+    {
+     "pdf": 12,
+     "titulo": "Capítulo 5 DISPOSITIVOS DE CONTROL DEL TRÁNSITO EN ZONAS DE TRABAJO ........ 487"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 1 GENERALIDADES"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 1 Generalidades"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 2 Señales verticales"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 3 Marcas en el pavimento o demarcaciones"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 4 Dispositivos de control del tránsito de casos especiales"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 5 Dispositivos de control del tránsito en zonas de trabajo"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 6 Semáforos"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 2 SEÑALES VERTICALES"
+    },
+    {
+     "pdf": 26,
+     "titulo": "Sección 2 10"
+    },
+    {
+     "pdf": 53,
+     "titulo": "Sección 2 7 del presente Manual"
+    },
+    {
+     "pdf": 82,
+     "titulo": "Sección 2 13"
+    },
+    {
+     "pdf": 132,
+     "titulo": "Sección 2 4 del presente manual"
+    },
+    {
+     "pdf": 386,
+     "titulo": "Capitulo 3 MARCAS EN EL PAVIMENTO O DEMARCACIONES"
+    },
+    {
+     "pdf": 468,
+     "titulo": "Capítulo 4 DISPOSITIVOS DE CONTROL DEL TRÁNSITO DE CASOS"
+    },
+    {
+     "pdf": 488,
+     "titulo": "Capítulo 5 DISPOSITIVOS DE CONTROL DEL TRÁNSITO EN ZONAS DE"
+    },
+    {
+     "pdf": 502,
+     "titulo": "Capítulo 6 SEMÁFOROS"
+    }
+   ],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_7_SGGP_2014.txt",
+   "titulo": "Manual de Carreteras: Suelos, Geología, Geotecnia y Pavimentos 2014",
+   "tipo": "manual",
+   "temas": [
+    "pavimentos",
+    "afirmados",
+    "suelos",
+    "diseno estructural"
+   ],
+   "paginas_pdf": 281,
+   "capitulos": [
+    {
+     "pdf": 8,
+     "titulo": "Capítulo II ÁMBITO DE APLICACIÓN .................................................... 21"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Capítulo III COMPONENTES DE LA INFRAESTRUCTURA DEL CAMINO ... 23"
+    },
+    {
+     "pdf": 8,
+     "titulo": "Capítulo V FUENTES DE MATERIALES Y FUENTES DE AGUA .................. 43"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Capítulo IX ESTABILIZACIÓN DE SUELOS ............................................ 89"
+    },
+    {
+     "pdf": 9,
+     "titulo": "Capítulo X MATERIALES PARA PAVIMENTO ........................................ 107"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Capítulo XII PAVIMENTOS FLEXIBLES ............................................... 119"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Capítulo XIII PAVIMENTOS SEMIRRÍGIDOS ...................................... 171"
+    },
+    {
+     "pdf": 10,
+     "titulo": "Capítulo XIV PAVIMENTOS RÍGIDOS ................................................. 211"
+    },
+    {
+     "pdf": 11,
+     "titulo": "Capítulo XV ENSANCHE DE PAVIMENTOS ........................................... 247"
+    },
+    {
+     "pdf": 11,
+     "titulo": "Capítulo XVI COMPORTAMIENTO DE PAVIMENTOS ............................ 249"
+    },
+    {
+     "pdf": 11,
+     "titulo": "Capítulo XVII ABREVIATURAS Y GLOSARIO DE TÉRMINOS ................ 277"
+    },
+    {
+     "pdf": 14,
+     "titulo": "Capítulo I INTRODUCCIÓN"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo 1 Introducción, que contiene el Propósito de la Sección, los"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo 2 Ámbito de Aplicación, en el que se señalan que el Manual"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo 3 Componentes de la Infraestructura del Camino: En este"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo 4 Suelos: En este capítulo se tratan los temas relativos a"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo 5 Fuentes de Materiales y Fuentes de Agua: En este"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo 6 Tráfico Vial: En este capítulo se tratan los temas relativos a"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo 7 El Clima: En este capítulo se tratan los temas relativos a"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo 8 Drenaje y Protección de la Plataforma y del Pavimento"
+    },
+    {
+     "pdf": 20,
+     "titulo": "Capítulo 9 Estabilidad de Suelos: En este capítulo se tratan los temas"
+    },
+    {
+     "pdf": 22,
+     "titulo": "Capítulo II ÁMBITO DE APLICACIÓN"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo III COMPONENTES DE LA INFRAESTRUCTURA DEL CAMINO"
+    },
+    {
+     "pdf": 28,
+     "titulo": "Capítulo IV SUELOS"
+    },
+    {
+     "pdf": 44,
+     "titulo": "Capítulo V FUENTES DE MATERIALES Y FUENTES DE AGUA"
+    },
+    {
+     "pdf": 76,
+     "titulo": "Capítulo VII EL CLIMA"
+    },
+    {
+     "pdf": 82,
+     "titulo": "Capítulo VIII DRENAJE"
+    },
+    {
+     "pdf": 90,
+     "titulo": "Capítulo IX ESTABILIZACIÓN DE SUELOS"
+    },
+    {
+     "pdf": 94,
+     "titulo": "Sección 3068 ASTM C150"
+    },
+    {
+     "pdf": 94,
+     "titulo": "Sección 3078 AASHTO M216"
+    },
+    {
+     "pdf": 108,
+     "titulo": "Capítulo X MATERIALES PARA PAVIMENTO"
+    },
+    {
+     "pdf": 112,
+     "titulo": "Capítulo XI AFIRMADOS"
+    },
+    {
+     "pdf": 120,
+     "titulo": "Capítulo XII PAVIMENTOS FLEXIBLES"
+    },
+    {
+     "pdf": 155,
+     "titulo": "Capítulo 11 , cuando los materiales sean diferentes de los considerados en el"
+    },
+    {
+     "pdf": 155,
+     "titulo": "Capítulo 11 , deberán justificarse las soluciones adoptadas"
+    },
+    {
+     "pdf": 156,
+     "titulo": "Capítulo 6 Tráfico Vial del presente Manual. Es decir efectuando los estudios de"
+    },
+    {
+     "pdf": 172,
+     "titulo": "Capítulo XIII PAVIMENTOS SEMIRRÍGIDOS"
+    },
+    {
+     "pdf": 199,
+     "titulo": "Capítulo 11 , numeral 11.1.3"
+    },
+    {
+     "pdf": 200,
+     "titulo": "Capítulo 11 , numeral 11.1.7"
+    },
+    {
+     "pdf": 212,
+     "titulo": "Capítulo XIV PAVIMENTOS RÍGIDOS"
+    },
+    {
+     "pdf": 239,
+     "titulo": "Sección 438 Pavimento de Concreto Hidráulico"
+    },
+    {
+     "pdf": 248,
+     "titulo": "Capítulo XV ENSANCHE DE PAVIMENTOS"
+    },
+    {
+     "pdf": 250,
+     "titulo": "Capítulo XVI COMPORTAMIENTO DE PAVIMENTOS"
+    },
+    {
+     "pdf": 278,
+     "titulo": "Capítulo XVII ABREVIATURAS Y GLOSARIO DE TÉRMINOS"
+    }
+   ],
+   "cuadros_y_figuras": 180,
+   "cuadros": [
+    {
+     "pdf": 29,
+     "id": "Cuadro 4.1",
+     "titulo": "Número de Calicatas para Exploración de Suelos"
+    },
+    {
+     "pdf": 31,
+     "id": "Cuadro 4.2",
+     "titulo": "Número de Ensayos MR y CBR"
+    },
+    {
+     "pdf": 33,
+     "id": "Cuadro 4.3",
+     "titulo": "Signos Convencionales para Perfil de Calicatas – Clasificación AASHTO"
+    },
+    {
+     "pdf": 33,
+     "id": "Cuadro 4.4",
+     "titulo": "Signos Convencionales para Perfil de Calicatas – Clasificación SUCS"
+    },
+    {
+     "pdf": 34,
+     "id": "Cuadro 4.5",
+     "titulo": "Clasificación de suelos según Tamaño de partículas"
+    },
+    {
+     "pdf": 35,
+     "id": "Cuadro 4.6",
+     "titulo": "Clasificación de suelos según Índice de Plasticidad"
+    },
+    {
+     "pdf": 35,
+     "id": "Cuadro 4.7",
+     "titulo": "Clasificación de suelos según Equivalente de Arena"
+    },
+    {
+     "pdf": 36,
+     "id": "Cuadro 4.8",
+     "titulo": "Clasificación de suelos según Índice de Grupo"
+    },
+    {
+     "pdf": 36,
+     "id": "Cuadro 4.9",
+     "titulo": "Correlación de Tipos de suelos  AASHTO – SUCS"
+    },
+    {
+     "pdf": 37,
+     "id": "Cuadro 4.10",
+     "titulo": "Clasificación de los Suelos basada en AASHTO M 145 y/o ASTM D 3282"
+    },
+    {
+     "pdf": 38,
+     "id": "Cuadro 4.11",
+     "titulo": "Categorías de Sub rasante"
+    },
+    {
+     "pdf": 39,
+     "id": "Figura 4.1",
+     "titulo": "Correlaciones Típicas entre las Clasificaciones y"
+    },
+    {
+     "pdf": 42,
+     "id": "Cuadro 4.12",
+     "titulo": "Taludes de Corte"
+    },
+    {
+     "pdf": 42,
+     "id": "Cuadro 4.13",
+     "titulo": "Taludes de Relleno"
+    },
+    {
+     "pdf": 63,
+     "id": "Cuadro 6.1",
+     "titulo": "Factores de Distribución Direccional y de Carril para determinar el Tránsito"
+    },
+    {
+     "pdf": 65,
+     "id": "Cuadro 6.2",
+     "titulo": "Factores de Crecimiento Acumulado (Fca)"
+    },
+    {
+     "pdf": 66,
+     "id": "Figura 6.1",
+     "titulo": "Configuración de Ejes"
+    },
+    {
+     "pdf": 66,
+     "id": "Cuadro 6.3",
+     "titulo": "Relación de Cargas por Eje para determinar Ejes Equivalentes (EE)"
+    },
+    {
+     "pdf": 67,
+     "id": "Cuadro 6.4",
+     "titulo": "Relación de Cargas por Eje para determinar Ejes Equivalentes (EE)"
+    },
+    {
+     "pdf": 69,
+     "id": "Cuadro 6.5",
+     "titulo": "Ejemplo de Factores de Equivalencia por Eje y Factor Vehículo Camión C2"
+    },
+    {
+     "pdf": 69,
+     "id": "Cuadro 6.6",
+     "titulo": "Ejemplo de Factores de Equivalencia por Eje y Factor Vehículo Camión C2"
+    },
+    {
+     "pdf": 70,
+     "id": "Cuadro 6.7",
+     "titulo": "Ejemplo de Factores de Equivalencia por Eje y Factor Vehículo Camión C3"
+    },
+    {
+     "pdf": 70,
+     "id": "Cuadro 6.8",
+     "titulo": "Ejemplo de Factores de Equivalencia por Eje y Factor Vehículo Camión C3"
+    },
+    {
+     "pdf": 71,
+     "id": "Cuadro 6.9",
+     "titulo": "Ejemplo de Factores de Equivalencia por Eje y Factor Vehículo Camión"
+    },
+    {
+     "pdf": 71,
+     "id": "Cuadro 6.10",
+     "titulo": "Ejemplo de Factores de Equivalencia por Eje y Factor Vehículo Camión"
+    },
+    {
+     "pdf": 72,
+     "id": "Cuadro 6.11",
+     "titulo": "Ejemplo de Factores de Equivalencia por Eje y Factor Vehículo Bus B3-1"
+    },
+    {
+     "pdf": 72,
+     "id": "Cuadro 6.12",
+     "titulo": "Ejemplo de Factores de Equivalencia por Eje y Factor Vehículo Bus B3-1"
+    },
+    {
+     "pdf": 73,
+     "id": "Cuadro 6.13",
+     "titulo": "FACTOR DE AJUSTE POR PRESIÓN DE NEUMÁTICO (FP) PARA EJES"
+    },
+    {
+     "pdf": 74,
+     "id": "Cuadro 6.14",
+     "titulo": "Número de Repeticiones Acumuladas de Ejes Equivalentes"
+    },
+    {
+     "pdf": 75,
+     "id": "Cuadro 6.15",
+     "titulo": "Número de Repeticiones Acumuladas de Ejes Equivalentes"
+    },
+    {
+     "pdf": 76,
+     "id": "Cuadro 7.1",
+     "titulo": "Selección del tipo de cemento asfáltico"
+    },
+    {
+     "pdf": 91,
+     "id": "Figura 9.1",
+     "titulo": "Proceso para la Identificación del Tipo del suelo"
+    },
+    {
+     "pdf": 92,
+     "id": "Figura 9.2",
+     "titulo": "Proceso de selección del Tipo de Estabilización"
+    },
+    {
+     "pdf": 93,
+     "id": "Cuadro 9.1",
+     "titulo": "Guía Referencial para la Selección del Tipo de Estabilizador"
+    },
+    {
+     "pdf": 94,
+     "id": "Cuadro 9.2",
+     "titulo": "Guía Complementaria Referencial para la Selección del Tipo de"
+    },
+    {
+     "pdf": 97,
+     "id": "Cuadro 9.3",
+     "titulo": "Espesores Recomendados para Estabilización por"
+    },
+    {
+     "pdf": 100,
+     "id": "Cuadro 9.4",
+     "titulo": "Rango de Cemento Requerido en Estabilización Suelo Cemento"
+    },
+    {
+     "pdf": 102,
+     "id": "Cuadro 9.5",
+     "titulo": "Características Típicas de Sal (Cloruro de Sodio)"
+    },
+    {
+     "pdf": 108,
+     "id": "Cuadro 10.1",
+     "titulo": "Valor Relativo de Soporte, CBR en Subbase Granular (*)"
+    },
+    {
+     "pdf": 109,
+     "id": "Cuadro 10.2",
+     "titulo": "Valor Relativo de Soporte, CBR en Base Granular (*)"
+    },
+    {
+     "pdf": 114,
+     "id": "Cuadro 11.1",
+     "titulo": "Resumen"
+    },
+    {
+     "pdf": 115,
+     "id": "Figura 11.1",
+     "titulo": "ESPESOR DE CAPA DE REVESTIMIENTO GRANULAR"
+    },
+    {
+     "pdf": 117,
+     "id": "Cuadro 11.2",
+     "titulo": "Gradación del Material de Afirmado"
+    },
+    {
+     "pdf": 118,
+     "id": "Cuadro 11.3",
+     "titulo": "Gradación del Material de Afirmado"
+    },
+    {
+     "pdf": 120,
+     "id": "Cuadro 12.1",
+     "titulo": "Número de Repeticiones Acumuladas"
+    },
+    {
+     "pdf": 121,
+     "id": "Cuadro 12.2",
+     "titulo": "Número de Repeticiones Acumuladas"
+    },
+    {
+     "pdf": 121,
+     "id": "Cuadro 12.3",
+     "titulo": "Número de Repeticiones Acumuladas"
+    },
+    {
+     "pdf": 121,
+     "id": "Cuadro 12.4",
+     "titulo": "Categorías de Sub rasante"
+    },
+    {
+     "pdf": 123,
+     "id": "Cuadro 12.5",
+     "titulo": "Módulo Resilente obtenido por correlación con CBR"
+    },
+    {
+     "pdf": 124,
+     "id": "Cuadro 12.6",
+     "titulo": "Valores recomendados de Nivel de Confiabilidad Para una sola etapa de"
+    },
+    {
+     "pdf": 125,
+     "id": "Cuadro 12.7",
+     "titulo": "Valores recomendados de Nivel de Confiabilidad Para dos etapas de diseño"
+    },
+    {
+     "pdf": 126,
+     "id": "Cuadro 12.8",
+     "titulo": "Coeficiente Estadístico de la Desviación Estándar Normal (ZR)"
+    },
+    {
+     "pdf": 126,
+     "id": "Cuadro 12.9",
+     "titulo": "Coeficiente Estadístico de la Desviación Estándar Normal (ZR)"
+    },
+    {
+     "pdf": 127,
+     "id": "Cuadro 12.10",
+     "titulo": "Índice de Serviciabilidad Inicial (Pi) Según Rango de Tráfico"
+    },
+    {
+     "pdf": 128,
+     "id": "Cuadro 12.11",
+     "titulo": "Índice de Serviciabilidad Final (Pt) Según Rango de Tráfico"
+    },
+    {
+     "pdf": 128,
+     "id": "Cuadro 12.12",
+     "titulo": "Diferencial de Serviciabilidad (Δ PSI) Según Rango de Tráfico"
+    },
+    {
+     "pdf": 130,
+     "id": "Cuadro 12.13",
+     "titulo": "Coeficientes Estructurales de las Capas del Pavimento ai"
+    },
+    {
+     "pdf": 131,
+     "id": "Cuadro 12.14",
+     "titulo": "Calidad del Drenaje"
+    },
+    {
+     "pdf": 131,
+     "id": "Cuadro 12.15",
+     "titulo": "Valores recomendados del Coeficiente de Drenaje  mi"
+    },
+    {
+     "pdf": 132,
+     "id": "Figura 12.1",
+     "titulo": "NÚMERO ESTRUCTURAL PARA PAVIMENTOS FLEXIBLES (*)"
+    },
+    {
+     "pdf": 133,
+     "id": "Cuadro 12.16",
+     "titulo": "Número Estructural Requerido para Pavimentos Flexibles (SN) – Período de diseño 20 años"
+    },
+    {
+     "pdf": 134,
+     "id": "Cuadro 12.17",
+     "titulo": "Valores recomendados de Espesores Mínimos de Capa Superficial y Base"
+    },
+    {
+     "pdf": 135,
+     "id": "Cuadro 12.18",
+     "titulo": "Limitaciones de Tránsito y Geometría Vial"
+    },
+    {
+     "pdf": 142,
+     "id": "Figura 12.2",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS MORTERO ASFÁLTICO"
+    },
+    {
+     "pdf": 143,
+     "id": "Figura 12.3",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO FLEXIBLE ALTERNATIVA"
+    },
+    {
+     "pdf": 144,
+     "id": "Figura 12.4",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS MICROPAVIMENTO"
+    },
+    {
+     "pdf": 145,
+     "id": "Figura 12.5",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO FLEXIBLE"
+    },
+    {
+     "pdf": 147,
+     "id": "Figura 12.6",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS FLEXIBLE CON REFUERZO CON MEZCLA ASFALTICA EN FRIO"
+    },
+    {
+     "pdf": 148,
+     "id": "Figura 12.7",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO FLEXIBLE CON REFUERZO"
+    },
+    {
+     "pdf": 150,
+     "id": "Figura 12.8",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO FLEXIBLE CON CARPETA ASFALTICA EN CALIENTE"
+    },
+    {
+     "pdf": 151,
+     "id": "Figura 12.9",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO FLEXIBLE CON CARPETA ASFALTICA EN CALIENTE"
+    },
+    {
+     "pdf": 152,
+     "id": "Figura 12.10",
+     "titulo": "BERMAS L≤1.20m"
+    },
+    {
+     "pdf": 153,
+     "id": "Figura 12.11",
+     "titulo": "BERMAS L>1.20m"
+    },
+    {
+     "pdf": 154,
+     "id": "Cuadro 12.19",
+     "titulo": "Valores recomendados de Espesores Mínimos de Capa Superficial"
+    },
+    {
+     "pdf": 158,
+     "id": "Cuadro 12.20",
+     "titulo": "Escala de Índice de Serviciabilidad"
+    },
+    {
+     "pdf": 159,
+     "id": "Figura 12.12",
+     "titulo": "Escala de Rugosidad IRI (m/km)"
+    },
+    {
+     "pdf": 160,
+     "id": "Cuadro 12.21",
+     "titulo": "Rugosidad Inicial IRI m/km"
+    },
+    {
+     "pdf": 161,
+     "id": "Cuadro 12.22",
+     "titulo": "Definición de Deflexión Característica"
+    },
+    {
+     "pdf": 162,
+     "id": "Figura 12.13",
+     "titulo": "GRAFICO DE DEFLEXIONES ADMISIBLES"
+    },
+    {
+     "pdf": 163,
+     "id": "Cuadro 12.23",
+     "titulo": "Análisis Combinado de los Resultados de la Evaluación"
+    },
+    {
+     "pdf": 164,
+     "id": "Cuadro 12.24",
+     "titulo": "Textura Superficial"
+    },
+    {
+     "pdf": 165,
+     "id": "Cuadro 12.25",
+     "titulo": "Magnitud del Ahuellamiento  (mm)"
+    },
+    {
+     "pdf": 165,
+     "id": "Cuadro 12.26",
+     "titulo": "Reparaciones y Procedimiento Preventivos para Pavimento Flexible"
+    },
+    {
+     "pdf": 168,
+     "id": "Figura 12.14",
+     "titulo": "CATÁLOGO CON REFUERZO DE PAVIMENTO FLEXIBLE"
+    },
+    {
+     "pdf": 169,
+     "id": "Figura 12.15",
+     "titulo": "CATÁLOGO DE REFUERZOS DE PAVIMENTO FLEXIBLE"
+    },
+    {
+     "pdf": 170,
+     "id": "Figura 12.16",
+     "titulo": "ABACO PARA EL CALCULO DE ESPESORES DE REFUERZO EN CARPETA ASFALTICA"
+    },
+    {
+     "pdf": 172,
+     "id": "Cuadro 13.1",
+     "titulo": "Coeficientes Estructurales de las Capas del Pavimento ai"
+    },
+    {
+     "pdf": 173,
+     "id": "Cuadro 13.2",
+     "titulo": "Valores recomendados de Espesores Mínimos"
+    },
+    {
+     "pdf": 176,
+     "id": "Cuadro 13.3",
+     "titulo": "CATÁLOGO DE NÚMEROS ESTRUCTURALES (SN) ADOPTADOS POR TIPOS DE TRÁFICO Y SUB RASANTE"
+    },
+    {
+     "pdf": 177,
+     "id": "Cuadro 13.4",
+     "titulo": "CATÁLOGO DE NÚMEROS ESTRUCTURALES (SN) ADOPTADOS POR TIPOS DE TRÁFICO Y SUB RASANTE"
+    },
+    {
+     "pdf": 178,
+     "id": "Cuadro 13.5",
+     "titulo": "CATÁLOGO DE NÚMEROS ESTRUCTURALES (SN) ADOPTADOS POR TIPOS DE TRÁFICO Y SUB RASANTE"
+    },
+    {
+     "pdf": 180,
+     "id": "Figura 13.1",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON ASFALTO"
+    },
+    {
+     "pdf": 181,
+     "id": "Figura 13.1a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON ASFALTO"
+    },
+    {
+     "pdf": 183,
+     "id": "Figura 13.2",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON CEMENTO"
+    },
+    {
+     "pdf": 184,
+     "id": "Figura 13.2a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON CEMENTO"
+    },
+    {
+     "pdf": 186,
+     "id": "Figura 13.3",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON CAL"
+    },
+    {
+     "pdf": 187,
+     "id": "Figura 13.3a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON CAL"
+    },
+    {
+     "pdf": 189,
+     "id": "Figura 13.4",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON ASFALTO"
+    },
+    {
+     "pdf": 190,
+     "id": "Figura 13.4a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON ASFALTO"
+    },
+    {
+     "pdf": 192,
+     "id": "Figura 13.5",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON CEMENTO"
+    },
+    {
+     "pdf": 193,
+     "id": "Figura 13.5a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON CEMENTO"
+    },
+    {
+     "pdf": 195,
+     "id": "Figura 13.6",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON CAL"
+    },
+    {
+     "pdf": 196,
+     "id": "Figura 13.6a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO SEMIRRIGIDO CON BASE TRATADA CON CAL"
+    },
+    {
+     "pdf": 199,
+     "id": "Cuadro 13.6",
+     "titulo": "Número de Repeticiones Acumuladas"
+    },
+    {
+     "pdf": 199,
+     "id": "Cuadro 13.7",
+     "titulo": "Categorías de Sub rasante"
+    },
+    {
+     "pdf": 201,
+     "id": "Figura 13.7",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO DE ADOQUIN CON BASE GRANULAR"
+    },
+    {
+     "pdf": 202,
+     "id": "Figura 13.7a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO DE ADOQUIN CON BASE GRANULAR"
+    },
+    {
+     "pdf": 203,
+     "id": "Figura 13.8",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO DE ADOQUIN CON BASE TRATADA CON ASFALTO"
+    },
+    {
+     "pdf": 204,
+     "id": "Figura 13.8a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO DE ADOQUIN CON BASE TRATADA CON ASFALTO"
+    },
+    {
+     "pdf": 205,
+     "id": "Figura 13.9",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO DE ADOQUIN CON BASE TRATADA CON CEMENTO"
+    },
+    {
+     "pdf": 206,
+     "id": "Figura 13.9a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO DE ADOQUIN CON BASE TRATADA CON CEMENTO"
+    },
+    {
+     "pdf": 207,
+     "id": "Figura 13.10",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO DE ADOQUIN CON BASE TRATADA CON CAL"
+    },
+    {
+     "pdf": 208,
+     "id": "Figura 13.10a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO DE ADOQUIN CON BASE TRATADA COM CAL"
+    },
+    {
+     "pdf": 209,
+     "id": "Figura 13.11",
+     "titulo": "Tipos de Bloques"
+    },
+    {
+     "pdf": 209,
+     "id": "Figura 13.12",
+     "titulo": "Patrón de Colocación y Ensamblaje de Adoquines Tipo “Espina de Pescado”"
+    },
+    {
+     "pdf": 210,
+     "id": "Figura 13.13",
+     "titulo": "Secciones Transversales Esquemáticas"
+    },
+    {
+     "pdf": 213,
+     "id": "Cuadro 14.1",
+     "titulo": "Número de Repeticiones Acumuladas de Ejes Equivalentes de 8.2 t, en el"
+    },
+    {
+     "pdf": 214,
+     "id": "Cuadro 14.2",
+     "titulo": "Número de Repeticiones Acumuladas"
+    },
+    {
+     "pdf": 214,
+     "id": "Cuadro 14.3",
+     "titulo": "Número de Repeticiones Acumuladas"
+    },
+    {
+     "pdf": 215,
+     "id": "Cuadro 14.4",
+     "titulo": "Índice de Serviciabilidad Inicial (Pi)"
+    },
+    {
+     "pdf": 216,
+     "id": "Cuadro 14.5",
+     "titulo": "Valores recomendados de Nivel de Confiabilidad (R)"
+    },
+    {
+     "pdf": 217,
+     "id": "Figura 14.1",
+     "titulo": "Correlación CBR y Módulo de Reacción de la Sub rasante"
+    },
+    {
+     "pdf": 218,
+     "id": "Cuadro 14.6",
+     "titulo": "CBR mínimos recomendados para la SubBase Granular"
+    },
+    {
+     "pdf": 218,
+     "id": "Cuadro 14.7",
+     "titulo": "Valores Recomendados de Resistencia del Concreto"
+    },
+    {
+     "pdf": 220,
+     "id": "Cuadro 14.8",
+     "titulo": "Condiciones de Drenaje"
+    },
+    {
+     "pdf": 220,
+     "id": "Cuadro 14.9",
+     "titulo": "Coeficiente de Drenaje de las Capas Granulares Cd"
+    },
+    {
+     "pdf": 220,
+     "id": "Cuadro 14.10",
+     "titulo": "Valores de Coeficiente de Transmisión de Carga J"
+    },
+    {
+     "pdf": 222,
+     "id": "Figura 14.2",
+     "titulo": "ESPESOR DE LOSA PARA PAVIMENTO RIGIDO J=2.8"
+    },
+    {
+     "pdf": 223,
+     "id": "Figura 14.3",
+     "titulo": "ESPESOR DE LOSA PARA PAVIMENTO RIGIDO J=3.2"
+    },
+    {
+     "pdf": 224,
+     "id": "Figura 14.4",
+     "titulo": "ESPESOR DE LOSA PARA PAVIMENTO RIGIDO J=3.8"
+    },
+    {
+     "pdf": 225,
+     "id": "Figura 14.5",
+     "titulo": "ESPESOR DE LOSA PARA PAVIMENTO RIGIDO J=4.0"
+    },
+    {
+     "pdf": 226,
+     "id": "Figura 14.6",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO RIGIDO CON PASADORES Y CON BERMAS DE CONCRETO Y PARA UN FACTOR J=2.8"
+    },
+    {
+     "pdf": 227,
+     "id": "Figura 14.6a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO RIGIDO CON PASADORES Y CON BERMAS DE CONCRETO Y PARA UN FACTOR J=2.8"
+    },
+    {
+     "pdf": 228,
+     "id": "Figura 14.7",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO RIGIDO CON PASADORES Y CON BERMAS DE CONCRETO Y PARA UN FACTOR J=3.2"
+    },
+    {
+     "pdf": 229,
+     "id": "Figura 14.7a",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO RIGIDO CON PASADORES Y CON BERMAS DE CONCRETO Y PARA UN FACTOR J=3.2"
+    },
+    {
+     "pdf": 230,
+     "id": "Figura 14.8",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO RIGIDO CON PASADORES Y"
+    },
+    {
+     "pdf": 231,
+     "id": "Figura 14.9",
+     "titulo": "CATÁLOGO DE ESTRUCTURAS DE PAVIMENTO RIGIDO SIN PASADORES Y"
+    },
+    {
+     "pdf": 232,
+     "id": "Cuadro 14.11",
+     "titulo": "Dimensiones de Losa"
+    },
+    {
+     "pdf": 235,
+     "id": "Cuadro 14.12",
+     "titulo": "Diámetros y Longitudes recomendados en pasadores"
+    },
+    {
+     "pdf": 235,
+     "id": "Cuadro 14.13",
+     "titulo": "Diámetros y Longitudes recomendados en Barras de Amarre"
+    },
+    {
+     "pdf": 237,
+     "id": "Cuadro 14.14",
+     "titulo": "Valores Referenciales de Coeficiente de Expansión"
+    },
+    {
+     "pdf": 237,
+     "id": "Cuadro 14.15",
+     "titulo": "Valores Referenciales de Coeficiente de Contracción"
+    },
+    {
+     "pdf": 241,
+     "id": "Figura 14.10",
+     "titulo": "Figura 14.11"
+    },
+    {
+     "pdf": 241,
+     "id": "Figura 14.11",
+     "titulo": ""
+    },
+    {
+     "pdf": 242,
+     "id": "Figura 14.12",
+     "titulo": "Figura 14.13"
+    },
+    {
+     "pdf": 242,
+     "id": "Figura 14.13",
+     "titulo": "Figura 14.14"
+    },
+    {
+     "pdf": 242,
+     "id": "Figura 14.14",
+     "titulo": "Ancho"
+    },
+    {
+     "pdf": 243,
+     "id": "Figura 14.15",
+     "titulo": ""
+    },
+    {
+     "pdf": 244,
+     "id": "Figura 14.16",
+     "titulo": ""
+    },
+    {
+     "pdf": 245,
+     "id": "Figura 14.17",
+     "titulo": ""
+    },
+    {
+     "pdf": 246,
+     "id": "Figura 14.18",
+     "titulo": ""
+    },
+    {
+     "pdf": 247,
+     "id": "Figura 14.18",
+     "titulo": ""
+    },
+    {
+     "pdf": 251,
+     "id": "Figura 16.1",
+     "titulo": "16.2"
+    },
+    {
+     "pdf": 252,
+     "id": "Cuadro 16.1",
+     "titulo": "Rugosidad IRI (m/km)"
+    },
+    {
+     "pdf": 252,
+     "id": "Cuadro 16.2",
+     "titulo": "Magnitud del Ahuellamiento  (mm)"
+    },
+    {
+     "pdf": 253,
+     "id": "Cuadro 16.3",
+     "titulo": "Textura Superficial"
+    },
+    {
+     "pdf": 253,
+     "id": "Cuadro 16.4",
+     "titulo": "Valores de Rugosidad Admisible IRI (m/km)"
+    },
+    {
+     "pdf": 254,
+     "id": "Cuadro 16.5",
+     "titulo": "Definición de Deflexión Característica Según Tipo de Carretera"
+    },
+    {
+     "pdf": 254,
+     "id": "Cuadro 16.6",
+     "titulo": "Reparaciones y Procedimiento Preventivos para Pavimento Flexible"
+    },
+    {
+     "pdf": 255,
+     "id": "Figura 16.2",
+     "titulo": "Catálogo de Capas de Revestimiento Granular (afirmado)"
+    },
+    {
+     "pdf": 256,
+     "id": "Figura 16.2a",
+     "titulo": "Catálogo de Capas de Revestimiento Granular (afirmado)"
+    },
+    {
+     "pdf": 257,
+     "id": "Figura 16.3",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles (período de 10 y 20 años)"
+    },
+    {
+     "pdf": 258,
+     "id": "Figura 16.3a",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles"
+    },
+    {
+     "pdf": 259,
+     "id": "Figura 16.3b",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles"
+    },
+    {
+     "pdf": 260,
+     "id": "Figura 16.3c",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles"
+    },
+    {
+     "pdf": 261,
+     "id": "Figura 16.3d",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles"
+    },
+    {
+     "pdf": 262,
+     "id": "Figura 16.3e",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles"
+    },
+    {
+     "pdf": 263,
+     "id": "Figura 16.3f",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles"
+    },
+    {
+     "pdf": 264,
+     "id": "Figura 16.3g",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles"
+    },
+    {
+     "pdf": 265,
+     "id": "Figura 16.3h",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles"
+    },
+    {
+     "pdf": 266,
+     "id": "Figura 16.3i",
+     "titulo": "Catálogo de Estructuras  de Pavimento Flexibles"
+    },
+    {
+     "pdf": 268,
+     "id": "Figura 16.4a",
+     "titulo": "Catálogo de Estructuras  de Pavimento Rígidos"
+    },
+    {
+     "pdf": 269,
+     "id": "Figura 16.4b",
+     "titulo": "Catálogo de Estructuras  de Pavimento Rígidos"
+    },
+    {
+     "pdf": 270,
+     "id": "Figura 16.4c",
+     "titulo": "Catálogo de Estructuras  de Pavimento Rígidos"
+    },
+    {
+     "pdf": 271,
+     "id": "Figura 16.4d",
+     "titulo": "Catálogo de Estructuras  de Pavimento Rígidos"
+    },
+    {
+     "pdf": 272,
+     "id": "Figura 16.4e",
+     "titulo": "Catálogo de Estructuras  de Pavimento Rígidos"
+    },
+    {
+     "pdf": 273,
+     "id": "Figura 16.4f",
+     "titulo": "Catálogo de Estructuras  de Pavimento Rígidos"
+    },
+    {
+     "pdf": 274,
+     "id": "Figura 16.4g",
+     "titulo": "Catálogo de Estructuras  de Pavimento Rígidos"
+    },
+    {
+     "pdf": 275,
+     "id": "Figura 16.4h",
+     "titulo": "Catálogo de Estructuras  de Pavimento Rígidos"
+    },
+    {
+     "pdf": 276,
+     "id": "Figura 16.4i",
+     "titulo": "Catálogo de Estructuras  de Pavimento Rígidos"
+    }
+   ]
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_8_IV_2014_2015.txt",
+   "titulo": "Manual de Inventarios Viales 2014-2015",
+   "tipo": "manual",
+   "temas": [
+    "inventario vial"
+   ],
+   "paginas_pdf": 333,
+   "capitulos": [
+    {
+     "pdf": 12,
+     "titulo": "Capítulo 1 PROCEDIMIENTOS GENERALES ................................................................... 25"
+    },
+    {
+     "pdf": 13,
+     "titulo": "Capítulo 2 TRABAJO DE CAMPO Y PROCESAMIENTO DE INFORMACIÓN ........ 49"
+    },
+    {
+     "pdf": 13,
+     "titulo": "Capítulo 3 PROCEDIMIENTOS POR ELEMENTO PARA EL INVENTARIO VIAL"
+    },
+    {
+     "pdf": 14,
+     "titulo": "Capítulo 4 PRESENTACIÓN DEL INVENTARIO VIAL BÁSICO ................................ 83"
+    },
+    {
+     "pdf": 14,
+     "titulo": "Capitulo 1 EQUIPAMIENTO Y PROCEDIMIENTO DE MEDICIÓN ......................... 109"
+    },
+    {
+     "pdf": 15,
+     "titulo": "Capítulo 2 DESARROLLO DEL INVENTARIO VIAL CALIFICADO .......................... 119"
+    },
+    {
+     "pdf": 18,
+     "titulo": "Capítulo 3 PRESENTACIÓN DEL INVENTARIO VIAL CALIFICADO .................... 229"
+    },
+    {
+     "pdf": 18,
+     "titulo": "Capitulo I PROCEDIMIENTOS GENERALES ................................................................. 251"
+    },
+    {
+     "pdf": 19,
+     "titulo": "Capitulo II PROCEDIMIENTO METODOLÓGICO........................................................... 261"
+    },
+    {
+     "pdf": 19,
+     "titulo": "Capitulo III PROCEDIMIENTO OPERATIVO .................................................................. 265"
+    },
+    {
+     "pdf": 19,
+     "titulo": "Capitulo IV PRESENTACION DEL INVENTARIO VIAL ................................................ 273"
+    },
+    {
+     "pdf": 26,
+     "titulo": "Capítulo 1 PROCEDIMIENTOS GENERALES"
+    },
+    {
+     "pdf": 50,
+     "titulo": "Capítulo 2 TRABAJO DE CAMPO Y PROCESAMIENTO DE"
+    },
+    {
+     "pdf": 56,
+     "titulo": "Capítulo 3 PROCEDIMIENTOS POR ELEMENTO PARA EL INVENTARIO"
+    },
+    {
+     "pdf": 60,
+     "titulo": "Capítulo 4 ). Asignar el valor ”X” en el campo Flag_nmb"
+    },
+    {
+     "pdf": 69,
+     "titulo": "Capítulo 4 )"
+    },
+    {
+     "pdf": 84,
+     "titulo": "Capítulo 4 PRESENTACIÓN DEL INVENTARIO VIAL BÁSICO"
+    },
+    {
+     "pdf": 110,
+     "titulo": "Capitulo 1 EQUIPAMIENTO Y PROCEDIMIENTO DE MEDICIÓN"
+    },
+    {
+     "pdf": 120,
+     "titulo": "Capítulo 2 DESARROLLO DEL INVENTARIO VIAL CALIFICADO"
+    },
+    {
+     "pdf": 230,
+     "titulo": "Capítulo 3 PRESENTACIÓN DEL INVENTARIO VIAL CALIFICADO"
+    },
+    {
+     "pdf": 252,
+     "titulo": "Capitulo I PROCEDIMIENTOS GENERALES"
+    },
+    {
+     "pdf": 262,
+     "titulo": "Capitulo II PROCEDIMIENTO METODOLÓGICO"
+    },
+    {
+     "pdf": 266,
+     "titulo": "Capitulo III PROCEDIMIENTO OPERATIVO"
+    },
+    {
+     "pdf": 274,
+     "titulo": "Capitulo IV PRESENTACIÓN DEL INVENTARIO VIAL"
+    }
+   ],
+   "cuadros_y_figuras": 2,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/MAN_9_MCV_2014_2016.txt",
+   "titulo": "Manual de Carreteras: Mantenimiento o Conservación Vial 2014-2016",
+   "tipo": "manual",
+   "temas": [
+    "mantenimiento",
+    "conservacion"
+   ],
+   "paginas_pdf": 636,
+   "capitulos": [
+    {
+     "pdf": 14,
+     "titulo": "Capítulo 200 CONSERVACIÓN DE PLATAFORMA Y TALUDES ............................... 231"
+    },
+    {
+     "pdf": 14,
+     "titulo": "Capítulo 300 CONSERVACIÓN DE CALZADA EN AFIRMADO ................................. 257"
+    },
+    {
+     "pdf": 14,
+     "titulo": "Capítulo 400 CONSERVACIÓN DE PAVIMENTO FLEXIBLE EN CALZADA Y BERMA 287"
+    },
+    {
+     "pdf": 15,
+     "titulo": "Capítulo 500 CONSERVACIÓN DE PAVIMENTOS RÍGIDOS EN CALZADA Y BERMA 341"
+    },
+    {
+     "pdf": 15,
+     "titulo": "Capítulo 600 CONSERVACIÓN DE DRENAJE SUPERFICIAL................................... 375"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 650 CONSERVACIÓN DE DRENAJE SUBTERRÁNEO ................................ 407"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 680 CONSERVACIÓN DE MUROS Y OBRAS COMPLEMENTARIAS ............ 413"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 800 CONSERVACIÓN DE LA SEÑALIZACIÓN Y DISPOSITIVO DE"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Sección 808 CONSERVACIÓN DE PINTADO DE CABEZALES DE ALCANTARILLAS, ELEMENTOS VISIBLES DE"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Sección 824 CONSERVACIÓN DE OTROS ELEMENTOS DE SEGURIDAD VIAL, TALES COMO TACHAS"
+    },
+    {
+     "pdf": 16,
+     "titulo": "Capítulo 1000 CONSERVACIÓN DE TÚNELES Y OBRAS COMPLEMENTARIAS ....... 449"
+    },
+    {
+     "pdf": 22,
+     "titulo": "Capítulo 1 GENERALIDADES"
+    },
+    {
+     "pdf": 23,
+     "titulo": "Capítulo 1 Generalidades"
+    },
+    {
+     "pdf": 23,
+     "titulo": "Capítulo 2 Aspectos conceptuales"
+    },
+    {
+     "pdf": 23,
+     "titulo": "Capítulo 3 Niveles de servicio"
+    },
+    {
+     "pdf": 23,
+     "titulo": "Capítulo 4 Inventario de condición"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 100 Preliminares"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 200 Conservación de la plataforma y taludes"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 300 Conservación de calzada en afirmado"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 400 Conservación de pavimentos flexibles en calzada y bermas"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 500 Conservación de pavimentos rígidos en calzada y bermas"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 600 Conservación de drenaje superficial"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 650 Conservación de drenaje subterráneo"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 680 Conservación de muros y obras complementarias"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 700 Transporte"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 800 Conservación de la señalización y seguridad vial"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 900 Conservación del derecho de vía"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1000 Conservación de túneles"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1100 Conservación de puentes"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1200 Conservación de la calzada"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1300 Limpieza de obras de drenaje"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1400 Control de vegetación"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1500 Seguridad vial"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1600 Medio ambiente"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1700 Vigilancia y control vial"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1800 Actividades complementarias"
+    },
+    {
+     "pdf": 24,
+     "titulo": "Capítulo 1900 Sub - Actividades"
+    },
+    {
+     "pdf": 34,
+     "titulo": "Capítulo 2 ASPECTOS CONCEPTUALES"
+    },
+    {
+     "pdf": 40,
+     "titulo": "Capítulo 3 NIVELES DE SERVICIO"
+    },
+    {
+     "pdf": 60,
+     "titulo": "Capítulo 4 INVENTARIO DE CONDICIÓN"
+    },
+    {
+     "pdf": 174,
+     "titulo": "Sección 01 ÁMBITO DE APLICACIÓN Y DEFINICIONES"
+    },
+    {
+     "pdf": 176,
+     "titulo": "Capítulo 200 CONSERVACIÓN DE PLATAFORMA Y TALUDES"
+    },
+    {
+     "pdf": 176,
+     "titulo": "Sección 201 Limpieza de calzada y bermas"
+    },
+    {
+     "pdf": 179,
+     "titulo": "Sección 02 DOCUMENTOS DE REFERENCIA Y CONSULTA"
+    },
+    {
+     "pdf": 179,
+     "titulo": "Capítulo IV , Artículo 76"
+    },
+    {
+     "pdf": 181,
+     "titulo": "Capítulo II 30 Dic. 1993"
+    },
+    {
+     "pdf": 186,
+     "titulo": "Sección 03 CONTROL DE MATERIALES"
+    },
+    {
+     "pdf": 189,
+     "titulo": "Sección 04 CONTROL DE CALIDAD"
+    },
+    {
+     "pdf": 197,
+     "titulo": "Sección 05 RELACIONES LEGALES Y RESPONSABILIDAD ANTE EL PÚBLICO"
+    },
+    {
+     "pdf": 202,
+     "titulo": "Sección 06 DESARROLLO DE LA CONSERVACIÓN VIAL"
+    },
+    {
+     "pdf": 204,
+     "titulo": "Sección 906 , del Manual de Carreteras Especificaciones Técnicas Generales para"
+    },
+    {
+     "pdf": 206,
+     "titulo": "Sección 07 SEGURIDAD LABORAL"
+    },
+    {
+     "pdf": 208,
+     "titulo": "Sección 08 SALUBRIDAD"
+    },
+    {
+     "pdf": 212,
+     "titulo": "Sección 09 MEDICIÓN Y PAGO"
+    },
+    {
+     "pdf": 216,
+     "titulo": "Capítulo 100 PRELIMINARES"
+    },
+    {
+     "pdf": 216,
+     "titulo": "Sección 101 MOVILIZACIÓN Y DESMOVILIZACIÓN"
+    },
+    {
+     "pdf": 217,
+     "titulo": "Sección 102 TOPOGRAFÍA Y GEOREFERENCIACIÓN"
+    },
+    {
+     "pdf": 220,
+     "titulo": "Sección 102 “topografía y georeferenciación”. El pago constituirá compensación"
+    },
+    {
+     "pdf": 221,
+     "titulo": "Sección 103 MANTENIMIENTO DE TRÁNSITO TEMPORAL Y SEGURIDAD VIAL"
+    },
+    {
+     "pdf": 228,
+     "titulo": "Sección 104 CAMPAMENTOS"
+    }
+   ],
+   "cuadros_y_figuras": 18,
+   "cuadros": [
+    {
+     "pdf": 68,
+     "id": "Figura 4.0.1",
+     "titulo": "Anchos de carreteras afirmadas"
+    },
+    {
+     "pdf": 69,
+     "id": "Figura 4.0.2",
+     "titulo": "Definición de los límites de fajas (carriles y bermas) de carreteras pavimentadas"
+    },
+    {
+     "pdf": 102,
+     "id": "Tabla 4.9",
+     "titulo": "Niveles de gravedad de deterioros para bermas"
+    },
+    {
+     "pdf": 104,
+     "id": "Tabla 4.10",
+     "titulo": "Clase de extensión de los daños de los pavimentos"
+    },
+    {
+     "pdf": 104,
+     "id": "Tabla 4.11",
+     "titulo": "Clase de densidad de los baches (huecos) de los pavimentos flexibles"
+    },
+    {
+     "pdf": 104,
+     "id": "Tabla 4.12",
+     "titulo": "Ancho de Influencia de las Fisuras longitudinales y Transversales"
+    },
+    {
+     "pdf": 105,
+     "id": "Tabla 4.13",
+     "titulo": "Calificación para cada tipo de deterioro o falla de la capa de rodadura por secciones de 200m de carreteras co"
+    },
+    {
+     "pdf": 107,
+     "id": "Tabla 4.14",
+     "titulo": "Calificación de Condición"
+    },
+    {
+     "pdf": 107,
+     "id": "Tabla 4.15",
+     "titulo": "Tipos de Condición según calificación de condición"
+    },
+    {
+     "pdf": 107,
+     "id": "Tabla 4.16",
+     "titulo": "Tipos de Conservación según calificación de condición"
+    },
+    {
+     "pdf": 108,
+     "id": "Tabla 4.17",
+     "titulo": "Deterioros o fallas  de los pavimentos de concreto hidráulico"
+    },
+    {
+     "pdf": 124,
+     "id": "Tabla 4.18",
+     "titulo": "Niveles de gravedad de deterioros o fallas para bermas"
+    },
+    {
+     "pdf": 124,
+     "id": "Tabla 4.19",
+     "titulo": "Clase de extensión de los daños de los pavimentos"
+    },
+    {
+     "pdf": 125,
+     "id": "Tabla 4.20",
+     "titulo": "Clase de densidad de los baches (huecos) de los pavimentos flexibles"
+    },
+    {
+     "pdf": 128,
+     "id": "Tabla 4.23",
+     "titulo": "Calificación de Condición"
+    },
+    {
+     "pdf": 128,
+     "id": "Tabla 4.24",
+     "titulo": "Tipos de Condición según calificación de condición"
+    },
+    {
+     "pdf": 128,
+     "id": "Tabla 4.25",
+     "titulo": "Tipos de Conservación según calificación de condición"
+    },
+    {
+     "pdf": 275,
+     "id": "Figura 365",
+     "titulo": "Parte"
+    }
+   ]
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/Regl_N_G_I_V.txt",
+   "titulo": "Reglamento Nacional de Gestión de Infraestructura Vial",
+   "tipo": "reglamento",
+   "temas": [],
+   "paginas_pdf": 18,
+   "capitulos": [
+    {
+     "pdf": 2,
+     "titulo": "Capítulo I ASPECTOS GENERALES DE LA GESTIÓN"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capítulo II FASES DE LA GESTIÓN"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capítulo III INSTRUMENTOS DE GESTIÓN"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capítulo I INFRACCIONES POR DAÑOS A LA"
+    },
+    {
+     "pdf": 3,
+     "titulo": "Capítulo II SANCIONES POR DAÑOS"
+    }
+   ],
+   "cuadros_y_figuras": 0,
+   "cuadros": []
+  },
+  {
+   "archivo_txt": "kb/pavimentos/texto/Regl_de_Jerarquizacin_Vial.txt",
+   "titulo": "Reglamento de Jerarquización Vial",
+   "tipo": "reglamento",
+   "temas": [
+    "jerarquizacion"
+   ],
+   "paginas_pdf": 8,
+   "capitulos": [
+    {
+     "pdf": 2,
+     "titulo": "Capítulo I SISTEMA NACIONAL DE CARRETERAS"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capítulo II JERARQUIZACIÓN DEL SISTEMA NACIONAL DE CAR-"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capítulo III CRITERIOS DE JERARQUIZACIÓN DEL SISTEMA"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capítulo IV CLASIFICACIÓN DE LAS CARRETERAS"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capítulo I IDENTIFICACIÓN, CÓDIGO DE RUTA Y SIMBOLOGÍA"
+    },
+    {
+     "pdf": 2,
+     "titulo": "Capítulo II CLASIFICADOR DE RUTAS, DIAGRAMAS VIALES Y"
+    },
+    {
+     "pdf": 3,
+     "titulo": "Capítulo II JERARQUIZACIÓN DEL SISTEMA NACIONAL DE"
+    },
+    {
+     "pdf": 4,
+     "titulo": "Capítulo III CRITERIOS DE JERARQUIZACION DEL SISTEMA"
+    },
+    {
+     "pdf": 4,
+     "titulo": "Capítulo I IDENTIFICACIÓN, CÓDIGO DE RUTA, SIMBOLOGÍA"
+    }
+   ],
+   "cuadros_y_figuras": 1,
+   "cuadros": []
+  }
+ ]
+}

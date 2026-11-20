@@ -130,6 +130,7 @@
     return D.flexible.cuadro_12_17_espesores_minimos_mm.por_Tp[tpId] || null;
   }
 
+  function clave0(o) { return o.superficie === "carpeta_caliente" || o.superficie === "carpeta_frio"; }
   /* propuesta automatica: capa superficial y base en su minimo; subbase por diferencia (multiplos de 5 cm) */
   function proponerFlexible(D, o) {
     // o: {SNr, tpId, superficie, base, subbase, m2, m3}
@@ -140,10 +141,11 @@
     var mmSup = 50, mmBase = 150;
     if (min) {
       var clave = { carpeta_caliente: "caliente", carpeta_frio: "frio", micropavimento: "micropavimento" }[o.superficie];
-      mmSup = (clave && min[clave]) || (o.superficie === "tsb" || o.superficie === "slurry" ? 0 : min.caliente);
+      mmSup = (clave && min[clave]) || 0;
+      if (clave && !min[clave]) avisos.push("El Manual (Cuadro 12.17) no indica espesor minimo de esta capa superficial para " + o.tpId + ": ingresa el espesor segun el proyecto.");
       mmBase = min.base;
     } else avisos.push("Tp0 no tiene espesores minimos en el Cuadro 12.17: se uso 50 mm de capa superficial y 150 mm de base como punto de partida.");
-    var d1 = mmSup / 10, d2 = mmBase / 10;
+    var d1 = mmSup / 10 || (clave0(o) ? 5 : 0), d2 = mmBase / 10;
     var sn1 = (sup.a || 0) * d1, sn2 = bas.a * d2 * o.m2;
     var falta = o.SNr - sn1 - sn2, d3 = 0;
     if (falta > 0) d3 = redondeaArriba(falta / (sub.a * o.m3), 5);

@@ -184,7 +184,7 @@
       filaCapa("Subbase: " + prop.sub.nombre.split(" (")[0], prop.sub.a, m3, prop.d3, 5, "d3") +
       '<tr><th colspan="4">SN provisto</th><td class="n" id="snProv"></td></tr></tbody></table></div>' +
       '<p id="snEstado"></p>' +
-      (min ? '<p class="nota">Mínimos del manual para ' + tp.id + " (Cuadro 12.17): base granular " + min.base + " mm; carpeta en caliente " + min.caliente + " mm" + (min.frio ? ", en frío " + min.frio + " mm" : "") + (min.micropavimento ? ", micropavimento " + min.micropavimento + " mm" : "") + ".</p>" : "") +
+      (min ? '<p class="nota">Mínimos del manual para ' + tp.id + " (Cuadro 12.17): base granular " + min.base + " mm" + (min.caliente ? "; carpeta en caliente " + min.caliente + " mm" : "; el manual no indica espesor de carpeta asfáltica para este rango") + (min.frio ? ", en frío " + min.frio + " mm" : "") + (min.micropavimento ? ", micropavimento " + min.micropavimento + " mm" : "") + ".</p>" : "") +
       (prop.d3 === 0 ? '<p class="nota">Con los espesores mínimos de carpeta y base el SN ya se cumple: la subbase no es necesaria por cálculo. Verifica el criterio de proyecto.</p>' : "") +
       "<h3 class=\"sec\">Comparación con el catálogo del manual</h3>" +
       (cf.SN != null
@@ -231,7 +231,7 @@
       '<label class="chk"><input type="checkbox" id="kcOn"> Considerar el efecto de la subbase (Kc)</label>' +
       '<div id="kcBox" hidden><div class="row">' + campo("Espesor subbase h (cm)", '<input id="h" type="number" step="1" value="15">') + campo("K1 subbase (kg/cm³)", '<input id="k1" type="number" step="any" placeholder="dato de ensayo">') + "</div></div>" +
       "</fieldset><fieldset><legend>3. Juntas y drenaje</legend>" +
-      campo("Transferencia de carga (J)", sel("J", opJ, "3.2")) +
+      campo("Transferencia de carga (J)", sel("J", opJ, "3.2"), "Ojo: los títulos de las Figuras 14.6 a 14.8 del manual dicen «con pasadores y berma de concreto» para J = 2.8, 3.2 y 3.8, pero el Cuadro 14.10 asigna otras condiciones. Justifica el J que elijas.") +
       campo("Coeficiente de drenaje Cd", '<input id="cd" type="number" step="0.01" value="1.00">', "El manual asume 1.00 (rango 0.70 a 1.25, Cuadro 14.9).") +
       "</fieldset><fieldset><legend>4. Concreto</legend>" +
       '<label class="chk"><input type="checkbox" id="cOn"> Usar resistencias propias</label>' +
@@ -431,7 +431,7 @@
       var cf = C.catalogoFlexible(D, tp, cbr), min = C.minimosFlexible(D, tp), cat = cf.categoria, html = "";
       html += '<h3 class="sec">Flexible (20 años)</h3>';
       html += cf.SN != null ? tablaParametros([["Subrasante", cat.id + " " + cat.nombre, "Cuadro 12.4"], ["SN requerido", f(cf.SN, 3), "Cuadro 12.16"]]) : '<p class="nota b">⚠ Subrasante ' + cat.id + " (" + cat.nombre + "): requiere estabilización, Estudio Especial.</p>";
-      html += min ? tablaParametros([["Carpeta asfáltica en caliente (mín.)", min.caliente + " mm", "Cuadro 12.17"], ["Base granular (mín.)", min.base + " mm", "Cuadro 12.17"]]) : '<p class="nota">Tp0 no tiene mínimos en el Cuadro 12.17.</p>';
+      html += min ? tablaParametros([["Carpeta asfáltica en caliente (mín.)", min.caliente ? min.caliente + " mm" : "no indicado por el manual", "Cuadro 12.17"], ["Base granular (mín.)", min.base + " mm", "Cuadro 12.17"]]) : '<p class="nota">Tp0 no tiene mínimos en el Cuadro 12.17.</p>';
       html += '<h3 class="sec">Rígido (20 años, subbase granular 15 cm)</h3><div class="tbl"><table><thead><tr><th>J</th><th>Condición</th><th class="n">Losa</th><th>Figura</th></tr></thead><tbody>';
       [["2.8", "pasadores + berma de concreto"], ["3.2", "pasadores + berma granular/asfáltica"], ["3.8", "sin pasadores + berma de concreto"], ["4.0", "sin pasadores + berma granular/asfáltica"]].forEach(function (j) {
         var c = C.catalogoRigido(D, j[0], tp, cbr);
